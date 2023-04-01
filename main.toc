@@ -1,16 +1,19 @@
 \babel@toc {russian}{}\relax 
-\contentsline {chapter}{ВВЕДЕНИЕ}{6}{}%
-\contentsline {chapter}{\numberline {1}\vspace *{-0.22cm}СОВРЕМЕННЫЕ МЕТОДЫ ОПРЕДЕЛЕНИЯ ГЕОМЕТРИЧЕСКИХ \hspace *{-0.5cm} И ФИЗИЧЕСКИХ ПАРАМЕТРОВ ФАКЕЛА ВЫБРОСОВ}{8}{}%
-\contentsline {section}{\numberline {1.1}Методы контроля выбросов загрязняющих веществ в атмосферу}{8}{}%
-\contentsline {subsection}{\numberline {1.1.1}Инструментальный метод}{8}{}%
-\contentsline {subsection}{\numberline {1.1.2}Расчетный метод}{14}{}%
-\contentsline {section}{\numberline {1.2}\vspace *{-0.22cm}Применение тепловизоров для контроля выбросов загрязняющих \hspace *{-0.85cm} веществ в атмосферу}{20}{}%
-\contentsline {subsection}{\numberline {1.2.1}Тепловизоры и области их применения}{20}{}%
-\contentsline {subsection}{\numberline {1.2.2}Применение тепловизоров для решения смежных проблем}{24}{}%
-\contentsline {chapter}{\numberline {2}\vspace *{-0.22cm}СЕГМЕНТАЦИЯ ФАКЕЛА ВЫБРОСОВ С ПОМОЩЬЮ \\ \hspace *{-0.35cm}ТЕПЛОВЫХ СНИМКОВ}{26}{}%
-\contentsline {section}{\numberline {2.1}Постановка задачи сегментации факела выбросов}{26}{}%
-\contentsline {section}{\numberline {2.2}Подготовка данных}{27}{}%
-\contentsline {subsection}{\numberline {2.2.1}Работа с тепловизором}{27}{}%
-\contentsline {subsection}{\numberline {2.2.2}Преобразование цветовой карты}{30}{}%
-\contentsline {subsection}{\numberline {2.2.3}\vspace *{-0.22cm}Наложение карты абсолютных температур на оптические \\ \hspace *{-1.15cm}снимки}{37}{}%
+\contentsline {chapter}{ВВЕДЕНИЕ}{6}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}\vspace *{-0.22cm}СОВРЕМЕННЫЕ МЕТОДЫ ОПРЕДЕЛЕНИЯ ГЕОМЕТРИЧЕСКИХ \hspace *{-0.5cm} И ФИЗИЧЕСКИХ ПАРАМЕТРОВ ФАКЕЛА ВЫБРОСОВ}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Методы контроля выбросов загрязняющих веществ в атмосферу}{8}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Инструментальный метод}{8}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Расчетный метод}{14}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}\vspace *{-0.22cm}Применение тепловизоров для контроля выбросов загрязняющих \hspace *{-0.85cm} веществ в атмосферу}{20}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Тепловизоры и области их применения}{20}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Применение тепловизоров для решения смежных проблем}{24}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}\vspace *{-0.22cm}СЕГМЕНТАЦИЯ ФАКЕЛА ВЫБРОСОВ С ПОМОЩЬЮ \\ \hspace *{-0.35cm}ТЕПЛОВЫХ СНИМКОВ}{26}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Постановка задачи сегментации факела выбросов}{26}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Подготовка данных}{27}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Работа с тепловизором}{27}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Преобразование цветовой карты}{31}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}\vspace *{-0.22cm}Наложение карты абсолютных температур на оптические \\ \hspace *{-1.15cm}снимки}{38}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Обобщенные результаты подготовки данных}{40}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}\vspace *{-0.22cm}Решение задачи сегментации факела выбросов с помощью \\ \hspace *{-0.75cm}оптических и тепловых снимков}{42}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Задача детекции трубы}{42}{subsection.2.3.1}%
 \contentsfinish 
