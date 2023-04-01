@@ -1,0 +1,334 @@
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[english, russian]{babel}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{cmap}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[T2A]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{changepage}
+%\renewcommand{\rmdefault}{ftm}
+
+\setlength{\belowcaptionskip}{-14pt}
+
+\geometry{left = 3cm, right = 1.5cm, top = 2cm, bottom = 3cm}
+
+\linespread{1.5}
+
+\renewcommand{\@biblabel}[1]{#1.}
+
+\setlist{nosep, wide = \parindent}
+
+\titleformat{\chapter}{\filcenter}{\thechapter}{6pt}{\MakeUppercase}
+\titleformat{\section}{}{\thesection}{6pt}{}
+\titleformat{\subsection}{}{\thesubsection}{6pt}{}
+
+\titlespacing*{\chapter}{0pt}{-24pt}{14pt}
+\titlespacing*{\section}{1.25cm}{14pt}{14pt}
+\titlespacing*{\subsection}{2.5cm}{14pt}{14pt}
+
+\renewcommand\contentsname{ОГЛАВЛЕНИЕ} 
+
+\dottedcontents{chapter}[0em]{}{0.75em}{6pt}
+\dottedcontents{section}[2em]{}{1.5em}{6pt}
+\dottedcontents{subsection}[4em]{}{2.25em}{6pt}
+
+\captionsetup{figurename = Рисунок, labelsep = endash, justification = centering, belowskip=6pt}
+\DeclareCaptionFormat{table}{#1 #2 #3}
+\captionsetup[table]{singlelinecheck = false, justification = justified}
+
+\AtBeginDocument{
+	 \addtolength{\abovedisplayshortskip}{0.2 cm}
+%	\addtolength{\abovedisplayskip}{-0.2 cm}
+%	\addtolength{\belowdisplayskip}{-0.2 cm}
+	 \addtolength{\belowdisplayshortskip}{0.2 cm}
+}
+
+\newcommand{\firstpage}{{
+	\setstretch{1.0}
+	\thispagestyle{empty}
+	\begin{center} { 
+		\small
+		Министерство науки и высшего образования Российской Федерации \\
+		Федеральное государственное автономное образовательное\\
+		учреждение высшего образования\\
+		<<Южно-Уральский государственный университет\\
+		(национальный исследовательский университет)>>\\
+		Институт естественных и точных наук\\
+		Кафедра прикладной математики и программирования\\
+		Направление подготовки: 01.03.02 Прикладная математика и информатика\\
+	}
+	\end{center}
+	\hspace*{-0.3cm}
+	\begin{tabular}[t]{l}
+		\\
+		РАБОТА ПРОВЕРЕНА\\
+		Рецензент, \underline{\hspace{5cm}}\\
+		\underline{\hspace{7.5cm}}\\
+		\underline{\hspace{3.5cm}}/ И.О. Фамилия /\\
+		<<\underline{\hspace{1cm}}>> \underline{\hspace{4.2cm}} 2023 г.\\
+	\end{tabular}
+	\hspace*{1.0cm}
+	\begin{tabular}[t]{l}
+		\\
+		ДОПУСТИТЬ К ЗАЩИТЕ\\
+		Заведующий кафедрой,\\
+		д-р физ.-мат. наук, проф.\\
+		\underline{\hspace{2.5cm}}/ А.А. Замышляева /\\
+		<<\underline{\hspace{1cm}}>> \underline{\hspace{4.0cm}} 2023 г.\\
+	\end{tabular}
+	\hspace*{2.0cm}
+	\begin{tabular}[t]{c}
+		\\
+		\\
+		Решение задачи сегментации и расчет характеристик\\ 
+		газовоздушных смесей источников выбросов \\ 
+		на основе данных тепло-видео системы наблюдения\\
+		\\
+		\\
+		ПОЯСНИТЕЛЬНАЯ ЗАПИСКА\\
+		К ВЫПУСКНОЙ КВАЛИФИКАЦИОННОЙ РАБОТЕ\\
+		ЮУрГУ–01.03.02.2023.313.ПЗ ВКР\\
+	\end{tabular}
+
+	\hspace*{8.6cm}
+	\begin{tabular}[t]{l}
+		\\
+		Руководитель работы,\\
+		доцент\\
+		\underline{\hspace{3.0cm}}/ В.А. Сурин /\\
+		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
+	\end{tabular}
+	
+	\hspace*{8.6cm}
+	\begin{tabular}[t]{l}
+		\\
+		Автор работы,\\
+		студент группы ЕТ-412\\
+		\underline{\hspace{2.6cm}}/ Д.Д. Кормилин /\\
+		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
+	\end{tabular}
+	
+	\hspace*{8.6cm}
+	\begin{tabular}[t]{l}
+		\\
+		Нормоконтролер,\\
+		старший преподаватель\\
+		\underline{\hspace{4.0cm}}/ А.В. Лут /\\
+		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
+	\end{tabular}
+	
+	\vspace{0.9cm}
+	\begin{center}
+		Челябинск 2023 г.
+	\end{center}
+}}
+
+\newcommand{\taskpage}{{
+		\setstretch{1.0}
+		\thispagestyle{empty}
+		\begin{center} { 
+				\small
+				Министерство науки и высшего образования Российской Федерации \\
+				Федеральное государственное автономное образовательное\\
+				учреждение высшего образования\\
+				<<Южно-Уральский государственный университет\\
+				(национальный исследовательский университет)>>\\
+				Институт естественных и точных наук\\
+				Кафедра прикладной математики и программирования\\
+				Направление подготовки: 01.03.02 Прикладная математика и информатика\\
+			}
+		\end{center}
+		
+		\hspace*{8.1cm}
+		\begin{tabular}[t]{l}
+			УТВЕРЖДАЮ\\
+			Заведующий кафедрой,\\
+			д-р физ.-мат. наук, проф.\\
+			\underline{\hspace{2.5cm}}/ А.А. Замышляева /\\
+			<<\underline{\hspace{1cm}}>> \underline{\hspace{4.0cm}} 2023 г.\\
+		\end{tabular}
+		
+		\begin{center}
+			\textbf{З А Д А Н И Е}\\
+			на выпускную квалификационную работу студента\\
+			Кормилина Данила Денисовича\\
+			Группа ЕТ-412\\
+		\end{center}	
+		
+		\begin{enumerate}
+			\bfseries \item Тема работы \normalfont <<	Решение задачи сегментации и расчет характеристик газовоздушных смесей источников выбросов на основе данных тепло-видео системы наблюдения>> утверждена приказом по университету от \\ <<\underline{\hspace{1cm}}>> \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}} г. \textnumero \underline{\hspace{1cm}}
+			
+			\vspace*{0.2cm}
+			\bfseries \item Срок сдачи студентом законченной работы
+			<<\underline{\hspace{1cm}}>> \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}}г.
+			
+			\vspace*{0.2cm}
+			\item Исходные данные к работе \normalfont
+			\begin{enumerate}
+				\item Документация по работе с тепловизором;
+				\item Язык программирования -- С++ 17;
+				\item Среда программирования -- Microsoft Visual Studio;
+				\item Набор исходных данных, полученых с тепло-видео систем.
+			\end{enumerate}
+			
+			\vspace*{0.2cm}
+			\bfseries \item Перечень вопросов, подлежащих разработке \normalfont
+			\begin{enumerate}
+				\item Анализ предметной области;
+				\item Обзор существующих методов контроля за выбросами;
+				\item Обзор методов применения тепло-видео систем наблюдения;
+				\item Разработка математической модели алгоритма сегментации;
+				\item Разработка математической модели алгоритма расчета физических и геометрических параметров выбросов;
+				\item Проверка алгоритмов на экспериментальных данных.
+			\end{enumerate}
+			
+			\vspace*{0.2cm}
+			\bfseries \item Иллюстративный материал \normalfont (плакаты, альбомы, раздаточный материал, макеты, электронные носители и др.)
+			\begin{enumerate}
+				\item Мультимедийная презентация -- X слайдов.
+			\end{enumerate}
+			
+			Общее количество иллюстраций – Y.
+			
+			\newpage
+			\vspace*{0.2cm}
+			\bfseries \item Календарный план \normalfont
+			
+			\vspace*{0.2cm}
+			\hspace*{-1.0cm}
+			\small
+			\begin{tabular}{|l|c|c|}
+				\hline
+				\begin{tabular}[c]{c} \\
+					Наименование этапов \\ 
+					выпускной квалификационной работы \\\\
+				\end{tabular} 
+				& 
+				\begin{tabular}[c]{c} \\
+					Срок выполнения \\ этапов работы \\\\
+				\end{tabular} 
+				& 
+				\begin{tabular}[c]{c} \\
+					Отметка \\ 
+					о выполнении \\\\ 
+				\end{tabular} 
+				\\ \hline
+				
+				\begin{tabular}[l]{l} 
+					1. Изучение классических методов \\ 
+					сегментации и документации \\
+					тепловизора
+				\end{tabular} 
+				& 05.09.22 -- 15.10.22 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					2. Анализ предметной области \\ 
+					и исходных данных
+				\end{tabular} 
+				& 01.11.22 -- 15.11.22 & \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					3. Исследование существующих \\ 
+					методов решения задачи
+				\end{tabular} 
+				& 17.11.22 -- 28.12.22 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					4. Програмная реализация подготовки \\ 
+					и обработки данных
+				\end{tabular} 
+				& 29.01.23 -- 14.01.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					5. Программная реализация алгоритмов \\
+					сегментации и расчета характеристик
+				\end{tabular} 
+				& 15.01.23 -- 27.03.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					6. Проверка на тестовых данных
+				\end{tabular} 
+				& 01.04.23 -- 15.04.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					7. Подготовка пояснительной записки\\
+					выпускной квалификационной работы
+				\end{tabular} 
+				& 26.04.23 -- 06.05.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					8. Проверка работы руководителем, \\ 
+					исправление замечаний
+				\end{tabular} 
+				&  &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					9. Нормоконтроль
+				\end{tabular} 
+				&  &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					10. Подготовка иллюстративного \\ 
+					материала и доклада
+				\end{tabular} 
+				&  &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					11. Рецензирование, представление\\
+					заведующему кафедрой
+				\end{tabular} 
+				&  &  \\ \hline
+			\end{tabular}
+			\normalsize
+			
+			\vspace*{0.4cm}
+			\bfseries \item Дата выдачи задания  \normalfont <<\underline{\hspace{1cm}}>>  \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}} г. 
+		\end{enumerate}
+		Руководитель работы \underline{\hspace{5.0cm}}/ В.А. Сурин / \\
+		Студент \hspace{2.8cm} \underline{\hspace{5.0cm}}/ Д.Д. Кормилин /
+}}
+
+\newcommand{\annotationpage}{{
+		\setstretch{1.0}
+		\thispagestyle{empty}
+%		\newpage
+		\begin{center} { 
+				АННОТАЦИЯ
+			}
+		\end{center}
+		
+%		\hspace*{7.5cm}
+%		\newgeometry{left = 7.5cm, right = 1.5cm, top = 2cm, bottom = 3cm}
+\begin{adjustwidth}{8.4cm}{}
+	
+	\hspace{1.25cm}Кормилин Д.Д. Решение задачи сегментации и расчет
+	характеристик газовоздушных смесей источников выбросов 
+	на основе данных тепло-видео системы наблюдения. --
+	Челябинск: ЮУрГУ, ЕТ-412, W c.,
+	Y ил., библиогр. список --
+	U наим., V прил.
+\end{adjustwidth} 
+\setstretch{1.5}
+
+	Целью данной работы является разработка алгоритма сегментации факела выбросов, а также расчета его геометрических и физических характеристик с использованием тепло-видео систем с реализацией в виде программного модуля.
+	
+	В первом разделе был проведен анализ предметной области, рассмотрены
+	методы, применяющиеся на данный момент для контроля за выбросами, проанализированны современные методы применения тепловизоров. Приводится обоснование
+	возможности использования тепло-видео систем для реализации поставленной цели.
+	
+	Во втором разделе описана математическая модель преобразования данных и самого алгоритма для решения задачи сегментации газовоздушных смесей источников выбросов.
+	Описана программная реализация данного алгоритма. Приведены результаты работы разработанного алгоритма.
+	
+	Третий раздел посвящен математической модели алгоритма для расчета геометрических и физических параметров газовоздушных смесей источников выбросов, а также програмной реализации данного алгоритма. Приведены результаты работы разработанного алгоритма.
+%		\restoregeometry
+}}

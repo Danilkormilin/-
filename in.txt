@@ -1,0 +1,19 @@
+1 глава
+	Классические методы компьютерного зрения
+
+	https://habr.com/ru/company/intel/blog/266347/ 
+	https://docs.opencv.org/4.x/d3/db4/tutorial_py_watershed.html 
+
+	Donald A. Robinson, “Smoke Detection: Critical Element of a
+	University Residential Fire Safety Program,” Journal of the American
+	College Health Association, Volume27, Issue 5, 1979, pp. 265-266
+
+	https://gklab.ru/uslugi/proizvodstvennyj-kontrol/kontrol-vybrosov-v-atmosferu/
+
+	MeanShift
+	Richard Szeliski «Computer Vision: Algorithms and Applications.» - «Springer», 2010
+	1) Richard Szeliski «Computer Vision: Algorithms and Applications.» - «Springer», 2010. - С. 286-300.
+	2) Felzenszwalb, P. F. and Huttenlocher, D. P. (2004b). Efficient graph-based image segmentation.
+	3)  Shaw, D. and Barnes, N. «Perspective rectangle detection. In Workshop on Applications of Computer Vision.»
+	4) D. Comaniciu, P. Meer Mean Shift: A Robust Approach Toward Feature Space Analysis. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2002, pp. 603–619.
+	5) D. Comaniciu, V. Ramesh, P. Meer Real-Time Tracking of Non-Rigid Objects Using Mean Shift, Conference on CVPR, 2000, vol. 2, pp. 1-8.
