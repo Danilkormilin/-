@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.1}Методы контроля выбросов загрязняющих веществ в атмосферу}{8}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Инструментальный метод}{8}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Расчетный метод}{14}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}\vspace *{-0.22cm}Применение тепловизоров для контроля выбросов загрязняющих \hspace *{-0.85cm} веществ в атмосферу}{20}{section.1.2}%
+\contentsline {section}{\numberline {1.2}\vspace *{-0.22cm}Применение тепловизоров для контроля выбросов загрязняющих \hspace *{-0.9cm} веществ в атмосферу}{20}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Тепловизоры и области их применения}{20}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Применение тепловизоров для решения смежных проблем}{24}{subsection.1.2.2}%
 \contentsline {chapter}{\numberline {2}\vspace *{-0.22cm}СЕГМЕНТАЦИЯ ФАКЕЛА ВЫБРОСОВ С ПОМОЩЬЮ \\ \hspace *{-0.35cm}ТЕПЛОВЫХ СНИМКОВ}{26}{chapter.2}%

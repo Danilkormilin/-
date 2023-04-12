@@ -18,6 +18,10 @@
 \usepackage{setspace}
 \usepackage{changepage}
 \usepackage{subcaption}
+\usepackage{icomma}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{longtable}
 
 %\renewcommand{\rmdefault}{ftm}
 
@@ -30,6 +34,8 @@
 }
 
 \setlength{\belowcaptionskip}{-14pt}
+
+\parindent=1.25cm
 
 \geometry{left = 3cm, right = 1.5cm, top = 2cm, bottom = 3cm}
 
@@ -66,6 +72,7 @@
 
 \newcommand{\firstpage}{{
 	\setstretch{1.0}
+	\newpage
 	\thispagestyle{empty}
 	\begin{center} { 
 		\small
@@ -84,6 +91,7 @@
 		\\
 		РАБОТА ПРОВЕРЕНА\\
 		Рецензент, \underline{\hspace{5cm}}\\
+		\underline{\hspace{7.5cm}}\\
 		\underline{\hspace{7.5cm}}\\
 		\underline{\hspace{3.5cm}}/ И.О. Фамилия /\\
 		<<\underline{\hspace{1cm}}>> \underline{\hspace{4.2cm}} 2023 г.\\
@@ -138,14 +146,15 @@
 		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
 	\end{tabular}
 	
-	\vspace{0.9cm}
+	\vspace{0.3cm}
 	\begin{center}
 		Челябинск 2023 г.
 	\end{center}
 }}
-
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
 \newcommand{\taskpage}{{
 		\setstretch{1.0}
+		\newpage
 		\thispagestyle{empty}
 		\begin{center} { 
 				\small
@@ -177,7 +186,7 @@
 		\end{center}	
 		
 		\begin{enumerate}
-			\bfseries \item Тема работы \normalfont <<	Решение задачи сегментации и расчет характеристик газовоздушных смесей источников выбросов на основе данных тепло-видео системы наблюдения>> утверждена приказом по университету от \\ <<\underline{\hspace{1cm}}>> \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}} г. \textnumero \underline{\hspace{1cm}}
+			\bfseries \item Тема работы \normalfont <<Решение задачи сегментации и расчет характеристик газовоздушных смесей источников выбросов на основе данных тепло-видео системы наблюдения>> утверждена приказом по университету от \\ <<\underline{\hspace{1cm}}>> \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}} г. \textnumero \underline{\hspace{1cm}}
 			
 			\vspace*{0.2cm}
 			\bfseries \item Срок сдачи студентом законченной работы
@@ -211,12 +220,14 @@
 			
 			Общее количество иллюстраций – Y.
 			
+			\setstretch{1.0}
 			\newpage
+			\thispagestyle{empty}
 			\vspace*{0.2cm}
 			\bfseries \item Календарный план \normalfont
 			
 			\vspace*{0.2cm}
-			\hspace*{-1.0cm}
+			\hspace*{-1.3cm}
 			\small
 			\begin{tabular}{|l|c|c|}
 				\hline
@@ -258,44 +269,50 @@
 					4. Програмная реализация подготовки \\ 
 					и обработки данных
 				\end{tabular} 
-				& 29.01.23 -- 14.01.23 &  \\ \hline
+				& 29.12.22 -- 14.01.23 &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					5. Программная реализация алгоритмов \\
-					сегментации и расчета характеристик
+					5. Разработка и программная \\реализация алгоритма \\
+					сегментации
 				\end{tabular} 
-				& 15.01.23 -- 27.03.23 &  \\ \hline
+				& 15.01.23 -- 26.02.23 &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					6. Проверка на тестовых данных
+					6. Разработка и программная \\реализация алгоритма \\
+					расчета характеристик
 				\end{tabular} 
-				& 01.04.23 -- 15.04.23 &  \\ \hline
+				& 28.02.23 -- 05.04.23 &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					7. Подготовка пояснительной записки\\
+					7. Проверка на тестовых данных
+				\end{tabular} 
+				& 06.04.23 -- 15.04.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					8. Подготовка пояснительной записки\\
 					выпускной квалификационной работы
 				\end{tabular} 
 				& 26.04.23 -- 06.05.23 &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					8. Проверка работы руководителем, \\ 
+					9. Проверка работы руководителем, \\ 
 					исправление замечаний
 				\end{tabular} 
 				&  &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					9. Нормоконтроль
+					10. Нормоконтроль
 				\end{tabular} 
 				&  &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					10. Подготовка иллюстративного \\ 
+					11. Подготовка иллюстративного \\ 
 					материала и доклада
 				\end{tabular} 
 				&  &  \\ \hline
 				
 				\begin{tabular}[l]{l} 
-					11. Рецензирование, представление\\
+					12. Рецензирование, представление\\
 					заведующему кафедрой
 				\end{tabular} 
 				&  &  \\ \hline
@@ -305,6 +322,7 @@
 			\vspace*{0.4cm}
 			\bfseries \item Дата выдачи задания  \normalfont <<\underline{\hspace{1cm}}>>  \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}} г. 
 		\end{enumerate}
+		\setstretch{1.5}
 		Руководитель работы \underline{\hspace{5.0cm}}/ В.А. Сурин / \\
 		Студент \hspace{2.8cm} \underline{\hspace{5.0cm}}/ Д.Д. Кормилин /
 }}
