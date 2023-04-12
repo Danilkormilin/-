@@ -11,9 +11,8 @@
 \contentsline {section}{\numberline {2.1}Постановка задачи сегментации факела выбросов}{26}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Подготовка данных}{27}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Работа с тепловизором}{27}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Преобразование цветовой карты}{31}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}\vspace *{-0.22cm}Наложение карты абсолютных температур на оптические \\ \hspace *{-1.15cm}снимки}{38}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Обобщенные результаты подготовки данных}{40}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}\vspace *{-0.22cm}Решение задачи сегментации факела выбросов с помощью \\ \hspace *{-0.75cm}оптических и тепловых снимков}{42}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Задача детекции трубы}{42}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.2}Преобразование цветовой карты}{30}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}\vspace *{-0.22cm}Наложение карты абсолютных температур на оптические \\ \hspace *{-1.15cm}снимки}{39}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}\vspace *{-0.22cm}Решение задачи сегментации факела выбросов с помощью \\ \hspace *{-0.75cm}оптических и тепловых снимков}{40}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Задача детекции трубы}{40}{subsection.2.3.1}%
 \contentsfinish 

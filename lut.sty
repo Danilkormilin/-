@@ -49,9 +49,9 @@
 \titleformat{\section}{}{\thesection}{6pt}{}
 \titleformat{\subsection}{}{\thesubsection}{6pt}{}
 
-\titlespacing*{\chapter}{0pt}{-24pt}{14pt}
-\titlespacing*{\section}{1.25cm}{14pt}{14pt}
-\titlespacing*{\subsection}{2.5cm}{14pt}{14pt}
+\titlespacing{\chapter}{0pt}{-24pt}{14pt}
+\titlespacing{\section}{1.25cm}{14pt}{0pt}
+\titlespacing*{\subsection}{2.5cm}{14pt}{0pt}
 
 \renewcommand\contentsname{ОГЛАВЛЕНИЕ} 
 
@@ -59,14 +59,14 @@
 \dottedcontents{section}[2em]{}{1.5em}{6pt}
 \dottedcontents{subsection}[4em]{}{2.25em}{6pt}
 
-\captionsetup{figurename = Рисунок, labelsep = endash, justification = centering, belowskip=6pt}
+\captionsetup{figurename = Рисунок, labelsep = endash, justification = centering, aboveskip=18pt, belowskip=-12pt}
 \DeclareCaptionFormat{table}{#1 #2 #3}
 \captionsetup[table]{singlelinecheck = false, justification = justified}
 
 \AtBeginDocument{
 	 \addtolength{\abovedisplayshortskip}{0.2 cm}
-%	\addtolength{\abovedisplayskip}{-0.2 cm}
-%	\addtolength{\belowdisplayskip}{-0.2 cm}
+	\addtolength{\abovedisplayskip}{-0.2 cm}
+	\addtolength{\belowdisplayskip}{-0.2 cm}
 	 \addtolength{\belowdisplayshortskip}{0.2 cm}
 }
 
