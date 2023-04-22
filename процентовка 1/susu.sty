@@ -1,5 +1,12 @@
 %\documentclass[handout]{beamer} % Раздаточный материал (на слайдах всё сразу)
 \usetheme{Berlin}
+\definecolor{mygreen}{RGB}{102, 0, 204} % Зеленый цвет в формате RGB
+\setbeamercolor{structure}{fg=mygreen} % Цвет для структурных элементов (названий разделов, фреймов и т.д.)
+\setbeamercolor{alerted text}{fg=mygreen} % Цвет для выделенного текста
+\setbeamercolor{frametitle}{fg=white, bg=mygreen} % Цвет для заголовка фрейма
+\setbeamercolor{title}{fg=white, bg=mygreen} % Цвет для заголовка раздела
+%\setbeamercolor{item}{fg=mygreen} % Цвет для маркеров списка
+\setbeamercolor{section in toc}{fg=mygreen} % Цвет для разделов в содержании
 \setbeamerfont{page number in head/foot}{size=\large}
 \setbeamertemplate{footline}[frame number]
 %\usecolortheme{beaver} 
@@ -40,9 +47,9 @@
 \usepackage{pgfplotstable}
 \usepackage{ragged2e}
 \setlength{\hsize}{0.9\hsize}% emphasize effects
-\captionsetup{figurename = Рисунок, labelsep = endash, justification = centering}
-\setbeamertemplate{caption}[numbered]
-\renewcommand\thesubfigure{\asbuk{subfigure}}
+\captionsetup{figurename = Рисунок, labelsep = endash, justification = centering, aboveskip=18pt, belowskip=-12pt}
+\DeclareCaptionFormat{table}{#1 #2 #3}
+\captionsetup[table]{singlelinecheck = false, justification = justified}
 
 \beamertemplatenavigationsymbolsempty
 
@@ -71,7 +78,7 @@
 
 \makeatother
 \author{Кормилин Д.Дr}
-\title{Решение задачи сегментации и расчет характеристик газовоздушных смесей источников выбросов на основе данных тепло-видео системы наблюдения}
+\title{Решение задачи сегментации факела выбросов на основе данных тепло-видео системы наблюдения}
 \institute{
 	Министерство науки и высшего образования Российской Федерации\\
 	ФГАОУ ВО <<Южно-Уральский государственный университет (НИУ)>> \\
