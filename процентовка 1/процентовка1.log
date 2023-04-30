@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  23 APR 2023 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  24 APR 2023 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1583,205 +1583,217 @@ thkerncmss.
 [1
 
 {d:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.9356pt too wide) in paragraph at lines 20--20
-[]\T2A/cmss/m/n/10.95 исследование со-вре-мен-ных спо-со-бов при-ме-не-ния оп-т
-и-че-ских
+<image/ToC2.png, id=66, 548.0475pt x 749.04843pt>
+File: image/ToC2.png Graphic file (type png)
+<use image/ToC2.png>
+Package pdftex.def Info: image/ToC2.png  used on input line 15.
+(pdftex.def)             Requested size: 193.59412pt x 264.59393pt.
+
+Overfull \vbox (12.94054pt too high) detected at line 15
  []
 
 [2
 
+ <./image/ToC2.png>]
+Overfull \hbox (1.9356pt too wide) in paragraph at lines 26--26
+[]\T2A/cmss/m/n/10.95 исследование со-вре-мен-ных спо-со-бов при-ме-не-ния оп-т
+и-че-ских
+ []
+
+[3
+
 ]
-<image/scheme1.png, id=106, 1390.44469pt x 754.31813pt>
+<image/scheme1.png, id=134, 1390.44469pt x 754.31813pt>
 File: image/scheme1.png Graphic file (type png)
 <use image/scheme1.png>
-Package pdftex.def Info: image/scheme1.png  used on input line 29.
+Package pdftex.def Info: image/scheme1.png  used on input line 35.
 (pdftex.def)             Requested size: 307.28987pt x 166.69864pt.
- [3
-
- <./image/scheme1.png>]
-<image/optic_invis.png, id=131, 727.96968pt x 484.05844pt>
-File: image/optic_invis.png Graphic file (type png)
-<use image/optic_invis.png>
-Package pdftex.def Info: image/optic_invis.png  used on input line 53.
-(pdftex.def)             Requested size: 122.91406pt x 81.7275pt.
-<image/tep_vis.png, id=132, 715.17188pt x 484.05844pt>
-File: image/tep_vis.png Graphic file (type png)
-<use image/tep_vis.png>
-Package pdftex.def Info: image/tep_vis.png  used on input line 53.
-(pdftex.def)             Requested size: 122.91406pt x 83.18994pt.
  [4
 
+ <./image/scheme1.png>]
+<image/optic_invis.png, id=160, 727.96968pt x 484.05844pt>
+File: image/optic_invis.png Graphic file (type png)
+<use image/optic_invis.png>
+Package pdftex.def Info: image/optic_invis.png  used on input line 59.
+(pdftex.def)             Requested size: 122.91406pt x 81.7275pt.
+<image/tep_vis.png, id=161, 715.17188pt x 484.05844pt>
+File: image/tep_vis.png Graphic file (type png)
+<use image/tep_vis.png>
+Package pdftex.def Info: image/tep_vis.png  used on input line 59.
+(pdftex.def)             Requested size: 122.91406pt x 83.18994pt.
+ [5
+
  <./image/optic_invis.png> <./image/tep_vis.png>]
-<image/opt_examp.jpg, id=159, 739.76375pt x 590.205pt>
+<image/opt_examp.jpg, id=190, 739.76375pt x 590.205pt>
 File: image/opt_examp.jpg Graphic file (type jpg)
 <use image/opt_examp.jpg>
-Package pdftex.def Info: image/opt_examp.jpg  used on input line 87.
+Package pdftex.def Info: image/opt_examp.jpg  used on input line 93.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
-<image/tep_examp.jpg, id=160, 739.76375pt x 590.205pt>
+<image/tep_examp.jpg, id=191, 739.76375pt x 590.205pt>
 File: image/tep_examp.jpg Graphic file (type jpg)
 <use image/tep_examp.jpg>
-Package pdftex.def Info: image/tep_examp.jpg  used on input line 87.
+Package pdftex.def Info: image/tep_examp.jpg  used on input line 93.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
-<image/mask.jpg, id=161, 739.76375pt x 590.205pt>
+<image/mask.jpg, id=192, 739.76375pt x 590.205pt>
 File: image/mask.jpg Graphic file (type jpg)
 <use image/mask.jpg>
-Package pdftex.def Info: image/mask.jpg  used on input line 87.
+Package pdftex.def Info: image/mask.jpg  used on input line 93.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 	\end{frame}
+l.93 	\end{frame}
                  
-Overfull \vbox (6.9231pt too high) detected at line 87
+Overfull \vbox (6.9231pt too high) detected at line 93
  []
 
-[5
+[6
 
  <./image/opt_examp.jpg> <./image/tep_examp.jpg> <./image/mask.jpg>]
-<image/scheme2.png, id=192, 1868.48062pt x 636.87938pt>
+<image/scheme2.png, id=223, 1868.48062pt x 636.87938pt>
 File: image/scheme2.png Graphic file (type png)
 <use image/scheme2.png>
-Package pdftex.def Info: image/scheme2.png  used on input line 98.
+Package pdftex.def Info: image/scheme2.png  used on input line 104.
 (pdftex.def)             Requested size: 307.28987pt x 104.74043pt.
- [6
+ [7
 
  <./image/scheme2.png>]
-<image/chapter_2/opt_example.jpg, id=217, 1927.2pt x 1084.05pt>
+<image/chapter_2/opt_example.jpg, id=250, 1927.2pt x 1084.05pt>
 File: image/chapter_2/opt_example.jpg Graphic file (type jpg)
 <use image/chapter_2/opt_example.jpg>
-Package pdftex.def Info: image/chapter_2/opt_example.jpg  used on input line 11
-8.
+Package pdftex.def Info: image/chapter_2/opt_example.jpg  used on input line 12
+4.
 (pdftex.def)             Requested size: 153.64493pt x 86.41148pt.
-<image/chapter_2/tep_example.jpg, id=218, 1284.8pt x 1027.84pt>
+<image/chapter_2/tep_example.jpg, id=251, 1284.8pt x 1027.84pt>
 File: image/chapter_2/tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/tep_example.jpg>
-Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 11
-8.
+Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 12
+4.
 (pdftex.def)             Requested size: 92.1879pt x 73.74406pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 	\end{frame}
-                   [7
+l.124 	\end{frame}
+                   [8
 
  <./image/chapter_2/opt_example.jpg> <./image/chapter_2/tep_example.jpg>]
-<image/chapter_2/loaddata.jpg, id=243, 1063.975pt x 642.4pt>
+<image/chapter_2/loaddata.jpg, id=276, 1063.975pt x 642.4pt>
 File: image/chapter_2/loaddata.jpg Graphic file (type jpg)
 <use image/chapter_2/loaddata.jpg>
-Package pdftex.def Info: image/chapter_2/loaddata.jpg  used on input line 129.
+Package pdftex.def Info: image/chapter_2/loaddata.jpg  used on input line 135.
 (pdftex.def)             Requested size: 307.28987pt x 185.52666pt.
 
-Overfull \vbox (10.76894pt too high) detected at line 129
+Overfull \vbox (10.76894pt too high) detected at line 135
  []
 
-[8
+[9
 
  <./image/chapter_2/loaddata.jpg>]
 File: image/chapter_2/tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/tep_example.jpg>
-Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 14
-9.
+Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 15
+5.
 (pdftex.def)             Requested size: 113.81102pt x 91.04303pt.
-<image/chapter_2/gray_tep_example.jpg, id=268, 1284.8pt x 1027.84pt>
+<image/chapter_2/gray_tep_example.jpg, id=303, 1284.8pt x 1027.84pt>
 File: image/chapter_2/gray_tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/gray_tep_example.jpg>
 Package pdftex.def Info: image/chapter_2/gray_tep_example.jpg  used on input li
-ne 149.
+ne 155.
 (pdftex.def)             Requested size: 113.81102pt x 91.04303pt.
- [9
+ [10
 
  <./image/chapter_2/gray_tep_example.jpg>]
-<image/chapter_2/kdtreeexample.jpg, id=294, 676.02562pt x 321.45094pt>
+<image/chapter_2/kdtreeexample.jpg, id=329, 676.02562pt x 321.45094pt>
 File: image/chapter_2/kdtreeexample.jpg Graphic file (type jpg)
 <use image/chapter_2/kdtreeexample.jpg>
 Package pdftex.def Info: image/chapter_2/kdtreeexample.jpg  used on input line 
-161.
+167.
 (pdftex.def)             Requested size: 170.71652pt x 81.17674pt.
- [10
+ [11
 
  <./image/chapter_2/kdtreeexample.jpg>]
-<image/chapter_2/colorclassification.jpg, id=319, 562.1pt x 652.4375pt>
+<image/chapter_2/colorclassification.jpg, id=355, 562.1pt x 652.4375pt>
 File: image/chapter_2/colorclassification.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification.jpg  used on input
- line 181.
+ line 187.
 (pdftex.def)             Requested size: 144.4266pt x 167.63867pt.
-<image/chapter_2/colorclassification2.jpg, id=320, 240.9pt x 451.6875pt>
+<image/chapter_2/colorclassification2.jpg, id=356, 240.9pt x 451.6875pt>
 File: image/chapter_2/colorclassification2.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification2.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification2.jpg  used on inpu
-t line 181.
+t line 187.
 (pdftex.def)             Requested size: 64.53293pt x 120.99924pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.181 	\end{frame}
+l.187 	\end{frame}
                   
-Overfull \vbox (1.0153pt too high) detected at line 181
+Overfull \vbox (1.0153pt too high) detected at line 187
  []
 
-[11
+[12
 
  <./image/chapter_2/colorclassification.jpg> <./image/chapter_2/colorclassifica
-tion2.jpg>] [12
+tion2.jpg>] [13
 
 ]
-<image/accuracy_plot.png, id=371, 550.30594pt x 405.76593pt>
+<image/accuracy_plot.png, id=411, 550.30594pt x 405.76593pt>
 File: image/accuracy_plot.png Graphic file (type png)
 <use image/accuracy_plot.png>
-Package pdftex.def Info: image/accuracy_plot.png  used on input line 207.
+Package pdftex.def Info: image/accuracy_plot.png  used on input line 213.
 (pdftex.def)             Requested size: 245.83282pt x 181.26181pt.
 
-Overfull \vbox (9.3491pt too high) detected at line 207
+Overfull \vbox (9.3491pt too high) detected at line 213
  []
 
-[13
+[14
 
  <./image/accuracy_plot.png>]
-<image/chapter_2/fullprepare.jpg, id=398, 160.34906pt x 472.76625pt>
+<image/chapter_2/fullprepare.jpg, id=437, 160.34906pt x 472.76625pt>
 File: image/chapter_2/fullprepare.jpg Graphic file (type jpg)
 <use image/chapter_2/fullprepare.jpg>
-Package pdftex.def Info: image/chapter_2/fullprepare.jpg  used on input line 21
-8.
+Package pdftex.def Info: image/chapter_2/fullprepare.jpg  used on input line 22
+4.
 (pdftex.def)             Requested size: 70.67535pt x 208.37848pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fullprepa
 re}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.218 	\end{frame}
+l.224 	\end{frame}
                   
-Overfull \vbox (15.71375pt too high) detected at line 218
+Overfull \vbox (15.71375pt too high) detected at line 224
  []
 
-[14
+[15
 
  <./image/chapter_2/fullprepare.jpg>]
 File: image/opt_examp.jpg Graphic file (type jpg)
 <use image/opt_examp.jpg>
-Package pdftex.def Info: image/opt_examp.jpg  used on input line 245.
+Package pdftex.def Info: image/opt_examp.jpg  used on input line 251.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 File: image/tep_examp.jpg Graphic file (type jpg)
 <use image/tep_examp.jpg>
-Package pdftex.def Info: image/tep_examp.jpg  used on input line 245.
+Package pdftex.def Info: image/tep_examp.jpg  used on input line 251.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 File: image/mask.jpg Graphic file (type jpg)
 <use image/mask.jpg>
-Package pdftex.def Info: image/mask.jpg  used on input line 245.
+Package pdftex.def Info: image/mask.jpg  used on input line 251.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.245 	\end{frame}
-                   [15
+l.251 	\end{frame}
+                   [16
 
 ]
 \tf@nav=\write6
@@ -1807,10 +1819,10 @@ Package rerunfilecheck Info: File `РїСЂРѕС†РµРЅС‚РѕРІРєР°1.out' has not changed
 (rerunfilecheck)             Checksum: D537C3CEA22750A281F4A0DEEAEC34F0;831.
  ) 
 Here is how much of TeX's memory you used:
- 41418 strings out of 476093
- 966535 string characters out of 5795584
+ 41433 strings out of 476093
+ 966765 string characters out of 5795584
  1868787 words of memory out of 5000000
- 60921 multiletter control sequences out of 15000+600000
+ 60933 multiletter control sequences out of 15000+600000
  531520 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,746b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1829,10 +1841,10 @@ ts/type1/public/cm-super/sfss1095.pfb><d:/texlive/2022/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-s
 uper/sfss1440.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1
 095.pfb>
-Output written on РїСЂРѕС†РµРЅС‚РѕРІРєР°1.pdf (15 pages, 2420289 bytes).
+Output written on РїСЂРѕС†РµРЅС‚РѕРІРєР°1.pdf (16 pages, 2547881 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 43 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 550 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

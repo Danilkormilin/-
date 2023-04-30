@@ -11,12 +11,13 @@
 \contentsline {section}{\numberline {2.1}Постановка задачи сегментации факела выбросов}{26}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Подготовка данных}{27}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Работа с тепловизором}{27}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Преобразование цветовой карты}{28}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}\vspace *{-0.22cm}Наложение карты абсолютных температур на оптические \\ \hspace *{-1.15cm}снимки}{33}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}\vspace *{-0.22cm}Решение задачи сегментации факела выбросов с помощью \\ \hspace *{-0.75cm}оптических и тепловых снимков}{35}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Задача детекции трубы}{35}{subsection.2.3.1}%
-\contentsline {chapter}{\numberline {3}\vspace *{-0.22cm}РАЗРАБОТКА И ПРОГРАММНАЯ РЕАЛИЗАЦИЯ АЛГОРИТМА \hspace *{-0.5cm} СЕГМЕНТАЦИИ ФАКЕЛА ВЫБРОСОВ}{44}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Разработка алгоритма подготовки данных}{44}{section.3.1}%
-\contentsline {section}{\numberline {3.2}\vspace *{-0.22cm}Алгоритм сегментации факела выбросов с помощью оптических \\ \hspace *{-0.75cm}и тепловых снимков}{50}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Алгоритм детекции трубы}{50}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Преобразование цветовой карты}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}\vspace *{-0.22cm}Наложение карты абсолютных температур на оптические \\ \hspace *{-1.15cm}снимки}{35}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}\vspace *{-0.22cm}Решение задачи сегментации факела выбросов с помощью \\ \hspace *{-0.75cm}оптических и тепловых снимков}{38}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Задача детекции трубы}{38}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Метод сегментации водоразделом (WaterShed)}{45}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}\vspace *{-0.22cm}РАЗРАБОТКА И ПРОГРАММНАЯ РЕАЛИЗАЦИЯ АЛГОРИТМА \hspace *{-0.5cm} СЕГМЕНТАЦИИ ФАКЕЛА ВЫБРОСОВ}{46}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Разработка алгоритма подготовки данных}{46}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\vspace *{-0.22cm}Алгоритм сегментации факела выбросов с помощью оптических \\ \hspace *{-0.75cm}и тепловых снимков}{52}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Алгоритм детекции трубы}{52}{subsection.3.2.1}%
 \contentsfinish 

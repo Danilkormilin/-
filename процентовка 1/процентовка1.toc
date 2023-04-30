@@ -1,6 +1,6 @@
 \babel@toc {russian}{}\relax 
 \beamer@sectionintoc {1}{Введение}{2}{0}{1}
-\beamer@sectionintoc {2}{Современные методы контроля выбросов}{3}{0}{2}
-\beamer@sectionintoc {3}{Задача}{5}{0}{3}
-\beamer@sectionintoc {4}{Подготовка данных}{6}{0}{4}
-\beamer@sectionintoc {5}{Результаты}{15}{0}{5}
+\beamer@sectionintoc {2}{Современные методы контроля выбросов}{4}{0}{2}
+\beamer@sectionintoc {3}{Задача}{6}{0}{3}
+\beamer@sectionintoc {4}{Подготовка данных}{7}{0}{4}
+\beamer@sectionintoc {5}{Результаты}{16}{0}{5}
