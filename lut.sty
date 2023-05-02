@@ -1,5 +1,6 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{mathtools}
 \usepackage[english, russian]{babel}
 \usepackage{caption}
 \usepackage{cite}
@@ -71,6 +72,7 @@
 }
 
 \newcommand{\firstpage}{{
+	\newgeometry{left = 3cm, right = 1.5cm, top = 2cm, bottom = 2cm}
 	\setstretch{1.0}
 	\newpage
 	\thispagestyle{empty}
@@ -123,7 +125,7 @@
 	\begin{tabular}[t]{l}
 		\\
 		Руководитель работы,\\
-		доцент\\
+		старший преподаватель\\
 		\underline{\hspace{3.0cm}}/ В.А. Сурин /\\
 		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
 	\end{tabular}
@@ -146,12 +148,12 @@
 		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
 	\end{tabular}
 	
-	\vspace{0.3cm}
+	\vspace{1.3cm}
 	\begin{center}
 		Челябинск 2023 г.
 	\end{center}
 }}
-\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
 \newcommand{\taskpage}{{
 		\setstretch{1.0}
 		\newpage
@@ -195,25 +197,28 @@
 			\vspace*{0.2cm}
 			\item Исходные данные к работе \normalfont
 			\begin{enumerate}
-				\item Документация по работе с тепловизором;
-				\item Язык программирования -- С++ 17;
-				\item Среда программирования -- Microsoft Visual Studio;
+				\itemindent=2.2cm
+				\item Документация по работе с тепловизором.
+				\item Язык программирования -- С++ 17.
+				\item Среда программирования -- Microsoft Visual Studio.
 				\item Набор исходных данных, полученых с тепло-видео систем.
 			\end{enumerate}
 			
 			\vspace*{0.2cm}
 			\bfseries \item Перечень вопросов, подлежащих разработке \normalfont
 			\begin{enumerate}
-				\item Анализ предметной области;
-				\item Обзор существующих методов контроля за выбросами;
-				\item Обзор методов применения тепло-видео систем наблюдения;
-				\item Разработка математической модели алгоритма сегментации;
+				\itemindent=2.2cm
+				\item Анализ предметной области.
+				\item Обзор существующих методов контроля за выбросами.
+				\item Обзор методов применения тепло-видео систем наблюдения.
+				\item Разработка математической модели алгоритма сегментации.
 				\item Проверка алгоритмов на экспериментальных данных.
 			\end{enumerate}
 			
 			\vspace*{0.2cm}
 			\bfseries \item Иллюстративный материал \normalfont (плакаты, альбомы, раздаточный материал, макеты, электронные носители и др.)
 			\begin{enumerate}
+				\itemindent=2.2cm
 				\item Мультимедийная презентация -- X слайдов.
 			\end{enumerate}
 			
