@@ -4,21 +4,20 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>120</y>
-      <w>200</w>
+      <x>210</x>
+      <y>190</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=()
-Подготовка 
-классификатора цветов</panel_attributes>
+Вход</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>170</y>
+      <x>330</x>
+      <y>240</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -28,64 +27,64 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>260</x>
-      <y>330</y>
-      <w>200</w>
-      <h>60</h>
+      <x>490</x>
+      <y>430</y>
+      <w>260</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>type=//
-ввод классификации 
+Ввод классификации 
 из файла</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>190</y>
-      <w>200</w>
-      <h>110</h>
+      <x>210</x>
+      <y>260</y>
+      <w>260</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>type=&lt;&gt;
-существует файл
-с сохраненной 
+Не существует 
+файла с сохраненной 
 классификацией?</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>290</y>
+      <x>330</x>
+      <y>380</y>
       <w>50</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=нет</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+m1=да</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;15.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>240</y>
-      <w>160</w>
-      <h>110</h>
+      <x>460</x>
+      <y>320</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m2=да</panel_attributes>
-    <additional_attributes>140.0;90.0;140.0;10.0;10.0;10.0</additional_attributes>
+m2=неи</panel_attributes>
+    <additional_attributes>160.0;110.0;160.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>330</y>
-      <w>200</w>
-      <h>60</h>
+      <x>210</x>
+      <y>430</y>
+      <w>270</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>type=[]
-генерируем выборку 
+Генерируем выборку 
 интенсивностей цвета
 (от 0 до 255)</panel_attributes>
     <additional_attributes/>
@@ -93,21 +92,21 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>400</y>
-      <w>200</w>
+      <x>210</x>
+      <y>510</y>
+      <w>270</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=[]
-применяем к выборке 
+Применяем к выборке 
 цветовую карту &lt;&lt;JET&gt;&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>380</y>
+      <x>330</x>
+      <y>490</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -117,13 +116,13 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>470</y>
-      <w>200</w>
-      <h>70</h>
+      <x>210</x>
+      <y>580</y>
+      <w>270</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>type=[||]
-обучаем модель
+Обучаем модель
 &lt;&lt;flannBasedMatcher&gt;&gt;
 на подготовленной 
 выборке</panel_attributes>
@@ -132,8 +131,8 @@ m2=да</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>450</y>
+      <x>330</x>
+      <y>560</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -143,20 +142,20 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>550</y>
-      <w>200</w>
+      <x>210</x>
+      <y>680</y>
+      <w>270</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=/\
-цикл по цветам RGB</panel_attributes>
+Цикл по цветам RGB</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>530</y>
+      <x>330</x>
+      <y>660</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -166,9 +165,9 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>690</y>
-      <w>200</w>
+      <x>210</x>
+      <y>820</y>
+      <w>270</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=\/
@@ -179,21 +178,21 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>620</y>
-      <w>200</w>
+      <x>210</x>
+      <y>750</y>
+      <w>270</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=[]
-классифицируем цвет 
+Классифицируем цвет 
 с помощью модели</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>600</y>
+      <x>330</x>
+      <y>730</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -203,8 +202,8 @@ m2=да</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>670</y>
+      <x>330</x>
+      <y>800</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -214,33 +213,33 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>760</y>
-      <w>200</w>
+      <x>210</x>
+      <y>890</y>
+      <w>270</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=//
-сохраняем 
+Сохраняем 
 классификацию в файл</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>50</x>
-      <y>850</y>
-      <w>200</w>
+      <x>210</x>
+      <y>970</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=()
-выход</panel_attributes>
+Выход</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>740</y>
+      <x>330</x>
+      <y>870</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -250,23 +249,23 @@ m2=да</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>810</y>
+      <x>330</x>
+      <y>940</y>
       <w>30</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>380</y>
-      <w>250</w>
-      <h>470</h>
+      <x>330</x>
+      <y>490</y>
+      <w>310</w>
+      <h>490</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;450.0;230.0;450.0;230.0;10.0</additional_attributes>
+    <additional_attributes>10.0;470.0;290.0;470.0;290.0;10.0</additional_attributes>
   </element>
 </diagram>

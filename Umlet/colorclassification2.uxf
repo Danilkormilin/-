@@ -4,21 +4,20 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>380</x>
-      <y>250</y>
-      <w>200</w>
+      <x>230</x>
+      <y>310</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=()
-Конвертация цветов
-в оттенки серого</panel_attributes>
+Вход</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>300</y>
+      <x>350</x>
+      <y>360</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -28,9 +27,9 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>380</x>
-      <y>320</y>
-      <w>200</w>
+      <x>230</x>
+      <y>380</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=[||]
@@ -41,9 +40,9 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>380</x>
-      <y>390</y>
-      <w>200</w>
+      <x>230</x>
+      <y>450</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=/\
@@ -54,8 +53,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>370</y>
+      <x>350</x>
+      <y>430</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -65,13 +64,13 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>380</x>
-      <y>460</y>
-      <w>200</w>
-      <h>60</h>
+      <x>230</x>
+      <y>520</y>
+      <w>260</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>type=[]
-преобразование
+Преобразование
 пикселя подготовленным 
 классификатором</panel_attributes>
     <additional_attributes/>
@@ -79,8 +78,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>440</y>
+      <x>350</x>
+      <y>500</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -90,22 +89,21 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>380</x>
-      <y>530</y>
-      <w>200</w>
+      <x>230</x>
+      <y>600</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=\/
-конец
-цикл по пикселям
-изображения</panel_attributes>
+Конец цикла по 
+пикселям изображения</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>510</y>
+      <x>350</x>
+      <y>580</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -115,20 +113,20 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>380</x>
-      <y>600</y>
-      <w>200</w>
+      <x>230</x>
+      <y>670</y>
+      <w>260</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>type=()
-выход</panel_attributes>
+Выход</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>580</y>
+      <x>350</x>
+      <y>650</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
