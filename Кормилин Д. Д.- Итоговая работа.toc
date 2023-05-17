@@ -22,5 +22,6 @@
 \contentsline {section}{\numberline {3.2}\vspace *{-0.22cm}Алгоритм сегментации факела выбросов с помощью оптических \\ \hspace *{-0.75cm}и тепловых снимков}{59}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Алгоритм детекции трубы}{59}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Реализация алгоритма сегментации <<WaterShed>>}{61}{subsection.3.2.2}%
-\contentsline {chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}{64}{chapter*.34}%
+\contentsline {section}{\numberline {3.3}\vspace *{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace *{-0.75cm}и оценка их точности}{64}{section.3.3}%
+\contentsline {chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}{68}{chapter*.37}%
 \contentsfinish 

@@ -418,7 +418,7 @@
 		\label{fig:jet}
 	\end{figure}
 	
-	В разработанной системе тепловые снимки также сохраняются в цветовой карте <<JET>>. Для поставленной задачи необходимо разработать алгоритм для преобразования изображение к оттенкам серого (см. рисунок~\ref{fig:gray_tep_example}). Ввиду технических особенностей как тепловые, так и оптические снимки передаются в закодированном формате JPEG, что приводит к искажению цветов. Другой помехой к прямой конвертации в оттенки серого является отсутствие общего стандарта для конвертации изображения, из-за чего функция может незначительно отличаться. Все это приводит к невозможности задания обратной функции:
+	В разработанной системе тепловые снимки также сохраняются в цветовой карте <<JET>>. Для поставленной задачи необходимо разработать\linebreak алгоритм для преобразования изображение к оттенкам серого\linebreak (см. рисунок~\ref{fig:gray_tep_example}). Ввиду технических особенностей как тепловые, так и оптические снимки передаются в закодированном формате JPEG, что приводит к искажению цветов. Другой помехой к прямой конвертации в оттенки серого является отсутствие общего стандарта для конвертации изображения, из-за чего функция может незначительно отличаться. Все это приводит к невозможности задания обратной функции:
 	\vspace*{-0.2cm}
 	\begin{equation}
 		g: Y \rightarrow X
@@ -655,14 +655,13 @@
 		\end{equation*}
 		где $x$, $y$ -- координаты точки $\sigma$ -- параметр размытия, $k_i$ и $k_j$ -- масштаб на некоторых уровнях. На каждом уровне масштаб уменьшается в 2 раза. Это позволяет обнаруживать объекты на разных масштабах;
 		
-		\item вычисление градиента: Для каждого пикселя на изображении вычисляются значения градиента функции $D$, показывающие направление и величину изменения яркости в этой точке. На основании полученных градиентов определяются локальные экстремумы;
+		\item вычисление градиента: для каждого пикселя на изображении вычисляются значения градиента функции $D$, показывающие направление и величину изменения яркости в этой точке. На основании полученных градиентов определяются локальные экстремумы;
 		
-		\item удаление низкоконтрастных ключевых точек: Ключевые точки, которые имеют слишком низкий контраст, могут быть удалены, так как они не являются достаточно выраженными;
+		\item удаление низкоконтрастных ключевых точек: ключевые точки, которые имеют слишком низкий контраст, могут быть удалены, так как они не являются достаточно выраженными;
 		
-		\item определение масштаба -- для каждой особой точки определяется масштаб, используя локальный максимум градиента вокруг точки;
+		\item определение масштаба: для каждой особой точки определяется масштаб, используя локальный максимум градиента вокруг точки;
 		
-		\item определение ориентации -- для каждой особой точки определяется направление градиента. Это позволяет сделать дескрипторы инвариантными к повороту изображения. В первую очередь берётся размытое по Гауссу изображение $L\left(x,y,\sigma \right)$ в ключевых точках с масштабом $\sigma$, так что все вычисления осуществляются в масштабно-инвариантной манере. Для изображения $L\left(x,y\right)$ с масштабом $\sigma$  предварительно вычисляются на основе разности пикселей величина градиента 
-		$m\left(x,y\right)$ и ориентация $\theta \left(x,y\right)$:
+		\item определение ориентации: для каждой особой точки определяется направление градиента. Это позволяет сделать дескрипторы инвариантными к повороту изображения. В первую очередь берётся размытое по Гауссу изображение $L\left(x,y,\sigma \right)$ в ключевых точках с масштабом $\sigma$, так что все вычисления осуществляются в масштабно-инвариантной манере. Для изображения $L\left(x,y\right)$ с масштабом $\sigma$  предварительно вычисляются на основе разности пикселей величина градиента $m\left(x,y\right)$ и ориентация $\theta \left(x,y\right)$:
 		\begin{equation*}
 			m\left(x,y\right)={\sqrt {\left(L\left(x+1,y\right)-L\left(x-1,y\right)\right)^{2}+\left(L\left(x,y+1\right)-L\left(x,y-1\right)\right)^{2}}},
 			\label{m(x,y,sigma)}
@@ -1022,15 +1021,15 @@
 	Данный алгоритм успешно находит ключевые точки на изображении. Пример работы алгоритма представлен на рисунке~\ref{fig:keypoints}.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width = 0.7\textwidth]{image/chapter_2/keypoints}	
+		\includegraphics[width = 0.9\textwidth]{image/chapter_2/keypoints}	
 		\caption{Пример нахождения ключевых точек}
 		\label{fig:keypoints}
 	\end{figure}
 	
-	Следующим шагом является сопоставление ключевых точек образца и изображения, на котором необходимо детектировать трубу. В результате получаем набор ключевых точек и дескрипторов $A$ для изображения образца и набор точек и дескрипторов $B$ для входного изображения. Далее используем ранее описанный алгоритм <<k ближайших соседей>> для классификации элементов из набора $A$ по $n$ классам, где $n$ -- размер набора $B$. Согласно ранее рассмотренной происходит обучение и классификация. Пример работы алгоритма показан на рисунке~\ref{fig:match1}.
+	Следующий этап включает в себя процесс сопоставления ключевых точек образца и изображения, на котором требуется обнаружить трубу. В результате этого процесса получается набор ключевых точек и дескрипторов $A$, соответствующих изображению образца, и набор точек и дескрипторов $B$, соответствующих входному изображению. После этого применяется описанный ранее алгоритм <<k ближайших соседей>>, предназначеный для классификации элементов из набора $A$ по $n$ классам, где $n$ представляет собой размер набора $B$. Этот процесс обучения и классификации основан на ранее рассмотренной метрической модели. Пример работы этого алгоритма показан на рисунке~\ref{fig:match1}.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width = 0.8\textwidth]{image/chapter_2/match1}	
+		\includegraphics[width = \textwidth]{image/chapter_2/match1}	
 		\caption{Пример сопоставления ключевых точек}
 		\label{fig:match1}
 	\end{figure}
@@ -1072,36 +1071,216 @@
 		\label{fig:Watershed_itog}
 	\end{figure}
 	
-	Отмечается, что применение данного метода представляет собой достаточно быстрый способ решения задачи, поскольку время, затрачиваемое на его выполнение, обладает линейной зависимостью от размерности матрицы температур. Другими словами, данная процедура демонстрирует прямую пропорциональность соответственно величине произведения $n \cdot m$, где $n$ и $m$ представляют собой соответствующие размеры матрицы температур.
+	Отмечается, что применение данного метода представляет собой достаточно быстрый способ решения задачи, поскольку время, затрачиваемое на его выполнение, обладает линейной зависимостью от размерности матрицы температур. Другими словами, данная процедура демонстрирует прямую пропорциональность соответственно величине произведения $n \cdot m$, где $n$ и $m$ представляют собой размеры матрицы температур.
 	
+\section[\vspace*{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace*{-0.75cm}и оценка их точности]{\vspace*{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace*{-2.05cm}и оценка их точности}
+
+	В результате разработки алгоритмов подготовки данных, детекции трубы, а также непосредственно сегментации, был разработан прорграммный модуль, реализующий сегментацию факела вредных выбросов. Для оценки точности работы разработанного модуля была сформирована и размечена тестовая выборка, состоящая из 300 последовательно записанных оптических и тепловых кадров, в также максимальных и минимальных температур с рассмотренной ранее дискретностью. Данная выборка была размечена вручную. Пример выборки представлен на рисунке~\ref{fig:test_vib}.
+	
+	\begin{figure}[h!]
+		\vspace*{0.22cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/151}
+%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/151}
+%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask_razmet/151}
+%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/185}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/185}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask_razmet/185}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/159}
+			\caption{}
+		\end{subfigure}
+		\hspace{0.1cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/159}
+			\caption{}
+		\end{subfigure}
+		\hspace{0.1cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask_razmet/159}
+			\caption{}
+		\end{subfigure}
+		\caption{Пример тестовой выборки: а) оригинальные оптические изображения; б) оригинальные тепловые изображения; в) маски}
+		\label{fig:test_vib}
+	\end{figure}
+	
+	Данная тестовая выборка состоит из записанных тепловизором выбранной модели данных. На данный момент данные являются синтетическими, и были получены в результате моделирования трубы и горячих выбросов из нее.
+	
+	Для тестирования и оценки реализованного программного комплекса, была проведена сегментация данной тестовой выборки. Результаты работы представлены на рисунке~\ref{fig:test_segm}.
+	
+	\begin{figure}[h!]
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/206}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/206}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/206}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/214}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/214}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/214}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/240}
+			\caption{}
+		\end{subfigure}
+		\hspace{0.1cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/240}
+			\caption{}
+		\end{subfigure}
+		\hspace{0.1cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/240}
+			\caption{}
+		\end{subfigure}
+		\caption{Пример работы: а) оригинальные оптические изображения; б) оригинальные тепловые изображения; в) получившиеся маски}
+		\label{fig:test_segm}
+	\end{figure}
+
+	Для оценки также необходимо ввести некоторую метрику. Метрика является некоторой функцией отражающей то, на сколько результат работы того или иного алгоритма соответствует правильному. В случае бинарной сегментации (сегментации изображения на 2 класса) одной из наиболее подходящих метрик является метрика <<DICE>>, также известная как коэффициент Сёренсена-Дайса или F1-мера, является одним из показателей оценки сходства между двумя наборами данных. Она широко используется в задачах сегментации изображений [\ref{Rethinking dice loss for medical image segmentation}].
+	
+	DICE определяется как отношение двойного пересечения и суммы сегментированных объектов:
+	\begin{equation}
+		\textup{DICE} = \frac{2\textup{TP}}{2\textup{TP} + \textup{FP} + \textup{FN}},
+		\label{eq:DiceLoss}
+	\end{equation}
+	где TP -- количество пикселей, которые были верно классифицированы как сегментированный объект (правильное предсказание сегмента);\\
+	\hspace*{0.8cm}FP -- количество пикселей, которые были неправильно классифицированы как сегментированный объект (ложное предсказание сегмента);\\
+	\hspace*{0.8cm}FN -- количество пикселей, которые были неправильно классифицированы как фон или другой класс (неправильное предсказание сегмента).
+	
+	Значение DICE находится в диапазоне от 0 до 1, где 1 означает идеальное совпадение двух сегментаций, а 0 указывает на полное несовпадение. DICE является компромиссом между полнотой (отношение TP к общему количеству истинных объектов) и точностью (отношение TP к общему количеству предсказанных объектов). Он позволяет оценивать как качество сегментации, так и ее объем.
+	
+	Далее по формуле~(\ref{eq:DiceLoss}) вычислим значение метрики точности на педставленной выборке. Точность по всей тестовой выборке расчитана как средняя точность по элементам выборки, она составила 0.861004. Далее на рисунке~\ref{fig:} представлено сравнение элементов из множества предсказанных масок и реальных по соответствующим элементам тестовой выборки, а также разница, представляющая собой исключающее или по маскам.
+	
+	\begin{figure}[h!]
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/206}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/206}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/206}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/214}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/214}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/214}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/240}
+			\caption{}
+		\end{subfigure}
+		\hspace{0.1cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/240}
+			\caption{}
+		\end{subfigure}
+		\hspace{0.1cm}
+		\begin{subfigure}{.32\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/240}
+			\caption{}
+		\end{subfigure}
+		\caption{Пример работы: а) оригинальные оптические изображения; б) оригинальные тепловые изображения; в) получившиеся маски}
+		\label{fig:test_segm}
+	\end{figure}
 	
 	\chapter*{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
 	\addcontentsline{toc}{chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
 	
 	\begin{sortedlist_rus}
 		\sortitem{Группа компаний <<Лаборатория>>: Контроль выбросов в атмосферу: [сайт]. -- 2012. URL: https://gklab.ru/uslugi/proizvodstvennyj-kontrol/\linebreak kontrol-vybrosov-v-atmosferu/ (дата обращения: 10.12.2022).}{gklab.ru}{adarauaqaqaaalapanaqaaaoajakamaaabaparaaataparajbgalapaoatarapambbacbcabarapasapacacaaatanapasavafarau}
-		\sortitem{\textbf{Исаев, Л.Н.} Газоанализаторы для контроля атмосферного воздуха и промышленных выбросов / Л.Н.~Исаев, В.Г.~Челибанов // Электронника: ЭТБ: Сетевой журнал. -- 2008. -- №~1. -- C.~34. -- URL:~https://\linebreak www.electronics.ru/files/article\_pdf/0/article\_321\_86.pdf (дата обращения: 10.12.2022).}{electronics.ru}{ajasaaafacayafamajabaaaoapac}
+		\sortitem{\textbf{Исаев, Л.~Н.} Газоанализаторы для контроля атмосферного воздуха и промышленных выбросов / Л.~Н.~Исаев, В.~Г.~Челибанов // Электронника: ЭТБ: Сетевой журнал. -- 2008. -- №~1. -- C.~34. -- URL:~https://\linebreak www.electronics.ru/files/article\_pdf/0/article\_321\_86.pdf (дата обращения: 10.12.2022).}{electronics.ru}{ajasaaafacayafamajabaaaoapac}
 		\sortitem{Газоанализаторы: Классификация газоанализаторов: [сайт]. -- 2017. URL: https://gazoanalizators.ru/articles/klassifikatsiya-gazoanalizatorov/ (дата обращения: 13.12.2022).}{gazoanalizators.ru1}{adaaaiapaaaoaaamajaiaaataparbcalamaaasasajavajalaaaxajbgadaaaiapaaaoaaamajaiaaataparapac}
 		\sortitem{Газоанализаторы: Контроль технологических процессов: системы экологического мониторинга промышленных выбросов: [сайт]. -- 2017.\linebreak  URL: https://gazoanalizators.ru/articles/sistemy-ekologicheskogo-monitoringa-promyshlennykh-vybrosov/ (дата обращения: 13.12.2022).}{gazoanalizators.ru2}{adaaaiapaaaoaaamajaiaaataparbcalapaoatarapambbatafawaoapamapadajayafasalajawaqarapaxafasasapacasajasatafanbcbealapamapadajayafasalapadapanapaoajataparajaoadaaaqarapanbcazamafaoaobcawacbcabarapasapac}
-		\sortitem{\textbf{Методическое пособие по аналитическому контролю выбросов загрязняющих веществ в атмосферу} /  В.В.~Цибульский,\linebreak Л.И.~Короленко, М.А.~Яценко-Хмелевская, О.Р.~Синицына, М.В.~Боровкова. -- Санкт-Петербург: ОАО <<НИИ АТМОСФЕРА>>, 2012. -- 25~c.}{МЕТОДИЧЕСКОЕ ПОСОБИЕ ПО АНАЛИТИЧЕСКОМУ КОНТРОЛЮ ВЫБРОСОВ ЗАГРЯЗНЯЮЩИХ ВЕЩЕСТВ В АТМОСФЕРУ}{axajabauambbasalajakalaparapamafaoalapbgaxafaoalapawanafamafacasalaabgasajaoajaxbcaoaaabaparapacalapacaa}
-		\sortitem{\textbf{Об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе} [текст]: Приказ министерства природных ресурсов и экологии Российской Федерации от 6 июня 2017 года № 273 // Министерство природных ресурсов и экологии Российской Федерации, 2017. -- 1-10~c.}{Об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе}{apabauatacafarahaeafaoajajanafatapaeapacaraaasayafatapacaraaasasafajacaaaoajbgacbcabarapasapacacarafaeaobcawaiaaadarbgaiaobgbfbaajawacafbaafasatacacaaatanapasavafaraoapanacapaiaeauawaf}
-		\sortitem{\textbf{Драгун,~В.Л.} Тепловизионные системы в исследовании тепловых процессов / В.Л.~Драгун, С.А.~Филатов. -- Москва: Наука, 1967. -- 256 с.}{Тепловизионные системы в исследовании тепловых процессов}{aearaaadauaoavajamaaatapac}
-		\sortitem{\textbf{Криксунов,~Л.З.} Тепловизоры: справочник / Л.З.~Криксунов, Г.А.~Падалко  -- Киев: Техника, 1987. -- 287 с.}{Тепловизоры: справочник}{alarajalasauaoapacaqaaaeaaamalap}
-		\sortitem{\textbf{Виндерлих,~М.Е.} Использование Тепловизора в комплексной диагностике и лечении заболеваний опорно-двигательной системы: обзор литературы / М.Е.~Виндерлих, Н.Б.~Щеколова -- Йошкар-Ола: Марийский государственный университет, 2020. -- 55 с.}{Использование Тепловизора в комплексной диагностике и лечении заболеваний опорно-двигательной системы}{acajaoaeafaramajawbaafalapamapacaa}
+		\sortitem{\textbf{Методическое пособие по аналитическому контролю выбросов загрязняющих веществ в атмосферу} /  В.~В.~Цибульский,\linebreak Л.~И.~Короленко, М.~А.~Яценко-Хмелевская, О.~Р.~Синицына, М.~В.~Боровкова. -- Санкт-Петербург: ОАО <<НИИ АТМОСФЕРА>>, 2012. -- 25~c.}{МЕТОДИЧЕСКОЕ ПОСОБИЕ ПО АНАЛИТИЧЕСКОМУ КОНТРОЛЮ ВЫБРОСОВ ЗАГРЯЗНЯЮЩИХ ВЕЩЕСТВ В АТМОСФЕРУ}{axajabauambbasalajakalaparapamafaoalapbgaxafaoalapawanafamafacasalaabgasajaoajaxbcaoaaabaparapacalapacaa}
+		\sortitem{\textbf{Об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе} [текст]: Приказ министерства природных ресурсов и экологии Российской Федерации от 6 июня 2017 года № 273 // Министерство природных ресурсов и экологии Российской Федерации, 2017. -- 1--10~c.}{Об утверждении методов расчетов рассеивания выбросов вредных (загрязняющих) веществ в атмосферном воздухе}{apabauatacafarahaeafaoajajanafatapaeapacaraaasayafatapacaraaasasafajacaaaoajbgacbcabarapasapacacarafaeaobcawaiaaadarbgaiaobgbfbaajawacafbaafasatacacaaatanapasavafaraoapanacapaiaeauawaf}
+		\sortitem{\textbf{Драгун,~В.~Л.} Тепловизионные системы в исследовании тепловых процессов / В.~Л.~Драгун, С.~А.~Филатов. -- Москва: Наука, 1967. -- 256 с.}{Тепловизионные системы в исследовании тепловых процессов}{aearaaadauaoavajamaaatapac}
+		\sortitem{\textbf{Криксунов,~Л.~З.} Тепловизоры: справочник / Л.~З.~Криксунов, Г.~А.~Падалко  -- Киев: Техника, 1987. -- 287 с.}{Тепловизоры: справочник}{alarajalasauaoapacaqaaaeaaamalap}
+		\sortitem{\textbf{Виндерлих,~М.~Е.} Использование Тепловизора в комплексной диагностике и лечении заболеваний опорно-двигательной системы: обзор литературы / М.~Е.~Виндерлих, Н.~Б.~Щеколова -- Йошкар-Ола: Марийский государственный университет, 2020. -- 55 с.}{Использование Тепловизора в комплексной диагностике и лечении заболеваний опорно-двигательной системы}{acajaoaeafaramajawbaafalapamapacaa}
 		\sortitem{К-мерные деревья и перечисление точек в произвольном прямоугольнике (статика): [сайт]. -- 2022. URL: https:/clck.ru/nRrXB (дата обращения: 18.03.2023).}{k-мерное дерево на сайте итмо}{alaeafarafacbbbgajaqafarafayajasamafaoajafatapayafalacaqarapajaiacapambbaoapanaqarbganapauadapambbaoajalafasataaatajalaa}
-		\sortitem{\textbf{Основы тепловидения}: учебное пособие /  В.В.~Коротаев,\linebreak Г.С.~Мельников, С.В.~Михеев, В.М.~Самков, Ю.И.~Солдатов. --\linebreak Санкт-Петербург: Санкт-Петербургский национальный исследовательский университет информационных технологий, механники и оптики, 2012. -- 123~c.}{Основы тепловидения: учебное пособие}{alaparapataaafacanafambbaoajalapacanajawafafacasaaanalapacasapamaeaaatapac}
+		\sortitem{\vspace{1.3cm}\textbf{Основы тепловидения}: учебное пособие /  В.~В.~Коротаев,\linebreak Г.~С.~Мельников, С.~В.~Михеев, В.~М.~Самков, Ю.~И.~Солдатов. --\linebreak Санкт-Петербург: Санкт-Петербургский национальный исследовательский университет информационных технологий, механники и оптики, 2012. -- 123~c.}{Основы тепловидения: учебное пособие}{alaparapataaafacanafambbaoajalapacanajawafafacasaaanalapacasapamaeaaatapac}
 	\end{sortedlist_rus}
 	\begin{sortedlist_eng}
 		\sortitem{\textbf{Lee,~J.} FLIR Technology: 'New' Technology Shines a Camera on Greenhouse Gas Emissions / J.~Lee // Triple Pundit. -- 2018. -- №~12 -- P.~1 URL: https://clck.ru/34N7zc (дата обращения: 02.01.2023).}{triplepundit.com}{LeeJFLIRTechnologyNewTechnologyShinesaCameraonGreenhouseGasEmissions}
-		\sortitem{\textbf{Davison,~J.} Gasoline and diesel passenger car emissions deterioration using on-road emission measurements and measured mileage / J.~Davison, R.A.~Rose, N.J.~Farren // Atmospheric Environment: X. -- 2022. -- V.~14. -- P.~100162.}{Gasoline and diesel passenger car emissions deterioration using on-road emission measurements and measured mileage}{DavisonRoseFarren}
+		\sortitem{\textbf{Davison,~J.} Gasoline and diesel passenger car emissions deterioration using on-road emission measurements and measured mileage / J.~Davison, R.~A.~Rose, N.~J.~Farren // Atmospheric Environment: X. -- 2022. --\linebreak V.~14. -- P.~100162.}{Gasoline and diesel passenger car emissions deterioration using on-road emission measurements and measured mileage}{DavisonRoseFarren}
 		\sortitem{OpenCV: Feature Detection and Description: [сайт]. -- 2018. URL: https://docs.opencv.org/4.x/dc/dc3/tutorial\_py\_matcher.html (дата обращения: 01.02.2023).}{OpenCV: Feature Detection and Description}{OpenCVFeatureDetectionandDescription}
 		\sortitem{Automation Technology: Early fire detection and condition monitoring: [сайт]. -- 2020. URL: https://www.automationtechnology.de/cms/wp-content/\linebreak uploads/2015/12/Monitoring-application-overview.pdf (дата обращения:\linebreak 08.02.2023).}{Early fire detection and condition monitoring}{Earlyfiredetectionandconditionmonitoring}
-		\sortitem{\textbf{Moreland,~K.D.} Diverging Color Maps for Scientific Visualization (Expanded) / K.D.~Moreland // Sandia National Laboratories. -- 2009. -- P.~3.}{Diverging Color Maps for Scientific Visualization (Expanded)}{MorelandKDDivergingColorMapsforScientificVisualizationExpanded}
-		\sortitem{\textbf{Ibraheem,~N.A.} Understanding color models: a review /\linebreak N.A.~Ibraheem, M.M.~Hasan, R.Z.~Khan // Journal of science and technology. -- 2009. -- V.~2, №~3. -- P.~265-275.}{Understanding color models: a review}{Understandingcolormodelsareview}
-		\sortitem{\textbf{Cunningham,~P.} k-Nearest neighbour classifiers: a tutorial /\linebreak P.~Cunningham, S.J.~Delany // ACM computing surveys. -- 2021. -- V.~54, №~6. -- P.~1-25.}{k-Nearest neighbour classifiers: a tutorial}{CunninghamPDelanySJkNearestneighbourclassifiersatutorial}
+		\sortitem{\textbf{Moreland,~K.~D.} Diverging Color Maps for Scientific Visualization (Expanded) / K.~D.~Moreland // Sandia National Laboratories. --\linebreak 2009. -- P.~3.}{Diverging Color Maps for Scientific Visualization (Expanded)}{MorelandKDDivergingColorMapsforScientificVisualizationExpanded}
+		\sortitem{\textbf{Ibraheem,~N.~A.} Understanding color models: a review /\linebreak N.~A.~Ibraheem, M.~M.~Hasan, R.~Z.~Khan // Journal of science and\linebreak technology. -- 2009. -- V.~2, №~3. -- P.~265--275.}{Understanding color models: a review}{Understandingcolormodelsareview}
+		\sortitem{\textbf{Cunningham,~P.} k-Nearest neighbour classifiers: a tutorial /\linebreak P.~Cunningham, S.~J.~Delany // ACM computing surveys. -- 2021. -- V.~54, №~6. -- P.~1--25.}{k-Nearest neighbour classifiers: a tutorial}{CunninghamPDelanySJkNearestneighbourclassifiersatutorial}
 		\sortitem{Scholarpedia: Scale Invariant Feature Transform: [сайт]. -- 2016. URL: http://www.scholarpedia.org/article/Scale\_Invariant\_Feature\_Transform\linebreak (дата обращения: 05.04.2023).}{Scholarpedia: Scale Invariant Feature Transform}{ScholarpediaScaleInvariantFeatureTransform}
-		\sortitem{\textbf{Fischler,~M.A.} Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography /\linebreak M.A.~Fischler, R.C.~Bolles // Communications of the ACM. -- 1981. -- V.~24, №~6. -- P.~381-395.}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}
-		\sortitem{\textbf{Mohamed,~I.S.} Detection and tracking of pallets using a laser\linebreak rangefinder and machine learning techniques / I.S.~Mohamed. -- Genova:\linebreak European Master on Advanced Robotics+(EMARO+), 2017. -- 77~p.}{Detection and tracking of pallets using a laser rangefinder and machine learning techniques}{MohamedISDetectionandtrackingofpalletsusing}
+		\sortitem{\vspace{1cm}\textbf{Fischler,~M.~A.} Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography /\linebreak M.~A.~Fischler, R.~C.~Bolles // Communications of the ACM. -- 1981. -- V.~24, №~6. -- P.~381--395.}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}
+		\sortitem{\textbf{Mohamed,~I.~S.} Detection and tracking of pallets using a laser\linebreak rangefinder and machine learning techniques / I.~S.~Mohamed. -- Genova:\linebreak European Master on Advanced Robotics+(EMARO+), 2017. -- 77~p.}{Detection and tracking of pallets using a laser rangefinder and machine learning techniques}{MohamedISDetectionandtrackingofpalletsusing}
+		\sortitem{\textbf{Zhao,~R.} Rethinking dice loss for medical image segmentation / R.~Zhao, B.~Qian, X.~Zhang // 2020 IEEE International Conference on Data Mining (ICDM). -- 2020. -- P.~851--860.}{Rethinking dice loss for medical image segmentation}{ZhaoQianZhangRethinkingdiceloss}
 	\end{sortedlist_eng}
 	
 	
