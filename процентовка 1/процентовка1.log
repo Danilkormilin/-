@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  24 APR 2023 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  24 MAY 2023 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1583,7 +1583,7 @@ thkerncmss.
 [1
 
 {d:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<image/ToC2.png, id=66, 548.0475pt x 749.04843pt>
+<image/ToC2.png, id=67, 548.0475pt x 749.04843pt>
 File: image/ToC2.png Graphic file (type png)
 <use image/ToC2.png>
 Package pdftex.def Info: image/ToC2.png  used on input line 15.
@@ -1603,7 +1603,7 @@ Overfull \hbox (1.9356pt too wide) in paragraph at lines 26--26
 [3
 
 ]
-<image/scheme1.png, id=134, 1390.44469pt x 754.31813pt>
+<image/scheme1.png, id=138, 1390.44469pt x 754.31813pt>
 File: image/scheme1.png Graphic file (type png)
 <use image/scheme1.png>
 Package pdftex.def Info: image/scheme1.png  used on input line 35.
@@ -1611,12 +1611,12 @@ Package pdftex.def Info: image/scheme1.png  used on input line 35.
  [4
 
  <./image/scheme1.png>]
-<image/optic_invis.png, id=160, 727.96968pt x 484.05844pt>
+<image/optic_invis.png, id=165, 727.96968pt x 484.05844pt>
 File: image/optic_invis.png Graphic file (type png)
 <use image/optic_invis.png>
 Package pdftex.def Info: image/optic_invis.png  used on input line 59.
 (pdftex.def)             Requested size: 122.91406pt x 81.7275pt.
-<image/tep_vis.png, id=161, 715.17188pt x 484.05844pt>
+<image/tep_vis.png, id=166, 715.17188pt x 484.05844pt>
 File: image/tep_vis.png Graphic file (type png)
 <use image/tep_vis.png>
 Package pdftex.def Info: image/tep_vis.png  used on input line 59.
@@ -1624,17 +1624,17 @@ Package pdftex.def Info: image/tep_vis.png  used on input line 59.
  [5
 
  <./image/optic_invis.png> <./image/tep_vis.png>]
-<image/opt_examp.jpg, id=190, 739.76375pt x 590.205pt>
+<image/opt_examp.jpg, id=196, 739.76375pt x 590.205pt>
 File: image/opt_examp.jpg Graphic file (type jpg)
 <use image/opt_examp.jpg>
 Package pdftex.def Info: image/opt_examp.jpg  used on input line 93.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
-<image/tep_examp.jpg, id=191, 739.76375pt x 590.205pt>
+<image/tep_examp.jpg, id=197, 739.76375pt x 590.205pt>
 File: image/tep_examp.jpg Graphic file (type jpg)
 <use image/tep_examp.jpg>
 Package pdftex.def Info: image/tep_examp.jpg  used on input line 93.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
-<image/mask.jpg, id=192, 739.76375pt x 590.205pt>
+<image/mask.jpg, id=198, 739.76375pt x 590.205pt>
 File: image/mask.jpg Graphic file (type jpg)
 <use image/mask.jpg>
 Package pdftex.def Info: image/mask.jpg  used on input line 93.
@@ -1652,7 +1652,7 @@ Overfull \vbox (6.9231pt too high) detected at line 93
 [6
 
  <./image/opt_examp.jpg> <./image/tep_examp.jpg> <./image/mask.jpg>]
-<image/scheme2.png, id=223, 1868.48062pt x 636.87938pt>
+<image/scheme2.png, id=230, 1868.48062pt x 636.87938pt>
 File: image/scheme2.png Graphic file (type png)
 <use image/scheme2.png>
 Package pdftex.def Info: image/scheme2.png  used on input line 104.
@@ -1660,13 +1660,13 @@ Package pdftex.def Info: image/scheme2.png  used on input line 104.
  [7
 
  <./image/scheme2.png>]
-<image/chapter_2/opt_example.jpg, id=250, 1927.2pt x 1084.05pt>
+<image/chapter_2/opt_example.jpg, id=258, 1927.2pt x 1084.05pt>
 File: image/chapter_2/opt_example.jpg Graphic file (type jpg)
 <use image/chapter_2/opt_example.jpg>
 Package pdftex.def Info: image/chapter_2/opt_example.jpg  used on input line 12
 4.
 (pdftex.def)             Requested size: 153.64493pt x 86.41148pt.
-<image/chapter_2/tep_example.jpg, id=251, 1284.8pt x 1027.84pt>
+<image/chapter_2/tep_example.jpg, id=259, 1284.8pt x 1027.84pt>
 File: image/chapter_2/tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/tep_example.jpg>
 Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 12
@@ -1681,7 +1681,7 @@ l.124 	\end{frame}
                    [8
 
  <./image/chapter_2/opt_example.jpg> <./image/chapter_2/tep_example.jpg>]
-<image/chapter_2/loaddata.jpg, id=276, 1063.975pt x 642.4pt>
+<image/chapter_2/loaddata.jpg, id=285, 1063.975pt x 642.4pt>
 File: image/chapter_2/loaddata.jpg Graphic file (type jpg)
 <use image/chapter_2/loaddata.jpg>
 Package pdftex.def Info: image/chapter_2/loaddata.jpg  used on input line 135.
@@ -1698,7 +1698,7 @@ File: image/chapter_2/tep_example.jpg Graphic file (type jpg)
 Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 15
 5.
 (pdftex.def)             Requested size: 113.81102pt x 91.04303pt.
-<image/chapter_2/gray_tep_example.jpg, id=303, 1284.8pt x 1027.84pt>
+<image/chapter_2/gray_tep_example.jpg, id=313, 1284.8pt x 1027.84pt>
 File: image/chapter_2/gray_tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/gray_tep_example.jpg>
 Package pdftex.def Info: image/chapter_2/gray_tep_example.jpg  used on input li
@@ -1707,7 +1707,7 @@ ne 155.
  [10
 
  <./image/chapter_2/gray_tep_example.jpg>]
-<image/chapter_2/kdtreeexample.jpg, id=329, 676.02562pt x 321.45094pt>
+<image/chapter_2/kdtreeexample.jpg, id=340, 676.02562pt x 321.45094pt>
 File: image/chapter_2/kdtreeexample.jpg Graphic file (type jpg)
 <use image/chapter_2/kdtreeexample.jpg>
 Package pdftex.def Info: image/chapter_2/kdtreeexample.jpg  used on input line 
@@ -1716,13 +1716,13 @@ Package pdftex.def Info: image/chapter_2/kdtreeexample.jpg  used on input line
  [11
 
  <./image/chapter_2/kdtreeexample.jpg>]
-<image/chapter_2/colorclassification.jpg, id=355, 562.1pt x 652.4375pt>
+<image/chapter_2/colorclassification.jpg, id=367, 562.1pt x 652.4375pt>
 File: image/chapter_2/colorclassification.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification.jpg  used on input
  line 187.
 (pdftex.def)             Requested size: 144.4266pt x 167.63867pt.
-<image/chapter_2/colorclassification2.jpg, id=356, 240.9pt x 451.6875pt>
+<image/chapter_2/colorclassification2.jpg, id=368, 240.9pt x 451.6875pt>
 File: image/chapter_2/colorclassification2.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification2.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification2.jpg  used on inpu
@@ -1744,7 +1744,7 @@ Overfull \vbox (1.0153pt too high) detected at line 187
 tion2.jpg>] [13
 
 ]
-<image/accuracy_plot.png, id=411, 550.30594pt x 405.76593pt>
+<image/accuracy_plot.png, id=425, 550.30594pt x 405.76593pt>
 File: image/accuracy_plot.png Graphic file (type png)
 <use image/accuracy_plot.png>
 Package pdftex.def Info: image/accuracy_plot.png  used on input line 213.
@@ -1756,7 +1756,7 @@ Overfull \vbox (9.3491pt too high) detected at line 213
 [14
 
  <./image/accuracy_plot.png>]
-<image/chapter_2/fullprepare.jpg, id=437, 160.34906pt x 472.76625pt>
+<image/chapter_2/fullprepare.jpg, id=452, 160.34906pt x 472.76625pt>
 File: image/chapter_2/fullprepare.jpg Graphic file (type jpg)
 <use image/chapter_2/fullprepare.jpg>
 Package pdftex.def Info: image/chapter_2/fullprepare.jpg  used on input line 22
@@ -1796,6 +1796,18 @@ l.251 	\end{frame}
                    [16
 
 ]
+<image/accuracy_itog_plot.png, id=504, 426.09187pt x 323.70938pt>
+File: image/accuracy_itog_plot.png Graphic file (type png)
+<use image/accuracy_itog_plot.png>
+Package pdftex.def Info: image/accuracy_itog_plot.png  used on input line 263.
+(pdftex.def)             Requested size: 184.3758pt x 140.07646pt.
+
+Overfull \vbox (11.59052pt too high) detected at line 263
+ []
+
+[17
+
+ <./image/accuracy_itog_plot.png>]
 \tf@nav=\write6
 \openout6 = `процентовка1.nav'.
 
@@ -1819,10 +1831,10 @@ Package rerunfilecheck Info: File `процентовка1.out' has not changed
 (rerunfilecheck)             Checksum: D537C3CEA22750A281F4A0DEEAEC34F0;831.
  ) 
 Here is how much of TeX's memory you used:
- 41433 strings out of 476093
- 966765 string characters out of 5795584
- 1868787 words of memory out of 5000000
- 60933 multiletter control sequences out of 15000+600000
+ 41450 strings out of 476093
+ 967195 string characters out of 5795584
+ 1869787 words of memory out of 5000000
+ 60946 multiletter control sequences out of 15000+600000
  531520 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,746b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1841,10 +1853,10 @@ ts/type1/public/cm-super/sfss1095.pfb><d:/texlive/2022/texmf-dist/fonts/type1/p
 ublic/cm-super/sfss1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-s
 uper/sfss1440.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1
 095.pfb>
-Output written on процентовка1.pdf (16 pages, 2547881 bytes).
+Output written on процентовка1.pdf (17 pages, 2570286 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 463 compressed objects within 5 object streams
- 45 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

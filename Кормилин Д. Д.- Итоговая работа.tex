@@ -25,7 +25,7 @@
 	
 	Целью данной работы является разработка алгоритма сегментации факела выбросов с использованием тепло-видео систем с реализацией в виде программного модуля. Для достижения данной цели необходимо решить следующие задачи:
 	\begin{enumerate}[label={\arabic*)}]
-		\item исследование существующих методов для решения задачи получения геометрических и физических характеристик выбросов;
+		\item исследование существующих методов для решения задачи контроля выбросов;
 		\item исследование современных способов применения оптических и тепловых снимков;
 		\item разработка алгоритма для сегментации факела выбросов с использованием тепловых и оптических снимков.
 	\end{enumerate}
@@ -912,7 +912,7 @@
 	
 	Для преобразования цветов была использованна непараметрическая модель <<k ближайших соседей>>. Используемая модель реализована с помощью структуры данных <<k--мерное дерево>>.
 	
-	Описана также математическая модель алгоритма детекции трубы, построенная на методе инвариантное преобразование особенностей, их сопоставления с помощью алгоритма <<k ближайших соседей>>, а также востановления трубы с помощью алгоритма <<RanSaC>>. Данный этап является одним из ключевых этапов сегментации.
+	Описана также математическая модель алгоритма детекции трубы, построенная на методе инвариантного преобразования особенностей, их сопоставления с помощью алгоритма <<k ближайших соседей>>, а также востановления трубы с помощью алгоритма <<RanSaC>>. Данный этап является одним из ключевых этапов сегментации.
 	
 	Подробно рассмотрен метод сегментации водоразделами. Данный метод отличается высокой скоростью работы, а также достаточно высокой точностью при работе с зашумленными изображениями. Подробное описание метода представленно в соответствующей части главы. Для решения поставленой задачи было решено использовать модифицированную версию алгоритма, включающую спользование маркеров.
 	
@@ -1305,13 +1305,30 @@
 		\label{fig:accuracy_itog_plot}
 	\end{figure}
 	
+\section[Выводы по главе 3]{Выводы по главе 3}	
+	В данной работе исследуется решение задачи сегментации факела выбросов с использованием данных тепло-видео систем наблюдения. В третьей главе приводится разработанные алгоритмы, согласно определенной ранее математической модели, а также результаты их работы, оценка точности.
 	
+	Приведены алгоритмы рассмотреных ранее этапов подготовки данных с результатами работы. Для преобразования цветовой карты был разработан алгоритм на базе модели <<k ближайших соседей>>. Были приведены результаты работы, а также оценена точность в зависимости от степени сжатия. Оценка точности показала, что разработанный алгоритм работает достаточно точно даже при самых высоких уровнях сжатия, показывая точность выше 98\%.
 	
+	Был разработан алгоритм детекции трубы, использующий метод инвариантного преобразования особенностей для получения особых точек и алгоритм <<k ближайших соседей>> для их сопоставления. Данная часть работы показала свою необходимость для дальнейшего получения маркеров для алгоритма сегментации.
+	
+	В качестве алгоритма сегментации был разработан и реализован алгоритм сегментации водоразделами. Данный алгоритм является устойчивым к шуму, так как использует заранее подготовленные маркеры. В качестве данных маркеров было решено использовать трубу, как самы горячий объект, а также самую холодную область на изображении. Были приведены результаты работы алгоритма на подготовленной тестовой выборке. Также на этой выборке была посчитана точность алгоритма по метрике <<DICE>>, которая составила 86,2\%. помимо количественной оценки точности был также приведен график точности в заввисимости от кадра видео, который показывает разброс точности работы алгоритма, а также наглядные иллюстрации с разницей между заранее подготовленными масками и результатами работы алгоритма. Еще одним преемуществом работы алгоритма является его быстродействие, так как время, затрачиваемое на каждый этап алгоритма линейно зависит от размера подаваемого изображения, что в рассматриваемой задаче является оптимальным временем работы.
 
+\chapter*{ЗАКЛЮЧЕНИЕ}
+\addcontentsline{toc}{chapter}{ЗАКЛЮЧЕНИЕ}
+	Целью данной работы являлась разработка алгоритма сегментации факела выбросов с использованием тепло-видео систем с реализацией в виде программного модуля, как ответ на проблему загрязнения окружающей среды вредными выбросами предприятий. В ходе работы была сформулирована задача бинарной сегментации пары из изображения и матрицы температур, а также рассмотрены современные способы контроля за вредными выбросами и способы применения тепло-видео систем наблюдения. Для решения задачи были выбраны классические методы сегментации, опирающиеся на высокую температуру выбросов.
+	
+	Алгоритм сегментации был разделен на два этапа. Первым этапом является подготовка данных. Решение это подзадачи оказалось нетривиальным и потребовало использования методов машинного обучения, а конкретно алгоритма <<k ближайших соседей>>. Для оценки данных методов была сформулирована метрика точности и была посчитана точность. Резульаты показали высокую точность, даже при сильном сжатии изображения.
+	
+	Вторым этапом является непосредственно сегментация. Она в свою очередь делится на этап детекции трубы, а также сегментацию факела выбросов. Для решения задачи детекции трубы был использован инвариантного преобразования особенностей и алгоритм <<k ближайших соседей>>. Детекция трубы является важным этапом сегментации, так как позволяет получить маркеры для дальнейшей сегментации. Одним из преимуществ данного подхода является высокое быстродействие.
+	
+	Для сегментации факела выбросов был использован метод сегментации водорозделами, с применением маркеров. Данный метод был протестирован на тестовой выборке, представляющей из себя тепловое и оптическое видео длинной в 100 кадров, размеченные в ручную. На данной тестовой выборке алгоритм был протестирован с использование метрики точности <<DICE>>. Была получена точность 86,2\%. Также были продемонстрированы график точности и иллюстрации разницы между подготовлеными и посчитаными алгоритмом масками. на основании всех этих данных можно сделать вывод о достаточно высокой точности алгоритма. Также были сделаны выводы о его высоком быстродействии.
+	
+	Таким образом цели работы были достигнуты, а поставленная задача -- решена. Представленное в работе решение может быть использовано для сегментации выбросов для дальнейшего получения информации в рамках проекта <<Экомонитор>>. В виду большого количества информации потенциально скрытого в тепловых матрицах, такого как возможная зависимость между обхемом выбросов и их температурой, дальнейшими целями для развития работы может стать получение физических характеристик факела выбросов.
 	
 	
-	\chapter*{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
-	\addcontentsline{toc}{chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
+\chapter*{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
+\addcontentsline{toc}{chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
 	
 	\begin{sortedlist_rus}
 		\sortitem{Группа компаний <<Лаборатория>>: Контроль выбросов в атмосферу: [сайт]. -- 2012. URL: https://gklab.ru/uslugi/proizvodstvennyj-kontrol/\linebreak kontrol-vybrosov-v-atmosferu/ (дата обращения: 10.12.2022).}{gklab.ru}{adarauaqaqaaalapanaqaaaoajakamaaabaparaaataparajbgalapaoatarapambbacbcabarapasapacacaaatanapasavafarau}
@@ -1340,6 +1357,285 @@
 		\sortitem{\textbf{Zhao,~R.} Rethinking dice loss for medical image segmentation / R.~Zhao, B.~Qian, X.~Zhang // 2020 IEEE International Conference on Data Mining (ICDM). -- 2020. -- P.~851--860.}{Rethinking dice loss for medical image segmentation}{ZhaoQianZhangRethinkingdiceloss}
 	\end{sortedlist_eng}
 	
+\chapter*{ПРИЛОЖЕНИЕ 1}
+\addcontentsline{toc}{chapter}{ПРИЛОЖЕНИЕ 1}
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+		
+#include <ctime>
+#include <iostream>
+#include <algorithm>
+
+// Объявление переменных для работы с CALLBACK функциями
+bool opt = false, tep = false;
+unsigned int tepclock = 0;
+unsigned int optframe = 0;
+unsigned int tepframe = 0;
+CHeatmap CH1;
+
+// CALLBACK Функция для получения максимальной 
+// и минимальной температуры
+// вызывается 1 раз в секунду из API
+void CALLBACK cbRadiometryAttachCB(LLONG lAttachHandle, 
+NET_RADIOMETRY_DATA* pBuf, int nBufLen, 
+LDWORD dwUser)
+{
+	static CString strTemperature = "";
+	float* pTempForPixels = new 
+	float[pBuf->stMetaData.nWidth * 
+	pBuf->stMetaData.nHeight * sizeof(float)];
+	if (VSIF_RadiometryDataParse(pBuf, 
+	NULL, pTempForPixels))
+	{
+		int x1, y1, x2, y2;
+		float loTemp = 1000.0, hiTemp = -1000.0;
+		for (int i = 0; 
+		i < pBuf->stMetaData.nHeight; i++)
+		{
+			for (int j = 0; 
+			j < pBuf->stMetaData.nWidth; j++)
+			{
+				float temp = pTempForPixels[i * 
+				pBuf->stMetaData.nWidth + j];
+				
+				if (temp < loTemp)
+				{
+					loTemp = temp;
+					x1 = j;
+					y1 = i;
+				}
+				
+				if (temp > hiTemp)
+				{
+					hiTemp = temp;
+					x2 = j;
+					y2 = i;
+				}
+			}
+		}
+		// запись информации в файл
+		FILE* fp;
+		fp = fopen("saves\\temps.bin", "ab");
+		fwrite(&(pBuf->stMetaData.stTime.dwSecond), 
+		sizeof(DWORD), 1, fp);
+		fwrite(&loTemp, sizeof(float), 1, fp);
+		fwrite(&hiTemp, sizeof(float), 1, fp);
+		fclose(fp);
+	}
 	
+	delete[] pTempForPixels;
 	
+}
+
+// регистрация функции для вызова
+void CHeatmap::OnStartfetch()
+{
+	NET_IN_RADIOMETRY_FETCH stInFetch = 
+	{ sizeof(stInFetch), m_nHeatChannel };
+	NET_OUT_RADIOMETRY_FETCH stOutFetch = 
+	{ sizeof(stOutFetch) };
+	VSIF_RadiometryFetch(m_lLoginID, 
+	&stInFetch, &stOutFetch, 1000);
+}
+
+// функция вызываемая при нажатии на кнопку начала 
+// записи
+void CHeatmap::OnBnClickedStartfetch2()
+{
+	if (!m_isFetch)
+	{
+		if (VSIF_RadiometryStartFetch(m_lLoginID, 
+		m_nHeatChannel))
+		{
+			m_isFetch = true;
+		}
+	}
+	else
+	{
+		VSIF_RadiometryStopFetch(m_lLoginID, 
+		m_nHeatChannel);
+		m_isFetch = false;
+	}
+}
+
+// регистраций функции для получения максимальной
+// и минимальной температуры
+void CHeatmap::OnAttach()
+{
+	NET_IN_RADIOMETRY_ATTACH stIn = { sizeof(stIn) };
+	stIn.nChannel = m_nHeatChannel;
+	stIn.dwUser = (LDWORD)this;
+	stIn.cbNotify = cbRadiometryAttachCB;
+	NET_OUT_RADIOMETRY_ATTACH stOut = { sizeof(stOut) };
+	m_lAttachhandle = VSIF_RadiometryAttach(m_lLoginID, 
+	&stIn, &stOut, 1000);
+}
+
+// Остановка вызова функции для получения максимальной и 
+// минимальной температуры
+void CHeatmap::OnStop()
+{
+	VSIF_RadiometryDetach(m_lAttachhandle);
+}
+
+// Функция авторизации 
+void CRealPlayAndPTZControlDlg::OnBTLogin()
+{
+	//получение интерфейса ввода
+	BOOL bValid = UpdateData(TRUE);	
+	if (bValid)
+	{
+		//переменная с возможным кодом ошибки.
+		int err = 0;	
+		char* pchDVRIP;
+		CString strDvrIP = GetDvrIP();
+		pchDVRIP = (LPSTR)(LPCSTR)"192.168.25.199";
+		WORD wDVRPort = (WORD)m_DvrPort;
+		char* pchUserName = (LPSTR)(LPCSTR)"admin";
+		char* pchPassword = (LPSTR)(LPCSTR)"susu";
+		NET_DEVICEINFO_Ex deviceInfo = { 0 };
+		//вызов аторизации из API 
+		LLONG lRet = VSIF_LoginEx2(pchDVRIP, 
+		wDVRPort, pchUserName,
+		pchPassword, EM_LOGIN_SPEC_CAP_TCP, NULL,
+		&deviceInfo, &err);
+		// если регистрация успешна получение информации о
+		// состоянии устройства
+		if (0 != lRet)
+		{
+			m_LoginID = lRet;
+			GetDlgItem(IDC_BT_Login)->EnableWindow(FALSE);
+			GetDlgItem(IDC_BT_Leave)->EnableWindow(TRUE);
+			GetDlgItem(IDC_BUTTON_Play)->EnableWindow(TRUE);
+			int nRetLen = 0;
+			NET_DEV_CHN_COUNT_INFO stuChn = 
+			{ sizeof(NET_DEV_CHN_COUNT_INFO) };
+			stuChn.stuVideoIn.dwSize = 
+			sizeof(stuChn.stuVideoIn);
+			stuChn.stuVideoOut.dwSize = 
+			sizeof(stuChn.stuVideoOut);
+			BOOL bRet = VSIF_QueryDevState(lRet, 
+			VS_DEVSTATE_DEV_CHN_COUNT, (char*)&stuChn, 
+			stuChn.dwSize, &nRetLen);
+			if (!bRet)
+			{
+				DWORD dwError = 
+				VSIF_GetLastError() & 0x7fffffff;
+			}
+			m_nChannelCount = __max(deviceInfo.nChanNum, 
+			stuChn.stuVideoIn.nMaxTotal);
+			int nIndex = 0;
+			m_comboChannel.ResetContent();
+			for (int i = 0; i < m_nChannelCount; i++)
+			{
+				CString str;
+				str.Format("%d", i + 1);
+				nIndex = m_comboChannel.AddString(str);
+				m_comboChannel.SetItemData(nIndex, i);
+			}
+			if (0 < m_comboChannel.GetCount())
+			{
+				nIndex = m_comboChannel.
+				AddString(
+				ConvertString("Multi_Preview"));
+				m_comboChannel.SetItemData(nIndex, -1);
+				m_comboChannel.SetCurSel(0);
+			}
+			CH1.m_lLoginID = m_LoginID;
+			CH1.OnAttach();
+			CH1.OnBnClickedStartfetch2();
+		}
+		else
+		{
+			//Сообщение об ошибке
+			ShowLoginErrorReason(err);
+		}
+	}
+	SetWindowText(
+	ConvertString("RealPlayAndPTZControl"));
+	
+}
+
+// CALLBACK функция вызываемая при получении данных
+void CALLBACK DecodeCallback(LONG nPort, 
+FRAME_DECODE_INFO* pFrameDecodeInfo, 
+FRAME_INFO_EX* pFrameInfo, void* pUser)
+{
+	if (pUser == 0)
+	{
+		return;
+	}
+	CRealPlayAndPTZControlDlg* dlg = 
+	(CRealPlayAndPTZControlDlg*)pUser;
+	dlg->ReceiveDecodeData(nPort, 
+	pFrameDecodeInfo, pFrameInfo);
+}
+
+//обработка полученных данных
+void CRealPlayAndPTZControlDlg::ReceiveDecodeData(
+LONG nPort, 
+FRAME_DECODE_INFO* pFrameDecodeInfo, 
+FRAME_INFO_EX* pFrameInfo)
+{
+	// проверка на ошибки
+	if (0 == nPort || 
+	pFrameDecodeInfo == NULL || pFrameInfo == NULL)
+	{
+		return;
+	}
+	
+	// обработка оптических кадров
+	if (pFrameInfo->nFrameType == 0) 
+	{
+		FILE* fp;
+		if (pFrameInfo->nHeight == 1080)
+		{
+			fp = fopen("saves\\1920x1080.yuv", "ab");
+			opt = true;
+			if (optframe != tepframe)
+			{
+				fclose(fp);
+				return;
+			}
+			if (tep && opt)
+			{
+				optframe += 1;
+			}
+			
+		}
+		// обработка тепловых кадров
+		else
+		{
+			fp = fopen("saves\\1280x1024.yuv", "ab");
+			tep = true;
+			if (optframe != tepframe + 1)
+			{
+				fclose(fp);
+				return;
+			}
+			if (tep && opt)
+			{
+				tepframe += 1;
+			}
+			
+		}
+		// запись полученого кадра и контроль за динной кадра
+		if (tep && opt)
+		{
+			tepclock = clock();
+			fwrite(pFrameDecodeInfo->pVideoData[0], 
+			1, pFrameDecodeInfo->nStride[0] * 
+			pFrameDecodeInfo->nHeight[0], fp);
+			fwrite(pFrameDecodeInfo->pVideoData[1], 
+			1, pFrameDecodeInfo->nStride[1] * 
+			pFrameDecodeInfo->nHeight[1], fp);
+			fwrite(pFrameDecodeInfo->pVideoData[2], 
+			1, pFrameDecodeInfo->nStride[2] * 
+			pFrameDecodeInfo->nHeight[2], fp);
+			Sleep(max(0, 50 - (clock() - tepclock)));
+		}
+		fclose(fp);
+	}
+}
+\end{Verbatim}
+
 \end{document}

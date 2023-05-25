@@ -157,7 +157,7 @@
 	\begin{frame}
 		\frametitle{Модель <<FlannBasedMatcher>>}
 		
-		Эта модель решает задачу классификации и работает на основе метода $k$-ближайших соседей, оптированного с помощью структуры данных <<$k$-мерное дерево>>.
+		Работает на основе метода $k$-ближайших соседей, реализованого через структуру данных <<$k$-мерное дерево>>.
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width = 6cm]{image/chapter_2/kdtreeexample}	
@@ -247,6 +247,18 @@
 			\centering
 			\caption{Примеры полученых изображений, где (a) RGB изображение; (б) матрица температур; (г) полученная маска}
 			\label{fig:Examples}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Результаты}
+		Итоговая точность -- 86,2\%
+		\vspace*{0.65cm}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width = 0.6\textwidth]{image/accuracy_itog_plot}	
+			\caption{Алгоритм подготовки данных}
+			\label{fig:accuracy_itog_plot}
 		\end{figure}
 	\end{frame}
 
