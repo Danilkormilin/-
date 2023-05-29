@@ -1,25 +1,24 @@
 \documentclass[t]{beamer}
 \usepackage{susu}
-
+\usepackage{subcaption}
+\DeclareCaptionSubType*{figure}
+\renewcommand\thesubfigure{\asbuk{subfigure})}
+\DeclareCaptionLabelFormat{russian}{{#1~#2}}
+\captionsetup[subfigure]{labelformat=russian, font=small}
 \begin{document}
 	
 	\firstpage
 	\justifying
 \section{Введение}
-	\begin{frame}
-		\vspace*{-1.3cm}
-		\begin{figure}
-			\centering
-			\includegraphics[width = 0.63\textwidth]{image/ToC2}	
-		\end{figure}
-	\end{frame}
 
 	\begin{frame}
 		\frametitle{Цели и задачи} 
-		\textbf{Целью} данной работы является расчет геометрических и физических свойств выбросов предприятий. Для достижения данной цели необходимо решить следующие задачи:
+		\textbf{Цель:} разработка алгоритма сегментации факела выбросов с использованием тепло-видео систем.
+		
+		\textbf{Задачи:}
 		\begin{enumerate}
 			\justifying
-			\item исследование существующих методов для контроля выбросов;
+			\item исследование существующих методов для решения задачи контроля выбросов;
 			\item исследование современных способов применения оптических и тепловых снимков;
 			\item разработка алгоритма для сегментации факела выбросов с использованием тепловых и оптических снимков.
 		\end{enumerate}
@@ -53,7 +52,7 @@
 				\caption{}
 			\end{subfigure}
 			\centering
-			\caption{Преемущество перед сегментацией оптических снимков, где (a) оптическое изображение; (б) тепловизионное}
+			\caption{Преемущество перед сегментацией оптических\\ снимков: a) оптическое изображение; б) тепловизионное}
 			\label{fig:Examples}
 		\end{figure}
 	\end{frame}
@@ -61,15 +60,15 @@
 \section{Задача}
 
 	\begin{frame}
-		\frametitle{\insertsection} 
+		\frametitle{Задача сегментации факела выбросов} 
 		\vspace*{-0.3cm}
-		Необходимо востановить целевую функцию
+		Необходимо восстановить целевую функцию
 		\begin{equation}
 			f: X \rightarrow Z,
 			\label{eq:segment_func}
 		\end{equation}
 	где $X$ -- пространство пар из RGB изображений и матриц температур;
-	$Z$ - пространство масок где каждый элемент -- принадлежность пикселя дыму.
+	$Z$ -- пространство масок соответствующей разменрности где каждый пиксель отражает вероятность принадлежности к факелу.
 	\begin{figure}[ht!]
 		\begin{subfigure}{.25\textwidth}
 			\centering
@@ -87,7 +86,8 @@
 			\caption{}
 		\end{subfigure}
 		\centering
-		\caption{Примеры полученых изображений, где (a) RGB изображение;(б) матрица температур; (г) полученная маска}
+		\vspace{-0.4cm}
+		\caption{Примеры полученных изображений:\\ a) RGB изображение; б) матрица температур;\\ в) полученная маска}
 		\label{fig:Examples}
 	\end{figure}
 	\end{frame}
@@ -95,7 +95,7 @@
 \section{Подготовка данных}
 
 	\begin{frame}
-		\frametitle{\insertsection} 
+		\frametitle{Подготовка данных для сегментации} 
 		\vspace{1cm}
 		\begin{figure}
 			\centering
@@ -118,7 +118,7 @@
 				\caption{}
 			\end{subfigure}
 			\centering
-			\caption{Примеры полученых изображений, где \\(a) оптический снимок; (б) тепловой снимок}
+			\caption{Примеры полученных изображений: \\a) оптический снимок; б) тепловой снимок}
 			\label{fig:Examples}
 		\end{figure}
 	\end{frame}
@@ -149,15 +149,16 @@
 				\caption{}
 			\end{subfigure}
 			\centering
-			\caption{Примеры преобразования цветовой карты, где\\ (a) до; (б) после}
+			\caption{Примеры преобразования цветовой карты:\\ a) до; б) после}
 			\label{fig:ResKNN}
 		\end{figure}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Модель <<FlannBasedMatcher>>}
+		\frametitle{Модель классификации <<FlannBasedMatcher>>}
 		
 		Работает на основе метода $k$-ближайших соседей, реализованого через структуру данных <<$k$-мерное дерево>>.
+		\vspace{0.65cm}
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width = 6cm]{image/chapter_2/kdtreeexample}	
@@ -167,20 +168,24 @@
 	\end{frame}
 	
 	\begin{frame}
-		\vspace*{-0.35cm}
+		\frametitle{Алгоритм преобразования цветов}
+		\vspace*{-0.45cm}
 		\begin{figure}[ht!]
-			\begin{subfigure}{.47\textwidth}
+			\begin{subfigure}{.52\textwidth}
 				\centering
 				\includegraphics[width = \textwidth]{image/chapter_2/colorclassification}
+				\vspace*{-0.6cm}
 				\caption{}
 			\end{subfigure}
-			\begin{subfigure}{.21\textwidth}
+			\begin{subfigure}{.22\textwidth}
 				\centering
 				\includegraphics[width = \textwidth]{image/chapter_2/colorclassification2}
+				\vspace*{-0.6cm}
 				\caption{}
 			\end{subfigure}
 			\centering
-			\caption{Алгоритмы преобразования цветов, где (а) алгоритм подготовки классификатора цветов; (б) алгоритм преобразования}
+			\vspace*{-0.3cm}
+			\caption{Алгоритмы преобразования цветов:\\ а) подготовка классификатора цветов; б) преобразование}
 			\label{fig:Examples}
 		\end{figure}
 		
@@ -195,9 +200,9 @@
 			\vspace*{0.2cm}
 		\end{equation}
 		где $w$ -- высота кадра;\\ \hfill \break
-		$h$ -- размеры кадра;\\ \hfill \break
-		$P^{true}$ -- некоторое изображение в оттенках серого;\\ \hfill \break
-		$P^{conv}$ -- то же самое изображение, но с наложеной цветовой картой, сжатое с помощью JPEG и обработанное алгоритмом преобразования. 
+		\hspace*{0.65cm}$h$ -- ширина кадра;\\ \hfill \break
+		\hspace*{0.65cm}$P^{true}$ -- изображение в оттенках серого;\\ \hfill \break
+		\hspace*{0.65cm}$P^{conv}$ -- изображение, с наложенной цветовой картой, сжатое с помощью JPEG и обработанное алгоритмом преобразования. 
 	\end{frame}
 
 	\begin{frame}
@@ -213,53 +218,216 @@
 	\end{frame}
 
 	\begin{frame}
-		
+		\frametitle{Алгоритм подготовки данных}
+		\vspace*{0.35cm}
 		\begin{figure}[h!]
 			\centering
-			\includegraphics[width = 0.23\textwidth]{image/chapter_2/fullprepare}	
+			\includegraphics[width = 0.65\textwidth]{image/chapter_2/fullprepare}	
 			\caption{Алгоритм подготовки данных}
 			\label{fig:fullprepare}
 		\end{figure}
 		
 	\end{frame}
 
-\section{Результаты}
+\section{Сегментация}
 
 	\begin{frame}
-		\frametitle{Результаты}
-		\vspace*{0.65cm}
-		\begin{figure}[ht!]
-			\begin{subfigure}{.30\textwidth}
-				\centering
-				\includegraphics[width = \textwidth]{image/opt_examp}
-				\caption{}
-			\end{subfigure}
-			\begin{subfigure}{.30\textwidth}
-				\centering
-				\includegraphics[width = \textwidth]{image/tep_examp}
-				\caption{}
-			\end{subfigure}
-			\begin{subfigure}{.30\textwidth}
-				\centering
-				\includegraphics[width = \textwidth]{image/mask}
-				\caption{}
-			\end{subfigure}
+		\frametitle{Сегментация факела выбросов}
+		\vspace*{0.9cm}
+		\begin{figure}[h!]
 			\centering
-			\caption{Примеры полученых изображений, где (a) RGB изображение; (б) матрица температур; (г) полученная маска}
-			\label{fig:Examples}
+			\includegraphics[width = \textwidth]{image/scheme3}	
 		\end{figure}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Результаты}
+		\frametitle{Алгоритм детекции трубы}
+		\vspace*{-0.2cm}
+		\begin{figure}[ht!]
+			\begin{subfigure}{.51\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/trubadetection}
+				\vspace*{-0.6cm}
+				\caption{}
+			\end{subfigure}
+			\begin{subfigure}{.46\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/RanSaC}
+				\vspace*{-0.6cm}
+				\caption{}
+			\end{subfigure}
+			\centering
+			\vspace*{-0.3cm}
+			\caption{Алгоритмы детекции трубы:\\ а) поиск ключевых точек; б) восстановление прямоугольника}
+			\label{fig:Examples}
+		\end{figure}
+		
+	\end{frame}
+
+
+	
+	\begin{frame}
+		\frametitle{Результаты работы алгоритма детекции трубы}
+		\vspace*{0.6cm}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width = \textwidth]{image/match1}
+			\caption{Результаты работы алгоритма}
+			\label{fig:fullprepare}
+		\end{figure}
+	\end{frame}	
+
+\begin{frame}
+	\frametitle{Алгоритм сегментации методом водораздела}
+	\vspace*{0.7cm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 0.7\textwidth]{image/potop1_watershed}
+		\caption{Визуализация работы алгоритма\\ сегментации водоразделом}
+		\label{fig:potop1_watershed}	
+	\end{figure}
+\end{frame}
+
+	\begin{frame}
+		\frametitle{Алгоритм сегментации методом водораздела}
+		\vspace*{0.7cm}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width = 0.6\textwidth]{image/waterShedSegmentation}
+			\caption{Алгоритм сегментации методом\\ водораздела}
+			\label{fig:fullprepare}	
+		\end{figure}
+	\end{frame}
+
+\section{Результаты}
+
+	\begin{frame}
+		\frametitle{Результаты работы алгоритма сегментации}
+		\vspace*{-0.35cm}
+		\begin{figure}[h!]
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/img/206}
+				%			\caption{}
+			\end{subfigure}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/tep/206}
+				%			\caption{}
+			\end{subfigure}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask/206}
+				%			\caption{}
+			\end{subfigure}
+			\hspace*{0.00cm}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/img/240}
+				\caption{}
+			\end{subfigure}
+%			\hspace{0.1cm}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/tep/240}
+				\caption{}
+			\end{subfigure}
+%			\hspace{0.1cm}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask/240}
+				\caption{}
+			\end{subfigure}
+			\vspace{-0.3cm}
+			\caption{Пример работы: а) оригинальные оптические изображения; б) оригинальные тепловые изображения;\\ в) получившиеся маски}
+			\label{fig:test_segm}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Разница масок}
+		\vspace*{-0.35cm}
+		\begin{figure}[h!]
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask/206}
+				%			\caption{}
+			\end{subfigure}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask_razmet/206}
+				%			\caption{}
+			\end{subfigure}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask_dif/206}
+				%			\caption{}
+			\end{subfigure}
+			\hspace*{0.00cm}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask/240}
+				\caption{}
+			\end{subfigure}
+			%			\hspace{0.1cm}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask_razmet/240}
+				\caption{}
+			\end{subfigure}
+			%			\hspace{0.1cm}
+			\begin{subfigure}{.30\textwidth}
+				\centering
+				\includegraphics[width = \textwidth]{image/examples/mask_dif/240}
+				\caption{}
+			\end{subfigure}
+			\vspace{-0.3cm}
+			\caption{Сравнение масок: а) результат работы алгоритма;\\ б) размеченная маска; в) исключающее или}
+			\label{fig:test_segm}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Метрика точности сегментации}
+		\vspace{0.5cm}
+		\begin{equation}
+			\textup{DICE} = \frac{2\textup{TP}}{2\textup{TP} + \textup{FP} + \textup{FN}},
+			\label{eq:DiceLoss}		\vspace{0.3cm}
+		\end{equation}
+
+		где TP -- правильное предсказание сегмента;\\ \hfill \break
+		\hspace*{0.65cm}FP -- ложное предсказание сегмента;\\ \hfill \break
+		\hspace*{0.65cm}FN -- неправильное предсказание сегмента.
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Точность работы алгоритма сегментации}
 		Итоговая точность -- 86,2\%
-		\vspace*{0.65cm}
+		\vspace*{0.25cm}
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width = 0.6\textwidth]{image/accuracy_itog_plot}	
-			\caption{Алгоритм подготовки данных}
+			\caption{График зависимости\\ точности от номера кадра}
 			\label{fig:accuracy_itog_plot}
 		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Заключение}
+		В ходе работы был разработан алгоритм сегментации факела выбросов, исползующий данные тепло-видео систем наблюдения. Данная работа выполнена в рамках проекта <<Экомонитор>> кафедры <<Прикладная математика и программирование>>.
+		
+		\vspace{0.2cm}
+		
+		Была разработана математическая модель алгоритмов подготовки данных, детекции трубы и сегментации факела выбросов методом водораздела. Данные алгоритмы были разработаны и реализованы.
+		
+		\vspace{0.2cm}
+		
+		Было произведено тестирование разработаного программного модуля. Проведенный анализ точности работы алгоритма позволяет говорить о целесообразности применения данного метода.
+	\end{frame}
+
+	\begin{frame}
+		\vspace{2.9cm}
+		\begin{center}{\Huge{Спасибо за внимание!}}\end{center}
 	\end{frame}
 
 \end{document}

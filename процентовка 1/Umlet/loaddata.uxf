@@ -4,22 +4,21 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>63</x>
-      <y>405</y>
-      <w>180</w>
+      <x>0</x>
+      <y>369</y>
+      <w>234</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>type=()
-запись оптических и 
-тепловых снимков</panel_attributes>
+Вход</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>63</x>
-      <y>585</y>
-      <w>180</w>
+      <x>0</x>
+      <y>549</y>
+      <w>234</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>type=/\
@@ -30,8 +29,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>450</y>
+      <x>108</x>
+      <y>414</y>
       <w>27</w>
       <h>36</h>
     </coordinates>
@@ -41,8 +40,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>630</y>
+      <x>108</x>
+      <y>594</y>
       <w>27</w>
       <h>36</h>
     </coordinates>
@@ -52,9 +51,9 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>432</x>
-      <y>387</y>
-      <w>180</w>
+      <x>414</x>
+      <y>297</y>
+      <w>234</w>
       <h>108</h>
     </coordinates>
     <panel_attributes>type=&lt;&gt;
@@ -65,13 +64,13 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>63</x>
-      <y>468</y>
-      <w>180</w>
+      <x>0</x>
+      <y>432</y>
+      <w>234</w>
       <h>108</h>
     </coordinates>
     <panel_attributes>type=[]
-инициализирование
+Инициализация
 счетчиков кадров оптических
 и тепловых потоков,
 создание файлов для записи</panel_attributes>
@@ -80,8 +79,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>567</y>
+      <x>108</x>
+      <y>531</y>
       <w>27</w>
       <h>36</h>
     </coordinates>
@@ -91,62 +90,62 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>432</y>
-      <w>99</w>
+      <x>639</x>
+      <y>342</y>
+      <w>72</w>
       <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m2=нет</panel_attributes>
-    <additional_attributes>90.0;70.0;90.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;70.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>432</y>
-      <w>99</w>
+      <x>360</x>
+      <y>342</y>
+      <w>72</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>
 lt=&lt;-
 m2=да</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>63</x>
-      <y>648</y>
-      <w>180</w>
+      <x>0</x>
+      <y>612</y>
+      <w>234</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>type=[]
-инициализация переменной 
+Инициализация переменной 
 для подсчета времени кадра</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>693</y>
+      <x>108</x>
+      <y>657</y>
       <w>27</w>
-      <h>54</h>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>270</x>
-      <y>477</y>
-      <w>180</w>
+      <x>252</x>
+      <y>387</y>
+      <w>234</w>
       <h>144</h>
     </coordinates>
     <panel_attributes>type=&lt;&gt;
-было 
+Было 
 записано равное 
 количество оптических 
 и тепловых 
@@ -156,25 +155,26 @@ m2=да</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>594</x>
-      <y>495</y>
-      <w>180</w>
+      <x>576</x>
+      <y>405</y>
+      <w>234</w>
       <h>144</h>
     </coordinates>
     <panel_attributes>type=&lt;&gt;
-!(количество
+
+Количество
 записанных тепловых 
 снимков снимков
-больше
-на 1?)</panel_attributes>
+не больше
+на 1?</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>612</y>
-      <w>36</w>
+      <x>360</x>
+      <y>522</y>
+      <w>45</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -186,13 +186,13 @@ m1=да
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>270</x>
-      <y>666</y>
-      <w>180</w>
-      <h>54</h>
+      <x>252</x>
+      <y>576</y>
+      <w>234</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>type=[]
-запись теплового снимка
+Запись теплового снимка
 в файл для тепловых 
 снимков</panel_attributes>
     <additional_attributes/>
@@ -200,13 +200,13 @@ m1=да
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>594</x>
-      <y>666</y>
-      <w>180</w>
-      <h>54</h>
+      <x>576</x>
+      <y>576</y>
+      <w>234</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>type=[]
-запись оптического снимка
+Запись оптического снимка
 в файл для оптических
 снимков</panel_attributes>
     <additional_attributes/>
@@ -214,13 +214,13 @@ m1=да
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>270</x>
-      <y>729</y>
-      <w>180</w>
-      <h>63</h>
+      <x>252</x>
+      <y>648</y>
+      <w>234</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>type=[]
-ожидание пока время 
+Ожидание пока время 
 кадра не составит 50 мс
 увеличение количества 
 тепловых кадров на 1</panel_attributes>
@@ -229,13 +229,13 @@ m1=да
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>594</x>
-      <y>729</y>
-      <w>180</w>
-      <h>63</h>
+      <x>576</x>
+      <y>648</y>
+      <w>234</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>type=[]
-ожидание пока время 
+Ожидание пока время 
 кадра не составит 50 мс
 увеличение количества 
 оптических кадров на 1</panel_attributes>
@@ -244,8 +244,8 @@ m1=да
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>711</y>
+      <x>360</x>
+      <y>630</y>
       <w>27</w>
       <h>36</h>
     </coordinates>
@@ -255,8 +255,8 @@ m1=да
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
-      <y>711</y>
+      <x>684</x>
+      <y>630</y>
       <w>27</w>
       <h>36</h>
     </coordinates>
@@ -266,44 +266,44 @@ m1=да
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>540</y>
-      <w>99</w>
-      <h>315</h>
+      <x>477</x>
+      <y>450</y>
+      <w>72</w>
+      <h>333</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m2=нет</panel_attributes>
-    <additional_attributes>90.0;330.0;90.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;350.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>549</y>
-      <w>99</w>
-      <h>36</h>
+      <x>522</x>
+      <y>450</y>
+      <w>72</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 да</panel_attributes>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>60.0;30.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>783</y>
+      <x>360</x>
+      <y>720</y>
       <w>189</w>
-      <h>45</h>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>190.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
-      <y>621</y>
-      <w>45</w>
+      <x>684</x>
+      <y>531</y>
+      <w>54</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -315,141 +315,140 @@ m1=нет
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>783</y>
+      <x>522</x>
+      <y>720</y>
       <w>189</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;20.0;190.0;20.0;190.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>FCBlock</id>
-    <coordinates>
-      <x>801</x>
-      <y>549</y>
-      <w>180</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>type=\/
-конец
-Цикл пока</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>FCBlock</id>
-    <coordinates>
-      <x>801</x>
-      <y>675</y>
-      <w>180</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>type=()
-выход</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>FCBlock</id>
-    <coordinates>
-      <x>801</x>
-      <y>612</y>
-      <w>180</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>type=[]
-освобождение файлов</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>882</x>
-      <y>594</y>
-      <w>27</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>882</x>
-      <y>657</y>
-      <w>27</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>FCBlock</id>
-    <coordinates>
-      <x>135</x>
-      <y>729</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=()
-A</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>FCBlock</id>
-    <coordinates>
-      <x>504</x>
-      <y>333</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=()
-A</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>513</x>
-      <y>360</y>
-      <w>27</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;30.0;190.0;30.0;190.0;10.0</additional_attributes>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>504</x>
-      <y>837</y>
-      <w>36</w>
-      <h>36</h>
+      <x>828</x>
+      <y>468</y>
+      <w>234</w>
+      <h>45</h>
     </coordinates>
-    <panel_attributes>type=()
-B</panel_attributes>
+    <panel_attributes>type=\/
+Конец цикла пока</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>873</x>
-      <y>477</y>
-      <w>36</w>
-      <h>36</h>
+      <x>828</x>
+      <y>576</y>
+      <w>234</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=()
-B</panel_attributes>
+Выход</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>FCBlock</id>
+    <coordinates>
+      <x>828</x>
+      <y>522</y>
+      <w>234</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>type=[]
+Освобождение файлов</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>936</x>
       <y>504</y>
       <w>27</w>
-      <h>63</h>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>558</y>
+      <w>27</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>FCBlock</id>
+    <coordinates>
+      <x>99</x>
+      <y>684</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=()
+A</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>FCBlock</id>
+    <coordinates>
+      <x>513</x>
+      <y>252</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=()
+A</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>279</y>
+      <w>27</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>FCBlock</id>
+    <coordinates>
+      <x>513</x>
+      <y>765</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=()
+Б</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>FCBlock</id>
+    <coordinates>
+      <x>927</x>
+      <y>423</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=()
+Б</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>450</y>
+      <w>27</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

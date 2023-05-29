@@ -22,10 +22,10 @@
 \contentsline {section}{\numberline {3.1}Разработка алгоритма подготовки данных}{54}{section.3.1}%
 \contentsline {section}{\numberline {3.2}\vspace *{-0.22cm}Алгоритм сегментации факела выбросов с помощью оптических \\ \hspace *{-0.75cm}и тепловых снимков}{60}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Алгоритм детекции трубы}{60}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Реализация алгоритма сегментации <<WaterShed>>}{62}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}\vspace *{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace *{-0.75cm}и оценка их точности}{65}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Выводы по главе 3}{69}{section.3.4}%
-\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{71}{chapter*.38}%
-\contentsline {chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}{73}{chapter*.39}%
-\contentsline {chapter}{ПРИЛОЖЕНИЕ 1}{76}{chapter*.40}%
+\contentsline {subsection}{\numberline {3.2.2}Реализация алгоритма сегментации <<WaterShed>>}{63}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}\vspace *{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace *{-0.75cm}и оценка их точности}{66}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Выводы по главе 3}{70}{section.3.4}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{72}{chapter*.39}%
+\contentsline {chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}{74}{chapter*.40}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ 1}{78}{chapter*.41}%
 \contentsfinish 

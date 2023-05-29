@@ -1,12 +1,13 @@
 %\documentclass[handout]{beamer} % Раздаточный материал (на слайдах всё сразу)
 \usetheme{Berlin}
-\definecolor{mygreen}{RGB}{102, 0, 204} % Зеленый цвет в формате RGB
+\definecolor{mygreen}{RGB}{152,54,85} % Зеленый цвет в формате RGB
 \setbeamercolor{structure}{fg=mygreen} % Цвет для структурных элементов (названий разделов, фреймов и т.д.)
 \setbeamercolor{alerted text}{fg=mygreen} % Цвет для выделенного текста
 \setbeamercolor{frametitle}{fg=white, bg=mygreen} % Цвет для заголовка фрейма
 \setbeamercolor{title}{fg=white, bg=mygreen} % Цвет для заголовка раздела
 %\setbeamercolor{item}{fg=mygreen} % Цвет для маркеров списка
 \setbeamercolor{section in toc}{fg=mygreen} % Цвет для разделов в содержании
+
 \setbeamerfont{page number in head/foot}{size=\large}
 \setbeamertemplate{footline}[frame number]
 %\usecolortheme{beaver} 
@@ -45,13 +46,14 @@
 \usepackage{tikz} % Работа с графикой
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
-\usepackage{ragged2e}
-\setlength{\hsize}{0.9\hsize}% emphasize effects
 \captionsetup{figurename = Рисунок, labelsep = endash, justification = centering, aboveskip=3pt}
-\DeclareCaptionFormat{table}{#1 #2 #3}
-\captionsetup[table]{singlelinecheck = false, justification = justified}
+\setbeamertemplate{caption}[numbered]
+\renewcommand\thesubfigure{\asbuk{subfigure}}
 
 \beamertemplatenavigationsymbolsempty
+
+\usepackage{ragged2e}
+\setlength{\hsize}{0.9\hsize}% emphasize effects
 
 \makeatletter
 \newcommand\titlegraphicii[1]{\def\inserttitlegraphicii{#1}}
@@ -76,8 +78,30 @@
 	%\vfill
 }
 
+\makeatletter
+\titlegraphicii{}
+\setbeamertemplate{title page}
+{
+	\vbox{}
+	{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\hfill\inserttitlegraphicii\par}
+	\begin{centering}
+		\begin{beamercolorbox}[sep=8pt,center]{institute}
+			\usebeamerfont{institute}\insertinstitute
+		\end{beamercolorbox}
+		\begin{beamercolorbox}[sep=8pt,center]{title}
+			\usebeamerfont{title}\inserttitle\par%
+			\ifx\insertsubtitle\@empty%
+			\else%
+			\vskip0.25em%
+			{\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+			\fi%     
+		\end{beamercolorbox}%
+	\end{centering}
+	%\vfill
+}
+
 \makeatother
-\author{Кормилин Д.Дr}
+\author{Кормилин Д.Д.}
 \title{Решение задачи сегментации факела выбросов на основе данных тепло-видео системы наблюдения}
 \institute{
 	Министерство науки и высшего образования Российской Федерации\\
@@ -95,7 +119,7 @@
 		\begin{tabular}[t]{l}
 			\\
 			Руководитель: \\
-			доцент кафедры ПМиП \\
+			старший преподаватель кафедры ПМиП \\
 			В.А. Сурин\\
 		\end{tabular}
 		\hspace*{5.2cm}

@@ -12,6 +12,12 @@
 	\annotationpage
 	\renewcommand\contentsname{ОГЛАВЛЕНИЕ} 
 	\tableofcontents
+	\clearpage
+	\pagestyle{fancy}
+	\fancyhf{}
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt} % Удаление горизонтальной линии колонтитула
+	
 	\thispagestyle{empty}
 	\chapter* {ВВЕДЕНИЕ} 
 	\addcontentsline{toc}{chapter}{ВВЕДЕНИЕ}
@@ -758,7 +764,7 @@
 	
 	Итоговым шагом является непосредственно сегментация факела выбросов. Напомним, что в виду того, что факел выбросов обладает высокой температурой, матрица температуры обладает большей информацией для сегментации.
 	
-	Для сегментации было решено использовать классические алгоритмы сегментации. Ввиду малого контраста изображения было решено использовать алгоритм <<WaterShed>> или метод сегментации водоразделом, так как этот алгоритм наилучшим образом работает с низко-контрастными изображениями.
+	Для сегментации было решено использовать классические алгоритмы сегментации. Ввиду малого контраста изображения было решено использовать алгоритм <<WaterShed>> или метод сегментации водоразделом [\ref{Implementation of watershed segmentation}], так как этот алгоритм наилучшим образом работает с низко-контрастными изображениями.
 	
 	Рассмотрим некоторые математические понятия, необходимые нам для описания математической модели алгоритма сегментации водоразделами. Рассмотрим понятие секции уровня $Z_i(f)$ как следующее множество:\vspace*{-0.3cm}
 	\begin{equation*}
@@ -1016,8 +1022,8 @@
 		\label{fig:fullprepare}
 	\end{figure}
 	
-	\section[\vspace*{-0.22cm}Алгоритм сегментации факела выбросов с помощью оптических \\ \hspace*{-0.75cm}и тепловых снимков]{\vspace*{-0.22cm}Алгоритм  факела выбросов с помощью оптических и тепловых \\ \hspace*{-2.05cm}снимков}
-	\subsection{Алгоритм детекции трубы}
+\section[\vspace*{-0.22cm}Алгоритм сегментации факела выбросов с помощью оптических \\ \hspace*{-0.75cm}и тепловых снимков]{\vspace*{-0.22cm}Алгоритм  факела выбросов с помощью оптических и тепловых \\ \hspace*{-2.05cm}снимков}
+\subsection{Алгоритм детекции трубы}
 	
 	Для сегментации трубы необходимо решить еще одну важную подзадачу, а именно -- детекцию источника выбросов. Важность этого шага, постановка задачи и математическая модель были описаны ранее, сейчас рассмотрим непосредственно алгоритм детекции трубы и результаты его работы.
 	
@@ -1038,15 +1044,25 @@
 		\label{fig:keypoints}
 	\end{figure}
 	
-	Следующий этап включает в себя процесс сопоставления ключевых точек образца и изображения, на котором требуется обнаружить трубу. В результате этого процесса получается набор ключевых точек и дескрипторов $A$, соответствующих изображению образца, и набор точек и дескрипторов $B$, соответствующих входному изображению. После этого применяется описанный ранее алгоритм <<k ближайших соседей>>, предназначеный для классификации элементов из набора $A$ по $n$ классам, где $n$ представляет собой размер набора $B$. Этот процесс обучения и классификации основан на ранее рассмотренной метрической модели. Пример работы этого алгоритма показан на рисунке~\ref{fig:match1}.
+	Следующий этап включает в себя процесс сопоставления ключевых точек образца и изображения, на котором требуется обнаружить трубу. В результате этого процесса получается набор ключевых точек и дескрипторов $A$, соответствующих изображению образца, и набор точек и дескрипторов $B$, соответствующих входному изображению. После этого применяется описанный ранее алгоритм <<k ближайших соседей>>, предназначеный для классификации элементов из набора $A$ по $n$ классам, где $n$ представляет собой размер набора $B$. Этот процесс обучения и классификации основан на ранее рассмотренной математической модели. Пример работы этого алгоритма показан на рисунке~\ref{fig:match1}.
+	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width = \textwidth]{image/chapter_2/match1}	
 		\caption{Пример сопоставления ключевых точек}
 		\label{fig:match1}
 	\end{figure}
+
+	Следующим этапом является применение ранее рассмотренного алгоритма <<RanSaC>>. Данный рандомизированный алгоритм позволяет востановить некоторую зависимость по данным, в которых имеется некоторое количество выбросов. Алгоритм заключается в выполнении некоторого, заранее заданного количества итераций $N$, в каждой из которых выбирается некоторое количество данных и выполняется вычисление точности по некоторой метрике. Схемма алгоритма представлена на рисунке~\ref{fig:RanSaC}.
 	
-	\subsection[Реализация алгоритма сегментации <<WaterShed>>]{Реализация алгоритма сегментации <<WaterShed>>}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 0.36\textwidth]{image/chapter_3/RanSaC}	
+		\caption{Пример сопоставления ключевых точек}
+		\label{fig:RanSaC}
+	\end{figure}
+	
+\subsection[Реализация алгоритма сегментации <<WaterShed>>]{Реализация алгоритма сегментации <<WaterShed>>}
 	После тщательной подготовки и обработки данных, а также выполнения этапа детекции трубы, наступает финальная стадия -- сегментация. Как упоминалось ранее, было принято решение применить алгоритм сегментации водоразделами, который считается одним из наиболее эффективных в данном контексте. Для решения поставленной задачи мы применим модифицированный алгоритм сегментации <<WaterShed>>, который будет обогащен использованием маркеров. Этот метод является эффективным и позволяет достичь оптимальных результатов.
 	
 	При осуществлении данного этапа возникает проблема получения необходимых маркеров. Однако данную проблему можно успешно решить, применив ранее полученную информацию, полученную в результате детекции трубы. Следует учитывать, что труба обычно имеет такую же, а порой даже большую температуру, чем дым. Поэтому было принято решение использовать пиксели изображения, имеющие наибольшую температуру, в качестве маркера, который будет соответствовать классу факела выбросов. Важно отметить, что данные пиксели должны находиться внутри прямоугольника, который ограничивает трубу. Таким образом, мы сможем успешно решить поставленную задачу и достичь нужных результатов.
@@ -1062,7 +1078,7 @@
 		\vspace*{0.4cm}
 	\end{figure}
 	
-	Разработанный алгоритм успешно выполняет сегментацию матрицы температур в соответствии с поставленной задачей. Результаты его работы были проиллюстрированы на рисунке~\ref{fig:Watershed_itog}, который наглядно демонстрирует эффективность и точность данного метода. Данный алгоритм устойчив к шумам, так как в его основе лежит модифицированый алгоритм сегментации методом водоразделов.
+	Разработанный алгоритм успешно выполняет сегментацию матрицы температур в соответствии с поставленной задачей. Результаты его работы были проиллюстрированы на рисунке~\ref{fig:Watershed_itog}, который наглядно демонстрирует эффективность и точность данного метода. Данный алгоритм устойчив к шумам, так как в его основе лежит модифицированный алгоритм сегментации методом водоразделов.
 	
 	\begin{figure}[ht!]
 		%		\begin{subfigure}{.25\textwidth}
@@ -1089,7 +1105,7 @@
 	
 \section[\vspace*{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace*{-0.75cm}и оценка их точности]{\vspace*{-0.22cm}Результаты работы алгоритма сегментации факела выбросов\\ \hspace*{-2.05cm}и оценка их точности}
 
-	В результате разработки алгоритмов подготовки данных, детекции трубы, а также непосредственно сегментации, был разработан прорграммный модуль, реализующий сегментацию факела вредных выбросов. Для оценки точности работы разработанного модуля была сформирована и размечена тестовая выборка, состоящая из 300 последовательно записанных оптических и тепловых кадров, в также максимальных и минимальных температур с рассмотренной ранее дискретностью. Данная выборка была размечена вручную. Пример выборки представлен на рисунке~\ref{fig:test_vib}.
+	В результате разработки алгоритмов подготовки данных, детекции трубы, а также непосредственно сегментации, был разработан программный модуль, реализующий сегментацию факела вредных выбросов. Для оценки точности работы разработанного модуля была сформирована и размечена тестовая выборка, состоящая из 300 последовательно записанных оптических и тепловых кадров, в также максимальных и минимальных температур с рассмотренной ранее дискретностью. Данная выборка была размечена вручную. Пример выборки представлен на рисунке~\ref{fig:test_vib}.
 	
 	\begin{figure}[h!]
 		\vspace*{0.22cm}
@@ -1215,7 +1231,7 @@
 		\label{fig:test_segm}
 	\end{figure}
 
-	Для оценки также необходимо ввести некоторую метрику. Метрика является некоторой функцией отражающей то, на сколько результат работы того или иного алгоритма соответствует правильному. В случае бинарной сегментации (сегментации изображения на 2 класса) одной из наиболее подходящих метрик является метрика <<DICE>>, также известная как коэффициент Сёренсена-Дайса или F1-мера, является одним из показателей оценки сходства между двумя наборами данных. Она широко используется в задачах сегментации изображений [\ref{Rethinking dice loss for medical image segmentation}].
+	Для оценки также необходимо ввести некоторую метрику. Метрика является некоторой функцией, отражающей то, на сколько результат работы того или иного алгоритма соответствует правильному. В случае бинарной сегментации (сегментации изображения на 2 класса) одной из наиболее подходящих метрик является метрика <<DICE>>, также известная как коэффициент Сёренсена-Дайса или F1-мера, является одним из показателей оценки сходства между двумя наборами данных. Она широко используется в задачах сегментации изображений [\ref{Rethinking dice loss for medical image segmentation}].
 	
 	DICE определяется как отношение двойного пересечения и суммы сегментированных объектов:
 	\begin{equation}
@@ -1228,7 +1244,7 @@
 	
 	Значение DICE находится в диапазоне от 0 до 1, где 1 означает идеальное совпадение двух сегментаций, а 0 указывает на полное несовпадение. DICE является компромиссом между полнотой (отношение TP к общему количеству истинных объектов) и точностью (отношение TP к общему количеству предсказанных объектов). Он позволяет оценивать как качество сегментации, так и ее объем.
 	
-	Далее по формуле~(\ref{eq:DiceLoss}) вычислим значение метрики точности на педставленной выборке. Точность по всей тестовой выборке расчитана как средняя точность по элементам выборки, она составила 0.861004. Далее на рисунке~\ref{fig:mask_dif} представлено сравнение элементов из множества предсказанных масок и реальных по соответствующим элементам тестовой выборки, а также разница, представляющая собой исключающее или по маскам (т.е. если на размеченной маске и на маске полученной в результате работы программы класс пикселя отличается, то на разнице яркость пикселя будет равна 255, иначе равна 0). Данный метод наглядно показывает работу выбраной метрики точности.
+	Далее по формуле~(\ref{eq:DiceLoss}) вычислим значение метрики точности на представленной выборке. Точность по всей тестовой выборке рассчитана как средняя точность по элементам выборки, она составила 0.861004. Далее на рисунке~\ref{fig:mask_dif} представлено сравнение элементов из множества предсказанных масок и реальных по соответствующим элементам тестовой выборки, а также разница, представляющая собой исключающее или по маскам (т.е. если на размеченной маске и на маске полученной в результате работы программы класс пикселя отличается, то на разнице яркость пикселя будет равна 255, иначе равна 0). Данный метод наглядно показывает работу выбранной метрики точности.
 	
 	\begin{figure}[h!]
 		\begin{subfigure}{.32\textwidth}
@@ -1297,34 +1313,35 @@
 		\label{fig:mask_dif}
 	\end{figure}
 
-	Также для визуализации точности работы алгоритма ниже представлен график. На данном графике показана зависимость точности от номера кадра, с помощью которой можно получить представление о разбросе точности работы алгоритма(см.~рисунок~\ref{fig:accuracy_itog_plot}). В результате можно сказать о достаточно высокой точности работы алгоритма, а также о малом разбросе.\vspace*{-0.6cm}
+	Также для визуализации точности работы алгоритма ниже представлен график. На данном графике показана зависимость точности от номера кадра, с помощью которой можно получить представление о разбросе точности работы алгоритма(см.~рисунок~\ref{fig:accuracy_itog_plot}). В результате можно сказать о достаточно высокой точности работы алгоритма, а также о малом разбросе. По разработанным алгоритмам был написан программный код представленный в приложении 1.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width = \textwidth]{image/chapter_3/accuracy_itog_plot}	
+		\includegraphics[width = 0.9\textwidth]{image/chapter_3/accuracy_itog_plot}	
 		\caption{Пример сопоставления ключевых точек}
 		\label{fig:accuracy_itog_plot}
 	\end{figure}
 	
+	
 \section[Выводы по главе 3]{Выводы по главе 3}	
 	В данной работе исследуется решение задачи сегментации факела выбросов с использованием данных тепло-видео систем наблюдения. В третьей главе приводится разработанные алгоритмы, согласно определенной ранее математической модели, а также результаты их работы, оценка точности.
 	
-	Приведены алгоритмы рассмотреных ранее этапов подготовки данных с результатами работы. Для преобразования цветовой карты был разработан алгоритм на базе модели <<k ближайших соседей>>. Были приведены результаты работы, а также оценена точность в зависимости от степени сжатия. Оценка точности показала, что разработанный алгоритм работает достаточно точно даже при самых высоких уровнях сжатия, показывая точность выше 98\%.
+	Приведены алгоритмы рассмотренных ранее этапов подготовки данных с результатами работы. Для преобразования цветовой карты был разработан алгоритм на базе модели <<k ближайших соседей>>. Были приведены результаты работы, а также оценена точность в зависимости от степени сжатия. Оценка точности показала, что разработанный алгоритм работает достаточно точно даже при самых высоких уровнях сжатия, показывая точность выше 98\%.
 	
 	Был разработан алгоритм детекции трубы, использующий метод инвариантного преобразования особенностей для получения особых точек и алгоритм <<k ближайших соседей>> для их сопоставления. Данная часть работы показала свою необходимость для дальнейшего получения маркеров для алгоритма сегментации.
 	
-	В качестве алгоритма сегментации был разработан и реализован алгоритм сегментации водоразделами. Данный алгоритм является устойчивым к шуму, так как использует заранее подготовленные маркеры. В качестве данных маркеров было решено использовать трубу, как самы горячий объект, а также самую холодную область на изображении. Были приведены результаты работы алгоритма на подготовленной тестовой выборке. Также на этой выборке была посчитана точность алгоритма по метрике <<DICE>>, которая составила 86,2\%. помимо количественной оценки точности был также приведен график точности в заввисимости от кадра видео, который показывает разброс точности работы алгоритма, а также наглядные иллюстрации с разницей между заранее подготовленными масками и результатами работы алгоритма. Еще одним преемуществом работы алгоритма является его быстродействие, так как время, затрачиваемое на каждый этап алгоритма линейно зависит от размера подаваемого изображения, что в рассматриваемой задаче является оптимальным временем работы.
+	В качестве алгоритма сегментации был разработан и реализован алгоритм сегментации водоразделами. Данный алгоритм является устойчивым к шуму, так как использует заранее подготовленные маркеры. В качестве данных маркеров было решено использовать трубу, как самый горячий объект, а также самую холодную область на изображении. Были приведены результаты работы алгоритма на подготовленной тестовой выборке. Также на этой выборке была посчитана точность алгоритма по метрике <<DICE>>, которая составила 86,2\%. помимо количественной оценки точности был также приведен график точности в зависимости от кадра видео, который показывает разброс точности работы алгоритма, а также наглядные иллюстрации с разницей между заранее подготовленными масками и результатами работы алгоритма. Еще одним преимуществом работы алгоритма является его быстродействие, так как время, затрачиваемое на каждый этап алгоритма, линейно зависит от размера подаваемого изображения, что в рассматриваемой задаче является оптимальным временем работы.
 
 \chapter*{ЗАКЛЮЧЕНИЕ}
 \addcontentsline{toc}{chapter}{ЗАКЛЮЧЕНИЕ}
 	Целью данной работы являлась разработка алгоритма сегментации факела выбросов с использованием тепло-видео систем с реализацией в виде программного модуля, как ответ на проблему загрязнения окружающей среды вредными выбросами предприятий. В ходе работы была сформулирована задача бинарной сегментации пары из изображения и матрицы температур, а также рассмотрены современные способы контроля за вредными выбросами и способы применения тепло-видео систем наблюдения. Для решения задачи были выбраны классические методы сегментации, опирающиеся на высокую температуру выбросов.
 	
-	Алгоритм сегментации был разделен на два этапа. Первым этапом является подготовка данных. Решение это подзадачи оказалось нетривиальным и потребовало использования методов машинного обучения, а конкретно алгоритма <<k ближайших соседей>>. Для оценки данных методов была сформулирована метрика точности и была посчитана точность. Резульаты показали высокую точность, даже при сильном сжатии изображения.
+	Алгоритм сегментации был разделен на два этапа. Первым этапом является подготовка данных. Решение это подзадачи оказалось нетривиальным и потребовало использования методов машинного обучения, а конкретно алгоритма <<k ближайших соседей>>. Для оценки данных методов была сформулирована метрика точности и была посчитана точность. Результаты показали высокую точность, даже при сильном сжатии изображения.
 	
 	Вторым этапом является непосредственно сегментация. Она в свою очередь делится на этап детекции трубы, а также сегментацию факела выбросов. Для решения задачи детекции трубы был использован инвариантного преобразования особенностей и алгоритм <<k ближайших соседей>>. Детекция трубы является важным этапом сегментации, так как позволяет получить маркеры для дальнейшей сегментации. Одним из преимуществ данного подхода является высокое быстродействие.
 	
-	Для сегментации факела выбросов был использован метод сегментации водорозделами, с применением маркеров. Данный метод был протестирован на тестовой выборке, представляющей из себя тепловое и оптическое видео длинной в 100 кадров, размеченные в ручную. На данной тестовой выборке алгоритм был протестирован с использование метрики точности <<DICE>>. Была получена точность 86,2\%. Также были продемонстрированы график точности и иллюстрации разницы между подготовлеными и посчитаными алгоритмом масками. на основании всех этих данных можно сделать вывод о достаточно высокой точности алгоритма. Также были сделаны выводы о его высоком быстродействии.
+	Для сегментации факела выбросов был использован метод сегментации водоразделами, с применением маркеров. Данный метод был протестирован на тестовой выборке, представляющей из себя тепловое и оптическое видео длинной в 100 кадров, размеченные в ручную. На данной тестовой выборке алгоритм был протестирован с использование метрики точности <<DICE>>. Была получена точность 86,2\%. Также были продемонстрированы график точности и иллюстрации разницы между подготовленными и посчитанными алгоритмом масками. на основании всех этих данных можно сделать вывод о достаточно высокой точности алгоритма. Также были сделаны выводы о его высоком быстродействии.
 	
-	Таким образом цели работы были достигнуты, а поставленная задача -- решена. Представленное в работе решение может быть использовано для сегментации выбросов для дальнейшего получения информации в рамках проекта <<Экомонитор>>. В виду большого количества информации потенциально скрытого в тепловых матрицах, такого как возможная зависимость между обхемом выбросов и их температурой, дальнейшими целями для развития работы может стать получение физических характеристик факела выбросов.
+	Таким образом цели работы были достигнуты, а поставленная\linebreak задача -- решена. Представленное в работе решение может быть использовано для сегментации выбросов для дальнейшего получения информации в рамках проекта <<Экомонитор>>. В виду большого количества информации потенциально скрытого в тепловых матрицах, такого как возможная зависимость между объемом выбросов и их температурой, дальнейшими целями для развития работы может стать получение физических характеристик факела выбросов.
 	
 	
 \chapter*{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
@@ -1347,20 +1364,24 @@
 		\sortitem{\textbf{Lee,~J.} FLIR Technology: 'New' Technology Shines a Camera on Greenhouse Gas Emissions / J.~Lee // Triple Pundit. -- 2018. -- №~12 -- P.~1 URL: https://clck.ru/34N7zc (дата обращения: 02.01.2023).}{triplepundit.com}{LeeJFLIRTechnologyNewTechnologyShinesaCameraonGreenhouseGasEmissions}
 		\sortitem{\textbf{Davison,~J.} Gasoline and diesel passenger car emissions deterioration using on-road emission measurements and measured mileage / J.~Davison, R.~A.~Rose, N.~J.~Farren // Atmospheric Environment: X. -- 2022. --\linebreak V.~14. -- P.~100162.}{Gasoline and diesel passenger car emissions deterioration using on-road emission measurements and measured mileage}{DavisonRoseFarren}
 		\sortitem{OpenCV: Feature Detection and Description: [сайт]. -- 2018. URL: https://docs.opencv.org/4.x/dc/dc3/tutorial\_py\_matcher.html (дата обращения: 01.02.2023).}{OpenCV: Feature Detection and Description}{OpenCVFeatureDetectionandDescription}
-		\sortitem{Automation Technology: Early fire detection and condition monitoring: [сайт]. -- 2020. URL: https://www.automationtechnology.de/cms/wp-content/\linebreak uploads/2015/12/Monitoring-application-overview.pdf (дата обращения:\linebreak 08.02.2023).}{Early fire detection and condition monitoring}{Earlyfiredetectionandconditionmonitoring}
+		\sortitem{\vspace{1cm}Automation Technology: Early fire detection and condition monitoring: [сайт]. -- 2020. URL: https://www.automationtechnology.de/cms/wp-content/\linebreak uploads/2015/12/Monitoring-application-overview.pdf (дата обращения:\linebreak 08.02.2023).}{Early fire detection and condition monitoring}{Earlyfiredetectionandconditionmonitoring}
 		\sortitem{\textbf{Moreland,~K.~D.} Diverging Color Maps for Scientific Visualization (Expanded) / K.~D.~Moreland // Sandia National Laboratories. --\linebreak 2009. -- P.~3.}{Diverging Color Maps for Scientific Visualization (Expanded)}{MorelandKDDivergingColorMapsforScientificVisualizationExpanded}
 		\sortitem{\textbf{Ibraheem,~N.~A.} Understanding color models: a review /\linebreak N.~A.~Ibraheem, M.~M.~Hasan, R.~Z.~Khan // Journal of science and\linebreak technology. -- 2009. -- V.~2, №~3. -- P.~265--275.}{Understanding color models: a review}{Understandingcolormodelsareview}
 		\sortitem{\textbf{Cunningham,~P.} k-Nearest neighbour classifiers: a tutorial /\linebreak P.~Cunningham, S.~J.~Delany // ACM computing surveys. -- 2021. -- V.~54, №~6. -- P.~1--25.}{k-Nearest neighbour classifiers: a tutorial}{CunninghamPDelanySJkNearestneighbourclassifiersatutorial}
 		\sortitem{Scholarpedia: Scale Invariant Feature Transform: [сайт]. -- 2016. URL: http://www.scholarpedia.org/article/Scale\_Invariant\_Feature\_Transform\linebreak (дата обращения: 05.04.2023).}{Scholarpedia: Scale Invariant Feature Transform}{ScholarpediaScaleInvariantFeatureTransform}
-		\sortitem{\vspace{1cm}\textbf{Fischler,~M.~A.} Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography /\linebreak M.~A.~Fischler, R.~C.~Bolles // Communications of the ACM. -- 1981. -- V.~24, №~6. -- P.~381--395.}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}
+		\sortitem{\textbf{Fischler,~M.~A.} Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography /\linebreak M.~A.~Fischler, R.~C.~Bolles // Communications of the ACM. -- 1981. -- V.~24, №~6. -- P.~381--395.}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}{FischlerBollesRandomsampleconsensusaparadigmformodelfitting}
 		\sortitem{\textbf{Mohamed,~I.~S.} Detection and tracking of pallets using a laser\linebreak rangefinder and machine learning techniques / I.~S.~Mohamed. -- Genova:\linebreak European Master on Advanced Robotics+(EMARO+), 2017. -- 77~p.}{Detection and tracking of pallets using a laser rangefinder and machine learning techniques}{MohamedISDetectionandtrackingofpalletsusing}
-		\sortitem{\textbf{Zhao,~R.} Rethinking dice loss for medical image segmentation / R.~Zhao, B.~Qian, X.~Zhang // 2020 IEEE International Conference on Data Mining (ICDM). -- 2020. -- P.~851--860.}{Rethinking dice loss for medical image segmentation}{ZhaoQianZhangRethinkingdiceloss}
+		\sortitem{\vspace{1cm}\textbf{Zhao,~R.} Rethinking dice loss for medical image segmentation / R.~Zhao, B.~Qian, X.~Zhang // 2020 IEEE International Conference on Data Mining (ICDM). -- 2020. -- P.~851--860.}{Rethinking dice loss for medical image segmentation}{ZhaoQianZhangRethinkingdiceloss}
+		\sortitem{\textbf{Beucher,~S} The watershed transformation applied to image\linebreak segmentation / K.~V.~Lalitha, R.~Amrutha, S.~Michahial // Scanning\linebreak Microscopy. -- 1992. -- V.~1992, №~6. -- P.~299--314.}{Implementation of watershed segmentation}{Beucher}
 	\end{sortedlist_eng}
 	
-\chapter*{ПРИЛОЖЕНИЕ 1}
+\chapter*{ПРИЛОЖЕНИЕ 1 код программы}
 \addcontentsline{toc}{chapter}{ПРИЛОЖЕНИЕ 1}
+\begin{center} {Модуль <<RealPlayAndPTZControlDlg.cpp>>}
+\end{center}
+\setstretch{1.0}
 \begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
-		
+
 #include <ctime>
 #include <iostream>
 #include <algorithm>
@@ -1412,6 +1433,9 @@ LDWORD dwUser)
 				}
 			}
 		}
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
 		// запись информации в файл
 		FILE* fp;
 		fp = fopen("saves\\temps.bin", "ab");
@@ -1456,7 +1480,6 @@ void CHeatmap::OnBnClickedStartfetch2()
 		m_isFetch = false;
 	}
 }
-
 // регистраций функции для получения максимальной
 // и минимальной температуры
 void CHeatmap::OnAttach()
@@ -1469,7 +1492,9 @@ void CHeatmap::OnAttach()
 	m_lAttachhandle = VSIF_RadiometryAttach(m_lLoginID, 
 	&stIn, &stOut, 1000);
 }
-
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
 // Остановка вызова функции для получения максимальной и 
 // минимальной температуры
 void CHeatmap::OnStop()
@@ -1525,6 +1550,10 @@ void CRealPlayAndPTZControlDlg::OnBTLogin()
 			stuChn.stuVideoIn.nMaxTotal);
 			int nIndex = 0;
 			m_comboChannel.ResetContent();
+			
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
 			for (int i = 0; i < m_nChannelCount; i++)
 			{
 				CString str;
@@ -1579,10 +1608,11 @@ FRAME_INFO_EX* pFrameInfo)
 	// проверка на ошибки
 	if (0 == nPort || 
 	pFrameDecodeInfo == NULL || pFrameInfo == NULL)
-	{
 		return;
-	}
-	
+		
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
 	// обработка оптических кадров
 	if (pFrameInfo->nFrameType == 0) 
 	{
@@ -1636,6 +1666,715 @@ FRAME_INFO_EX* pFrameInfo)
 		fclose(fp);
 	}
 }
+
+
+\end{Verbatim}
+
+\begin{center} {Модуль <<TeplovisorSegment.cpp>>}
+\end{center}
+
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+	#define _CRT_SECURE_NO_WARNINGS
+	#include <set>
+	#include <chrono>
+	#include <regex>
+	#include <iostream>
+	#include <opencv2/core.hpp>
+	#include <opencv2/highgui.hpp>
+	#include <opencv2/imgproc.hpp>
+	#include <opencv2/features2d.hpp>
+	
+	using namespace cv;
+	using namespace std;
+	
+	//объявление констант
+	#define RGB 256
+	#define CHANNELS 3
+	#define W 1920
+	#define H 1080 * 3 / 2
+	
+	//объявление буфферов
+	unsigned char buf[H][W];
+	bool loadedFlag = false;
+	unsigned char colorTransform[RGB][RGB][RGB];
+	/**********************************************************/
+	//функция загрузки преобразователя цветовой карты
+	void loadMap(string fileName)
+	{
+		//загрузка файлов
+		FILE* input = NULL;
+		input = fopen(fileName.c_str(), "rb");
+		cout << "Map loading started______________\n";
+		//если файла не существует подготовка преобразователя
+		if (input == NULL)
+		{
+			//подгоовка обучающей выборки для knn
+			vector<unsigned char> gray(RGB);
+			for (int i = 0; i < RGB; i++) gray[i] = i;
+			Mat grayValues(RGB, 1, CV_8U, gray.data());
+			Mat colorValues;
+			applyColorMap(grayValues, colorValues, 
+			COLORMAP_JET);
+			colorValues.convertTo(colorValues, CV_32FC3);
+			vector<Mat> colorValuesVec;
+			for (int i = 0; i < colorValues.rows; ++i) {
+				colorValuesVec.push_back({ 1, 
+					CHANNELS, CV_32F,
+					colorValues.at<Vec3f>(i, 0).val });
+			}
+			
+			//создание и обучение модели
+			FlannBasedMatcher fm = FlannBasedMatcher();
+			fm.add(colorValuesVec); fm.train();
+			cout << "model trained______________\n";
+			vector<float> unicData;
+			
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+			// классификация RGB
+			for (int i = 0; i < RGB; i++)
+			{
+				for (int j = 0; j < RGB; j++)
+				{
+					for (int k = 0; k < RGB; k++)
+					{
+						unicData.push_back((float)i);
+						unicData.push_back((float)j);
+						unicData.push_back((float)k);
+					}
+				}
+			}
+			Mat unic(unicData.size() / CHANNELS, CHANNELS, 
+			CV_32F, unicData.data());
+			vector<DMatch> matches; fm.match(unic, matches);
+			for (int i = 0; i < unicData.size() / CHANNELS; i++)
+			{
+				colorTransform[(int)unicData[i * CHANNELS]]
+				[(int)unicData[i * CHANNELS + 1]]
+				[(int)unicData[i * CHANNELS + 2]] = 
+				matches[i].imgIdx;
+			}
+			
+			//сохранение классификатора
+			FILE* output;
+			output = fopen(fileName.c_str(), "wb");
+			fwrite(colorTransform, sizeof(unsigned char), 
+			RGB * RGB * RGB, output);
+			fclose(output);
+		}
+		//если файл есть просто загружаем
+		else
+		{
+			fread(colorTransform, sizeof(unsigned char), 
+			RGB * RGB * RGB, input);
+			fclose(input);
+		}
+		cout << "Map loading finished___________\n";
+	}
+	
+	//вспомогательная функция для 
+	//получения размеров из названия файла
+	pair<int, int> get_size(string& s)
+	{
+		string s1 = "", s2 = "";
+		int i = 0;
+		for (i = 0; i < s.size() &&
+		(s[i] >= '0' && s[i] <= '9'); ++i)
+			s1 += s[i];
+		for (i++; i < s.size() &&
+		(s[i] >= '0' && s[i] <= '9'); ++i)
+			s2 += s[i];
+		return { stoi(s1), stoi(s2) };
+	}
+	
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+	//функция сегментации WaterShed
+	Mat segment_test(Mat& grayImage)
+	{
+		//получение маркеров
+		Mat image, res;
+		cvtColor(grayImage, image, COLOR_BGR2GRAY);
+		threshold(image, res, 0, 255, 
+		THRESH_BINARY_INV + THRESH_OTSU);
+		cv::Mat markers = cv::Mat::zeros(image.size(), 
+		CV_32SC1);
+		unsigned char maxzn = -1;
+		pair<unsigned char, unsigned char> ind;
+		for (int i = 0; i < image.rows; i++) {
+			for (int j = 0; j < image.cols; j++) {
+				if (image.at<unsigned char>(i, j) >= maxzn)
+				{
+					maxzn = image.at<unsigned char>(i, j);
+					ind = { i, j };
+				}
+				markers.at<int>(i, j) = 0;
+			}
+		}
+		cv::Size ksize(7, 7);
+		double sigmaX = 2.0;
+		double sigmaY = 2.0;
+		
+		// применяем фильтр Гаусса на изображении
+		cv::GaussianBlur(image, image, ksize, 
+		sigmaX, sigmaY);
+		erode(res, res, Mat(9,9,CV_8U), 
+		Point(-1, -1), 2, 1, 1);
+		for (int i = 0; i < image.rows; i++) {
+			for (int j = 0; j < image.cols; j++) {
+				if (image.at<unsigned char>(i, j) 
+				>= maxzn * 0.9)
+				{
+					markers.at<int>(i, j) = 255;
+				}
+				else if (res.at<unsigned char>(i, j)
+				== 255)
+				{
+					markers.at<int>(i, j) = 1;
+				}
+			}
+		}
+		
+		//применение алгоритма сегментации
+		//водоразделами
+		watershed(grayImage, markers);
+		cvtColor(res, res, COLOR_GRAY2BGR);
+		cvtColor(image, image, COLOR_GRAY2BGR);
+		markers.convertTo(markers, CV_8UC1);
+		return markers;
+	}
+	
+	
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+	//простейший вариант сегментации
+	Mat segment_basic(Mat& grayImage)
+	{
+		uchar pixelCoords;
+		Mat segImage(grayImage);
+		for (int i = 0; i < grayImage.rows; i++) {
+			for (int j = 0; j < grayImage.cols; j++) {
+				pixelCoords = 
+				grayImage.at<uchar>(i, j);
+				if (pixelCoords >= 145)
+				segImage.at<uchar>(i, j) = 1;
+				else
+				segImage.at<uchar>(i, j) = 0;
+				
+			}
+		}
+		return segImage;
+	}
+	
+	//загрузка оптического видео
+	//преобразование к RGB и сохранение
+	void videoload_opt(string fileNamein, string& fileNameOut)
+	{
+		fileNameOut = fileNamein + "tmp.avi";
+		int frameNum = 0;
+		FILE* yuvFile = fopen(fileNamein.c_str(), "rb");
+		
+		pair<int, int> sizes = get_size(fileNamein);
+		
+		int w = sizes.first;
+		int h = sizes.second;
+		
+		int frame_width = static_cast<int>(w);
+		int frame_height = static_cast<int>(h);
+		Size frame_size(frame_width, frame_height);
+		int fps = 20;
+		VideoWriter output_real(fileNameOut, 
+		VideoWriter::fourcc('M', 'J', 'P', 'G'),
+		fps, frame_size);
+		int i = 0;
+		//цикл по кадрам
+		while (!feof(yuvFile)) {
+			i++;
+			cout << i << endl;
+			size_t readData = fread(buf,
+			sizeof(unsigned char),
+			h * w * 3 / 2, yuvFile);
+			Mat trueImage(h * 3 / 2,
+			w, CV_8U, buf),
+			segImage;
+			cvtColor(trueImage,
+			trueImage, COLOR_YUV2BGR_I420);
+			output_real.write(trueImage);
+		}
+		output_real.release();
+	}
+	
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+	//загрузка теплового видео
+	//конвертация цветовой карты
+	//преобразование к RGB и сохранение
+	void videoload_tep(string fileNamein, string& fileNameOut)
+	{
+		fileNameOut = fileNamein + "tmp";
+		int frameNum = 0;
+		FILE* yuvFile = fopen(fileNamein.c_str(), "rb");
+		
+		pair<int, int> sizes = get_size(fileNamein);
+		
+		int w = sizes.first;
+		int h = sizes.second;
+		
+		int frame_width = static_cast<int>(w);
+		int frame_height = static_cast<int>(h);
+		Size frame_size(frame_width, frame_height);
+		int fps = 20;
+		
+		VideoWriter output_gray("output_gray.avi",
+		VideoWriter::fourcc('M', 'J', 'P', 'G'),
+		fps, frame_size);
+		
+		int i = 0;
+		//цикл по кадрам
+		while (!feof(yuvFile)) {
+			i++;
+			cout << i << endl;
+			size_t readData = fread(buf, sizeof(unsigned char), 
+			h * w * 3 / 2, yuvFile);
+			
+			Mat grayImage, trueImage(h * 3 / 2, w, CV_8U, buf);
+			
+			cvtColor(trueImage, trueImage, COLOR_YUV2BGR_I420);
+			cvtColor(trueImage, grayImage, COLOR_BGR2GRAY);
+			rectangle(trueImage, { 725, 50 }, { 1210, 85 },
+			{ 127, 0, 0 }, -1);
+			
+			//загрузка преобразователя
+			if (!loadedFlag)
+			{
+				loadMap("convertMap.bin");
+				loadedFlag = true;
+			}
+			
+			Vec3b pixelCoords;
+			
+			for (int i = 0; i < trueImage.rows; i++) {
+				for (int j = 0; j < trueImage.cols; j++) {
+					pixelCoords = trueImage.at<Vec3b>(i, j);
+					grayImage.at<uchar>(i, j) =
+					colorTransform[pixelCoords.val[0]]
+					[pixelCoords.val[1]]
+					[pixelCoords.val[2]];
+					
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+				}
+			}
+			cvtColor(grayImage, grayImage, COLOR_GRAY2BGR);
+			output_gray.write(grayImage);
+		}
+		output_gray.release();
+	}
+	
+	
+	//алгоритм RanSaC для востановления
+	//прямоугольника
+	vector<float> RANSAC(vector<int>& cord,
+	vector<DMatch>& good_matches,
+	vector<KeyPoint>& k1,
+	vector<KeyPoint>& k2,
+	int tries)
+	{
+		vector<float> bestcord(0);
+		float bestdist;
+		while (tries--)
+		{
+			int ind1 = rand() % good_matches.size();
+			int ind2 = rand() % good_matches.size();
+			while (ind2 == ind1) 
+			ind2 = rand() % good_matches.size();
+			
+			//поиск внутреннего прямоугольника на 
+			//первой картинке
+			vector<float> coord1 = 
+			{ min(k1[good_matches[ind1].queryIdx].pt.x,
+				k1[good_matches[ind2].queryIdx].pt.x),
+				max(k1[good_matches[ind1].queryIdx].pt.x,
+				k1[good_matches[ind2].queryIdx].pt.x),
+				min(k1[good_matches[ind1].queryIdx].pt.y,
+				k1[good_matches[ind2].queryIdx].pt.y),
+				max(k1[good_matches[ind1].queryIdx].pt.y,
+				k1[good_matches[ind2].queryIdx].pt.y) };
+			//поиск внутреннего прямоугольника на 
+			//второй картинке 
+			vector<float> coord2 = 
+			{ min(k2[good_matches[ind1].trainIdx].pt.x,
+				k2[good_matches[ind2].trainIdx].pt.x),
+				max(k2[good_matches[ind1].trainIdx].pt.x,
+				k2[good_matches[ind2].trainIdx].pt.x),
+				min(k2[good_matches[ind1].trainIdx].pt.y,
+				k2[good_matches[ind2].trainIdx].pt.y),
+				max(k2[good_matches[ind1].trainIdx].pt.y,
+				k2[good_matches[ind2].trainIdx].pt.y) };
+			//разница между внутреним и внешним 
+			//прямоугольником на 1 картинке
+			vector<float> delta1 = 
+			{ abs(coord1[0] - cord[0]),
+				abs(coord1[1] - cord[1]),
+				abs(coord1[2] - cord[2]),
+				abs(coord1[3] - cord[3]) };
+			
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+			//размеры внутреннего прямоугольника 
+			//в 1 и во 2 картинках
+			vector<float> size1 = 
+			{ abs(coord1[0] - coord1[1]),
+				abs(coord1[2] - coord1[3]) };
+			vector<float> size2 = 
+			{ abs(coord2[0] - coord2[1]),
+				abs(coord2[2] - coord2[3]) };
+			// разница между внутреним и внешним 
+			//прямоугольником на 2 картинке
+			vector<float> delta2 = 
+			{ delta1[0] * size2[0] / size1[0],
+				delta1[1] * size2[0] / size1[0],
+				delta1[2] * size2[1] / size1[1],
+				delta1[3] * size2[1] / size1[1] };
+			// внешний прямоугольник на 2 картинке
+			vector<float> newcord = 
+			{ coord2[0] - delta2[0],
+				coord2[1] + delta2[1],
+				coord2[2] - delta2[2],
+				coord2[3] + delta2[3] };
+			// размеры внешнего прямоугольника 
+			//на 2 кортинке
+			vector<float> sizenew = 
+			{ newcord[1] - newcord[0],
+				newcord[3] - newcord[2] };
+			
+			float dist = 0;
+			for (int i = 0; i < good_matches.size(); i++)
+			{
+				// относительные координаты 
+				//точки на 1 изображении
+				vector<float> tcord1 = 
+				{ k1[good_matches[i].queryIdx].pt.x - cord[0],
+					k1[good_matches[i].queryIdx].pt.y - cord[2] };
+				// относительные координаты 
+				//точки на 2 изображении
+				vector<float> tcord2 = 
+				{ tcord1[0] * size2[0] / size1[0],
+					tcord1[1] * size2[1] / size1[1] };
+				// абсолютные преобразованные 
+				//координаты на 2 картинке
+				vector<float> absconvcord = 
+				{ newcord[0] + tcord2[0],
+					newcord[2] + tcord2[1] };
+				// абсолютные координаты на 
+				//2 картинке
+				vector<float> abscord =
+				{ k2[good_matches[i].trainIdx].pt.x,
+					k2[good_matches[i].trainIdx].pt.y };
+				// расстояние
+				float tdist = 
+				sqrt(((absconvcord[0] - abscord[0]) * 
+				(absconvcord[0] - abscord[0]) +
+				(absconvcord[1] - abscord[1]) *
+				(absconvcord[1] - abscord[1])));
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+				dist += tdist * good_matches[i].distance;
+			}
+			//обновление лучшего результата
+			if (bestcord.size() == 0 || dist < bestdist)
+			{
+				bestcord = newcord;
+				bestdist = dist;
+			}
+		}
+		return bestcord;
+	}
+	
+	//получение коэффициента точности DICE
+	double diceCoefficient(Mat& mask1, Mat& mask2)
+	{
+		double intersectionArea = 0,
+		mask1Area = 0, 
+		mask2Area = 0;
+		
+		//подсчет площадей
+		for (int i = 0; i < mask1.rows; i += 1) {
+			for (int j = 0; j < mask1.cols; j += 1) {
+				uchar& msk1 = mask1.at<uchar>(i, j);
+				uchar& msk2 = mask2.at<uchar>(i, j);
+				if (msk1 == 255 && msk2 == 255) 
+				intersectionArea++;
+				if (msk1 == 255) mask1Area++;
+				if (msk2 == 255) mask2Area++;
+			}
+		}
+		
+		double dice = 
+		(2 * intersectionArea) / 
+		(mask1Area + mask2Area);
+		return dice;
+	}
+	
+	//расчет DICE для тестовой выборки
+	void podschet()
+	{
+		double koef_gl = 0;
+		for (int i = 0; i < 100; i++)
+		{
+			Mat msk = 
+			imread("mask_razmet/image (" + 
+			to_string(i) + ").jpg", 0);
+			Mat pred = 
+			imread("mask/" + 
+			to_string(i + 1) + ".jpg", 0);
+			double koef = diceCoefficient(msk, pred);
+			cout << koef << ", ";
+			koef_gl += koef;
+		}
+		koef_gl /= 100;
+		cout << endl << "DICE = " << koef_gl << endl;
+	}
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+	//получение разницы масок
+	void difMask(string name)
+	{
+		Mat msk_r = imread("examples/mask_razmet/" + 
+		name + ".png", 0);
+		Mat msk = imread("examples/mask/" +
+		name + ".png", 0);
+		Mat msk_dif(min(msk.rows, msk_r.rows),
+		min(msk.cols, msk_r.cols), CV_8U, buf);
+		
+		for (int i = 0; i < min(msk.rows, msk_r.rows);
+		++i)
+		{
+			for (int j = 0; j < min(msk.cols, msk_r.cols);
+			++j)
+			{
+				//проверка исключающим или
+				if ((msk_r.at<unsigned char>(i, j) >= 128) ^ 
+				(msk.at<unsigned char>(i, j) >= 128))
+				{
+					msk_dif.at<unsigned char>(i, j) = 255;
+				}
+				else
+				{
+					msk_dif.at<unsigned char>(i, j) = 0;
+				}
+			}
+		}
+		cvtColor(msk_dif, msk_dif, COLOR_GRAY2BGR);
+		imwrite("examples/mask_dif/" + 
+		name + ".png", msk_dif);
+	}
+	
+	//алгоритм детекции трубы
+	vector<float> trubaDetector(Mat img1, Mat img2)
+	{
+		//подготовка детектора
+		Ptr<SiftFeatureDetector> detector =
+		SiftFeatureDetector::create(0, 7, 0.04, 10.0, 0.8);
+		
+		//дескрипторы для образца и изображения на котором
+		//детектируется труба
+		std::vector<KeyPoint> keypoints1;
+		Mat descriptors1;
+		detector->detectAndCompute(img1,
+		noArray(),
+		keypoints1,
+		descriptors1);
+		std::vector<KeyPoint>keypoints2;
+		Mat descriptors2;
+		detector->detectAndCompute(img2,
+		noArray(),
+		keypoints2,
+		descriptors2);
+		
+		
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+		//подготовка классификатора для сопоставления
+		Ptr<DescriptorMatcher> matcher =
+		DescriptorMatcher::
+		create(DescriptorMatcher::FLANNBASED);
+		std::vector<std::vector<DMatch>>
+		knn_matches;
+		matcher->knnMatch(descriptors1,
+		descriptors2,
+		knn_matches,
+		2);
+		
+		//отсеивание менее значимых сопоставлений
+		vector<int> cords =
+		{ 0,
+			img1.cols - 1,
+			0,
+			img1.rows - 1 };
+		const float ratio_thresh = 0.7f;
+		std::vector<DMatch> good_matches;
+		for (size_t i = 0; i < knn_matches.size(); i++)
+		{
+			if (knn_matches[i][0].distance <
+			ratio_thresh * knn_matches[i][1].distance)
+			{
+				auto p1 =
+				keypoints1[knn_matches[i][0].queryIdx].pt;
+				auto p2 =
+				keypoints2[knn_matches[i][0].trainIdx].pt;
+				
+				if (p1.x >= cords[0] && p1.x <= cords[1] &&
+				p1.y >= cords[2] && p1.y <= cords[3]) {
+					good_matches.push_back(knn_matches[i][0]);
+				}
+				
+				// RunSUCK
+				// Match rectangle by points
+			}
+		}
+		cout << good_matches.size() << " ";
+		
+		//использование алгоритма RanSaC
+		vector<float> rect2 = RANSAC(cords,
+		good_matches,
+		keypoints1,
+		keypoints2,
+		500);
+	}
+	
+	
+	int main()
+	{
+		//таймер
+		auto start = chrono::high_resolution_clock::now();
+		
+		// загрузка видео
+		string opt, tep;
+\end{Verbatim}
+\noindent Продолжение приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+		videoload_opt("1920x1080.avi", opt);
+		videoload_tep("1280x1024.avi", tep);
+		VideoCapture opt_cap(opt);
+		VideoCapture tep_cap(tep);
+		VideoWriter res("res.avi", 
+		VideoWriter::fourcc('m', 'p', '4', 'v'),
+		opt_cap.get(CAP_PROP_FPS), 
+		Size(737 * 2, 588));
+		
+		Mat opt_img, tep_img;
+		int frameNum = 0; 
+		
+		//цикл по кадрам
+		while (true) {
+			if (frameNum >= 300) break;
+			frameNum++;
+			cout << frameNum << endl;
+			opt_cap >> opt_img;
+			tep_cap >> tep_img;
+			if (opt_img.empty() || 
+			tep_img.empty()) break;
+			
+			resize(tep_img, 
+			tep_img, 
+			Size(737, 588), 
+			INTER_LINEAR);
+			
+			Vec3b pixel_tep;
+			Mat test(588, 737 * 2, CV_8UC3, buf);
+			Mat res_im(588, 737, CV_8UC3, buf);
+			
+			//сегментация
+			Mat segment = segment_test(tep_img);
+			rectangle(segment, 
+			{ 442, 459 }, 
+			{ 527, 587 }, 
+			{ 0, 0, 0 }, -1);
+			
+			//подготовка итогового видео
+			for (int i = 0; i < tep_img.rows; ++i)
+			{
+				for (int j = 0; j < tep_img.cols; ++j)
+				{
+					pixel_tep = tep_img.at<Vec3b>(i, j);
+					Vec3b pixel_opt = 
+					opt_img.at<Vec3b>(i + 252, j + 558);
+					Vec3b& test_1 = 
+					test.at<Vec3b>(i, j);
+					Vec3b& test_2 =
+					test.at<Vec3b>(i, j + 737);
+					
+					if (segment.at<unsigned char>(i, j) == 255)
+					{
+						test_1[0] = 
+						(unsigned char)(pixel_opt.val[0] * 
+						0.6);
+\end{Verbatim}
+\noindent Окончание приложения 1
+\begin{Verbatim}[fontseries=c, fontsize=\fontsize{10pt}{12pt}\selectfont]
+						test_1[1] =
+						(unsigned char)(pixel_opt.val[1] * 
+						0.6);
+						test_1[2] = 
+						(unsigned char)(pixel_opt.val[2] * 
+						0.6 + 255 * 0.4);
+						
+						test_2[0] = 
+						(unsigned char)(pixel_tep.val[0] * 
+						0.6);
+						test_2[1] = 
+						(unsigned char)(pixel_tep.val[1] * 
+						0.6);
+						test_2[2] = 
+						(unsigned char)(pixel_tep.val[2] * 
+						0.6 + 255 * 0.4);
+					}
+					else
+					{
+						test_1[0] = 
+						(unsigned char)(pixel_opt.val[0]);
+						test_1[1] = 
+						(unsigned char)(pixel_opt.val[1]);
+						test_1[2] = 
+						(unsigned char)(pixel_opt.val[2]);
+						
+						test_2[0] = 
+						(unsigned char)(pixel_tep.val[0]);
+						test_2[1] = 
+						(unsigned char)(pixel_tep.val[1]);
+						test_2[2] = 
+						(unsigned char)(pixel_tep.val[2]);
+					}
+				}
+			}
+			putText(test, 
+			to_string(frameNum), 
+			Point(10, 450), 
+			FONT_HERSHEY_SIMPLEX, 
+			3, 
+			CV_RGB(0, 255, 0), 
+			2);
+			
+			res.write(test);
+		}
+		
+		//освобождение данных
+		opt_cap.release();
+		tep_cap.release();
+		res.release();
+		
+		printf("\n\n%lf\n", clock() * 1e-3);
+	}
 \end{Verbatim}
 
 \end{document}
