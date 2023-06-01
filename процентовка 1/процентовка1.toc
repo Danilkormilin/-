@@ -2,6 +2,6 @@
 \beamer@sectionintoc {1}{Введение}{2}{0}{1}
 \beamer@sectionintoc {2}{Современные методы контроля выбросов}{3}{0}{2}
 \beamer@sectionintoc {3}{Задача}{5}{0}{3}
-\beamer@sectionintoc {4}{Подготовка данных}{6}{0}{4}
-\beamer@sectionintoc {5}{Сегментация}{15}{0}{5}
-\beamer@sectionintoc {6}{Результаты}{20}{0}{6}
+\beamer@sectionintoc {4}{Подготовка данных}{7}{0}{4}
+\beamer@sectionintoc {5}{Сегментация}{13}{0}{5}
+\beamer@sectionintoc {6}{Результаты}{17}{0}{6}

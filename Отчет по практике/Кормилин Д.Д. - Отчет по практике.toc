@@ -1,0 +1,9 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{ВВЕДЕНИЕ}{3}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}ПОДГОТОВКА ИЛЛЮСТРАЦИОННОГО МАТЕРИАЛА}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {2}ОФОРМЛЕНИЕ ВЫВОДОВ К РАБОТЕ}{9}{chapter.2}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{13}{chapter*.7}%
+\contentsline {chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}{14}{chapter*.8}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ 1 Текст доклада}{15}{chapter*.9}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ 2 Презентация}{19}{chapter*.10}%
+\contentsfinish 

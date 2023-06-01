@@ -1,0 +1,1556 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  1 JUN 2023 22:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Кормилин Д.Д. - Отчет по практике.tex"
+(./Кормилин Д.Д. - Отчет по практике.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-12-17>
+(d:/texlive/2022/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(d:/texlive/2022/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen140
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
+) (./susu.sty
+(d:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(d:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(d:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen142
+))
+(d:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(d:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks17
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks18
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(d:/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(d:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(d:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count272
+\U@D=\dimen151
+\l@unhyphenated=\language87
+
+(d:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count273
+
+(d:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)
+(d:/texlive/2022/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 78.
+
+
+(d:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+
+(d:/texlive/2022/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+))
+(d:/texlive/2022/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 11.
+)
+(d:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(d:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(d:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
+)
+(d:/texlive/2022/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(d:/texlive/2022/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(d:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen160
+\enit@toks=\toks22
+\enit@inbox=\box53
+\enit@count@id=\count276
+\enitdp@description=\count277
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+)
+(d:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+
+(d:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(d:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(d:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(d:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(d:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(d:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count278
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count279
+\Hy@pagecounter=\count280
+
+(d:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(d:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(d:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count281
+
+(d:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 3149.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count282
+
+(d:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen162
+
+(d:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(d:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count283
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(d:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(d:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+
+(d:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
+
+(d:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(d:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip63
+)
+(d:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+12.
+
+(d:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)<<t2a.cmap>>)
+(d:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(d:/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count289
+\Gm@cntv=\count290
+\c@Gm@tempcnt=\count291
+\Gm@bindingoffset=\dimen165
+\Gm@wd@mp=\dimen166
+\Gm@odd@mp=\dimen167
+\Gm@even@mp=\dimen168
+\Gm@layoutwidth=\dimen169
+\Gm@layoutheight=\dimen170
+\Gm@layouthoffset=\dimen171
+\Gm@layoutvoffset=\dimen172
+\Gm@dimlist=\toks23
+)
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(d:/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+)
+(d:/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen175
+\ttl@minus=\dimen176
+\ttl@toksa=\toks26
+\titlewidth=\dimen177
+\titlewidthlast=\dimen178
+\titlewidthfirst=\dimen179
+)
+(d:/texlive/2022/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen180
+)
+(d:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count292
+\lst@gtempboxa=\box55
+\lst@token=\toks27
+\lst@length=\count293
+\lst@currlwidth=\dimen181
+\lst@column=\count294
+\lst@pos=\count295
+\lst@lostspace=\dimen182
+\lst@width=\dimen183
+\lst@newlines=\count296
+\lst@lineno=\count297
+\lst@maxwidth=\dimen184
+
+(d:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count298
+\lst@skipnumbers=\count299
+\lst@framebox=\box56
+)
+(d:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(d:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(d:/texlive/2022/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count300
+\cp@tempcnt=\count301
+)
+(d:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count302
+\c@subtable=\count303
+)
+(d:/texlive/2022/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count304
+\multirow@dima=\skip67
+\bigstrutjot=\dimen185
+)
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(d:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count305
+\rotFPtop=\skip68
+\rotFPbot=\skip69
+\rot@float@box=\box57
+\rot@mess@toks=\toks28
+)
+(d:/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count306
+\LTcapwidth=\dimen186
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count307
+\LT@rows=\count308
+\c@LT@tables=\count309
+\c@LT@chunks=\count310
+\LT@p@ftn=\toks29
+)
+(d:/texlive/2022/texmf-dist/tex/latex/datatool/datatool.sty
+Package: datatool 2019/09/27 v2.32 (NLCT)
+
+(d:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(d:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(d:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count311
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(d:/texlive/2022/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(d:/texlive/2022/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count312
+)
+(d:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count313
+)
+(d:/texlive/2022/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(d:/texlive/2022/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(d:/texlive/2022/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count314
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count315
+\FP@xia=\count316
+\FP@xib=\count317
+\FP@xfa=\count318
+\FP@xfb=\count319
+\FP@rega=\count320
+\FP@regb=\count321
+\FP@regs=\count322
+\FP@times=\count323
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count324
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks32
+\@dtl@tmpcount=\count325
+\dtl@tmplength=\skip74
+\dtl@sortresult=\count326
+\@dtl@numgrpsepcount=\count327
+\@dtl@datatype=\count328
+\dtl@codeA=\count329
+\dtl@codeB=\count330
+\@dtl@foreach@level=\count331
+)
+\dtlcolumnnum=\count332
+\dtlrownum=\count333
+\@dtl@before=\toks33
+\@dtl@after=\toks34
+\@dtl@colhead=\toks35
+\dtlcurrentrow=\toks36
+\dtlbeforerow=\toks37
+\dtlafterrow=\toks38
+\dtlforeachlevel=\count334
+\c@DTLrowi=\count335
+\c@DTLrowii=\count336
+\c@DTLrowiii=\count337
+\c@DTLrow=\count338
+\dtl@rowi=\count339
+\dtl@rowii=\count340
+\dtl@rowiii=\count341
+\@dtl@curi=\toks39
+\@dtl@previ=\toks40
+\@dtl@nexti=\toks41
+\@dtl@curii=\toks42
+\@dtl@previi=\toks43
+\@dtl@nextii=\toks44
+\@dtl@curiii=\toks45
+\@dtl@previii=\toks46
+\@dtl@nextiii=\toks47
+\@dtl@elements=\count342
+\@dtl@list=\toks48
+\@dtl@rowa=\toks49
+\@dtl@rowb=\toks50
+\@dtl@toksA=\toks51
+\@dtl@toksB=\toks52
+\@dtl@write=\write3
+\@dtl@read=\read3
+\dtl@entrycr=\count343
+\dtl@omitlines=\count344
+)
+(d:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(d:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-12-17 L3 programming layer (loader) 
+
+(d:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count345
+\l__pdf_internal_box=\box63
+))
+Package: xparse 2022-12-17 L3 Experimental document command parser
+)
+(d:/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count346
+\FV@InFile=\read4
+\FV@TabBox=\box64
+\c@FancyVerbLine=\count347
+\FV@StepNumber=\count348
+\FV@OutFile=\write4
+)
+\c@mycounter=\count349
+Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+Package caption Info: Option `figurename' requires the `newfloat' package on in
+put line 104.
+
+(d:/texlive/2022/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:->\def \Hy@next {\Hy@MakeCurrentHrefAu
+to {\Hy@chapapp *}\Hy@raisedlink {\hyper@anchorstart {\@currentHref }\hyper@anc
+horend }}\ifnum \c@secnumdepth >\m@ne \ltx@IfUndefined {if@mainmatter}\iftrue {
+\csname if@mainmatter\endcsname }\let \Hy@next \relax \fi \fi \Hy@next \Hy@org@
+chapter .
+Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@cha
+pter [{#1}]{#2}.
+Package newfloat Info: `rotating' package detected.
+))
+(./Кормилин Д.Д. - Отчет по практике.aux)
+\openout1 = `"Кормилин Д.Д. - Отчет по практике.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \th on input line 10.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen187
+\caption@adjustwidth@linewidth=\dimen188
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(d:/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(d:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 10.
+
+(./Кормилин Д.Д. - Отчет по практике.out)
+(./Кормилин Д.Д. - Отчет по практике.out)
+\@outlinefile=\write5
+\openout5 = `"Кормилин Д.Д. - Отчет по практике.out"'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(d:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count350
+\scratchdimen=\dimen189
+\scratchbox=\box65
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen190
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks54
+) (d:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count356
+Package newfloat Info: Trying Plan B...
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+
+(d:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+
+
+(d:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.96661pt too wide) in paragraph at lines 11--11
+[]|  [] 
+ []
+
+
+Overfull \vbox (26.14273pt too high) has occurred while \output is active []
+
+
+[1
+
+
+{d:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Кормилин Д.Д. - Отчет по практике.toc<<t1.cmap>>)
+\tf@toc=\write6
+\openout6 = `"Кормилин Д.Д. - Отчет по практике.toc"'.
+
+
+[2
+
+]
+Overfull \hbox (8.9114pt too wide) in paragraph at lines 17--18
+[]\T2A/cmr/m/n/14.4 ��������� ���-��-��-��-��-��-��� ��-��-�� ��-��-��-�� ���-�
+�� ���-��� � ����-
+ []
+
+
+Overfull \hbox (1.8729pt too wide) in paragraph at lines 21--22
+\T2A/cmr/m/n/14.4 ��� ��-����-���-��� ��-��-���, ��-��-��-��-�� ��� ���-��� ���
+-����-��, ���-�� � �����-
+ []
+
+
+Overfull \hbox (9.49142pt too wide) in paragraph at lines 23--24
+[]\T2A/cmr/m/n/14.4 ���������� ��-��� ����-��� � ��-���-��-�� ���-��� ����-��-�
+���-��� ����-
+ []
+
+
+Overfull \hbox (4.54391pt too wide) in paragraph at lines 25--26
+[]\T2A/cmr/m/n/14.4 ���������� ��-��-����-��-��-��-�� ��-��-��-�-��, ��-��-��-�
+�-�-��-�� ��-����-
+ []
+
+[3
+
+]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
+31.
+<image/chapter_3/examples/img/185.jpg, id=74, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/185.jpg  used on input li
+ne 55.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/tep/185.jpg, id=75, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/185.jpg  used on input li
+ne 60.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_razmet/185.jpg, id=76, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask_razmet/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_razmet/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_razmet/185.jpg  used on 
+input line 65.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/img/159.jpg, id=78, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/159.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/159.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/159.jpg  used on input li
+ne 70.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/tep/159.jpg, id=79, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/159.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/159.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/159.jpg  used on input li
+ne 76.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_razmet/159.jpg, id=80, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask_razmet/159.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_razmet/159.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_razmet/159.jpg  used on 
+input line 82.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+[4
+
+ <./image/chapter_3/examples/img/185.jpg> <./image/chapter_3/examples/tep/185.j
+pg> <./image/chapter_3/examples/mask_razmet/185.jpg> <./image/chapter_3/example
+s/img/159.jpg> <./image/chapter_3/examples/tep/159.jpg> <./image/chapter_3/exam
+ples/mask_razmet/159.jpg>]
+<image/chapter_3/examples/img/206.jpg, id=89, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/206.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/206.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/206.jpg  used on input li
+ne 96.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/tep/206.jpg, id=90, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/206.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/206.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/206.jpg  used on input li
+ne 101.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask/206.jpg, id=91, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask/206.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/206.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/206.jpg  used on input l
+ine 106.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/img/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/185.jpg  used on input li
+ne 111.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/tep/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/185.jpg  used on input li
+ne 116.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask/185.jpg, id=92, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/185.jpg  used on input l
+ine 121.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/img/214.jpg, id=93, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/214.jpg  used on input li
+ne 126.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/tep/214.jpg, id=94, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/214.jpg  used on input li
+ne 131.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask/214.jpg, id=95, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/214.jpg  used on input l
+ine 136.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/img/240.jpg, id=96, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/240.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/240.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/240.jpg  used on input li
+ne 141.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/tep/240.jpg, id=97, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/240.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/240.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/240.jpg  used on input li
+ne 147.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask/240.jpg, id=98, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask/240.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/240.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/240.jpg  used on input l
+ine 153.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+ [5 <./image/chapter_3/examples/img/206.jpg> <./image/chapter_3/examples/tep/20
+6.jpg> <./image/chapter_3/examples/mask/206.jpg> <./image/chapter_3/examples/ma
+sk/185.jpg> <./image/chapter_3/examples/img/214.jpg> <./image/chapter_3/example
+s/tep/214.jpg> <./image/chapter_3/examples/mask/214.jpg> <./image/chapter_3/exa
+mples/img/240.jpg> <./image/chapter_3/examples/tep/240.jpg> <./image/chapter_3/
+examples/mask/240.jpg>] [6]
+<image/chapter_3/examples/mask_razmet/206.jpg, id=116, 739.76375pt x 590.205pt>
+
+File: image/chapter_3/examples/mask_razmet/206.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_razmet/206.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_razmet/206.jpg  used on 
+input line 179.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/mask/206.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/206.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/206.jpg  used on input l
+ine 184.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_dif/206.jpg, id=117, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask_dif/206.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_dif/206.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_dif/206.jpg  used on inp
+ut line 189.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/mask_razmet/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_razmet/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_razmet/185.jpg  used on 
+input line 194.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/mask/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/185.jpg  used on input l
+ine 199.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_dif/185.jpg, id=118, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask_dif/185.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_dif/185.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_dif/185.jpg  used on inp
+ut line 204.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_razmet/214.jpg, id=119, 739.76375pt x 590.205pt>
+
+File: image/chapter_3/examples/mask_razmet/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_razmet/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_razmet/214.jpg  used on 
+input line 209.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/mask/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/214.jpg  used on input l
+ine 214.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_dif/214.jpg, id=120, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask_dif/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_dif/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_dif/214.jpg  used on inp
+ut line 219.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_razmet/240.jpg, id=121, 739.76375pt x 590.205pt>
+
+File: image/chapter_3/examples/mask_razmet/240.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_razmet/240.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_razmet/240.jpg  used on 
+input line 224.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+File: image/chapter_3/examples/mask/240.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/240.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/240.jpg  used on input l
+ine 230.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/examples/mask_dif/240.jpg, id=122, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask_dif/240.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask_dif/240.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask_dif/240.jpg  used on inp
+ut line 236.
+(pdftex.def)             Requested size: 150.234pt x 119.85808pt.
+<image/chapter_3/accuracy_itog_plot.png, id=124, 426.09187pt x 323.70938pt>
+File: image/chapter_3/accuracy_itog_plot.png Graphic file (type png)
+<use image/chapter_3/accuracy_itog_plot.png>
+Package pdftex.def Info: image/chapter_3/accuracy_itog_plot.png  used on input 
+line 246.
+(pdftex.def)             Requested size: 422.52057pt x 321.0166pt.
+ [7 <./image/chapter_3/examples/mask_razmet/206.jpg> <./image/chapter_3/example
+s/mask_dif/206.jpg> <./image/chapter_3/examples/mask_dif/185.jpg> <./image/chap
+ter_3/examples/mask_razmet/214.jpg> <./image/chapter_3/examples/mask_dif/214.jp
+g> <./image/chapter_3/examples/mask_razmet/240.jpg> <./image/chapter_3/examples
+/mask_dif/240.jpg>]
+[8 <./image/chapter_3/accuracy_itog_plot.png>]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+[9
+
+] [10] [11]
+Underfull \hbox (badness 1389) in paragraph at lines 287--288
+[]\T2A/cmr/m/n/14.4 ����� ��-��-��� ��-�� ��-��-�� ��-�� ��-����-��-��, � ��-��
+��-���-���
+ []
+
+[12] [13
+
+]
+\dtldb@list=\toks55
+\dtlkeys@list=\toks56
+\dtlrows@list=\count357
+\dtlcols@list=\count358
+
+Underfull \hbox (badness 3792) in paragraph at lines 304--304
+[]\T2A/cmr/bx/n/14.4 Beucher, S \T2A/cmr/m/n/14.4 The watershed transformation 
+applied to image
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 304--304
+\T2A/cmr/m/n/14.4 segmentation / K. V. Lalitha, R. Amrutha, S. Michahial // Sca
+nning
+ []
+
+
+Overfull \hbox (10.17465pt too wide) in paragraph at lines 304--304
+[]\T2A/cmr/bx/n/14.4 Zhao, R. \T2A/cmr/m/n/14.4 Rethinking dice loss for medica
+l image segmentation / R. Zhao,
+ []
+
+[14
+
+]
+Overfull \hbox (3.39273pt too wide) in paragraph at lines 315--316
+[]\T2A/cmr/m/n/14.4 ����� 3. ���� ��-�� ��-���-��-��-�� ��-���-���-��� ��-��-��
+ ���-���-�� ����-
+ []
+
+[15
+
+] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+\T2A/cmr/m/n/14.4 ��-�� ���-��-��. ��-��� �� ��-��-���-��� ���-�� ��-���-��-��-
+��
+ []
+
+[17] [18]
+<image/процентовка1_page-0001.jpg, id=186, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0001.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0001.jpg>
+Package pdftex.def Info: image/процентовка1_page-0001.jpg  used on i
+nput line 366.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0002.jpg, id=187, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0002.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0002.jpg>
+Package pdftex.def Info: image/процентовка1_page-0002.jpg  used on i
+nput line 371.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0003.jpg, id=188, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0003.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0003.jpg>
+Package pdftex.def Info: image/процентовка1_page-0003.jpg  used on i
+nput line 376.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0004.jpg, id=189, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0004.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0004.jpg>
+Package pdftex.def Info: image/процентовка1_page-0004.jpg  used on i
+nput line 381.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0005.jpg, id=190, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0005.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0005.jpg>
+Package pdftex.def Info: image/процентовка1_page-0005.jpg  used on i
+nput line 386.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0006.jpg, id=191, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0006.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0006.jpg>
+Package pdftex.def Info: image/процентовка1_page-0006.jpg  used on i
+nput line 391.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0007.jpg, id=192, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0007.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0007.jpg>
+Package pdftex.def Info: image/процентовка1_page-0007.jpg  used on i
+nput line 396.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0008.jpg, id=193, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0008.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0008.jpg>
+Package pdftex.def Info: image/процентовка1_page-0008.jpg  used on i
+nput line 401.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0009.jpg, id=194, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0009.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0009.jpg>
+Package pdftex.def Info: image/процентовка1_page-0009.jpg  used on i
+nput line 406.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0010.jpg, id=195, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0010.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0010.jpg>
+Package pdftex.def Info: image/процентовка1_page-0010.jpg  used on i
+nput line 411.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0011.jpg, id=196, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0011.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0011.jpg>
+Package pdftex.def Info: image/процентовка1_page-0011.jpg  used on i
+nput line 416.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0012.jpg, id=197, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0012.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0012.jpg>
+Package pdftex.def Info: image/процентовка1_page-0012.jpg  used on i
+nput line 421.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0013.jpg, id=198, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0013.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0013.jpg>
+Package pdftex.def Info: image/процентовка1_page-0013.jpg  used on i
+nput line 426.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0014.jpg, id=199, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0014.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0014.jpg>
+Package pdftex.def Info: image/процентовка1_page-0014.jpg  used on i
+nput line 431.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0015.jpg, id=200, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0015.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0015.jpg>
+Package pdftex.def Info: image/процентовка1_page-0015.jpg  used on i
+nput line 436.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0016.jpg, id=201, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0016.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0016.jpg>
+Package pdftex.def Info: image/процентовка1_page-0016.jpg  used on i
+nput line 441.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0017.jpg, id=202, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0017.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0017.jpg>
+Package pdftex.def Info: image/процентовка1_page-0017.jpg  used on i
+nput line 446.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0018.jpg, id=203, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0018.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0018.jpg>
+Package pdftex.def Info: image/процентовка1_page-0018.jpg  used on i
+nput line 451.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0019.jpg, id=204, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0019.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0019.jpg>
+Package pdftex.def Info: image/процентовка1_page-0019.jpg  used on i
+nput line 456.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0020.jpg, id=205, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0020.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0020.jpg>
+Package pdftex.def Info: image/процентовка1_page-0020.jpg  used on i
+nput line 461.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+<image/процентовка1_page-0021.jpg, id=206, 364.2408pt x 273.1806pt>
+File: image/процентовка1_page-0021.jpg Graphic file (type jpg)
+<use image/процентовка1_page-0021.jpg>
+Package pdftex.def Info: image/процентовка1_page-0021.jpg  used on i
+nput line 466.
+(pdftex.def)             Requested size: 375.57782pt x 281.69594pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 106.
+See the caption package documentation for explanation.
+
+[19
+
+ <./image/процентовка1_page-0001.jpg> <./image/процентовк�
+�1_page-0002.jpg>] [20 <./image/процентовка1_page-0003.jpg> <./image
+/процентовка1_page-0004.jpg>] [21 <./image/процентовка1_p
+age-0005.jpg> <./image/процентовка1_page-0006.jpg>] [22 <./image/п�
+�оцентовка1_page-0007.jpg> <./image/процентовка1_page-0008.
+jpg>] [23 <./image/процентовка1_page-0009.jpg> <./image/процен
+товка1_page-0010.jpg>] [24 <./image/процентовка1_page-0011.jpg>
+ <./image/процентовка1_page-0012.jpg>] [25 <./image/проценто
+вка1_page-0013.jpg> <./image/процентовка1_page-0014.jpg>]
+[26 <./image/процентовка1_page-0015.jpg> <./image/процентов
+ка1_page-0016.jpg>] [27 <./image/процентовка1_page-0017.jpg> <./im
+age/процентовка1_page-0018.jpg>] [28 <./image/процентовка
+1_page-0019.jpg> <./image/процентовка1_page-0020.jpg>] [29 <./image/
+процентовка1_page-0021.jpg>]
+(./Кормилин Д.Д. - Отчет по практике.aux)
+Package rerunfilecheck Info: File `"Кормилин Д.Д. - Отчет по �
+�рактике".out' has not changed.
+(rerunfilecheck)             Checksum: 7BFD23E9984DC2D8842745ADDB6150F5;1549.
+ ) 
+Here is how much of TeX's memory you used:
+ 20174 strings out of 476093
+ 336996 string characters out of 5795584
+ 1859787 words of memory out of 5000000
+ 40093 multiletter control sequences out of 15000+600000
+ 519683 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 106i,9n,105p,1964b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{d:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<d:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2022/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1440.pfb><d:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public
+/cm-super/sfrm1440.pfb>
+Output written on "Кормилин Д.Д. - Отчет по практике.p
+df" (29 pages, 3579976 bytes).
+PDF statistics:
+ 314 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+

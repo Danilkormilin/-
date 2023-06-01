@@ -1,0 +1,356 @@
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[english, russian]{babel}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{cmap}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[T1,T2A]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{changepage}
+\usepackage{subcaption}
+\usepackage{icomma}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{datatool}
+\usepackage{xparse}
+\usepackage{fancyvrb}
+
+\newcommand{\sortitem}[3]{%
+	\DTLnewrow{list}%
+	\DTLnewdbentry{list}{label}{#1}%
+	\DTLnewdbentry{list}{refer}{#2}%
+	\DTLnewdbentry{list}{sorter}{#3}%
+}
+
+\newcounter{mycounter}
+\setcounter{mycounter}{1}
+\newenvironment{sortedlist_rus}
+{% \begin{sortedlist}
+	\DTLifdbexists{list}{\DTLcleardb{list}}{\DTLnewdb{list}}%
+}{% \end{sortedlist}
+	\DTLsort{sorter}{list}%
+	\begin{enumerate}[start=\the\value{mycounter}, label={\arabic*}]%
+		\DTLforeach*{list}{\theLabel=label, \theRefer=refer}{%
+			\item \theLabel \label{\theRefer} \addtocounter{mycounter}{1}}%
+	\end{enumerate}%
+}
+
+\newenvironment{sortedlist_eng}
+{% \begin{sortedlist}
+	\DTLifdbexists{list}{\DTLcleardb{list}}{\DTLnewdb{list}}%
+}{% \end{sortedlist}
+	\DTLsort{sorter}{list}%
+	\begin{enumerate}[start=\the\value{mycounter}, label={\arabic*}]%
+		\DTLforeach*{list}{\theLabel=label, \theRefer=refer}{%
+			\item \theLabel \label{\theRefer} \addtocounter{mycounter}{1}}%
+	\end{enumerate}%
+}
+
+%\renewcommand{\rmdefault}{ftm}
+\renewcommand{\theequation}{\arabic{equation}}
+\makeatletter
+\@removefromreset{equation}{chapter}
+\makeatother
+
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+\newcommand{\beq}[1]{\vspace{#1cm}\begin{equation}}
+\newcommand{\eeq}[1]{\vspace{#1cm}\end{equation}}
+
+\newcommand{\beqt}{\vspace{0.3cm}\begin{equation}}
+\newcommand{\eeqt}{\vspace{0.3cm}\end{equation}}
+\newcommand{\beqts}{\vspace{0.3cm}\begin{equation*}}
+	\newcommand{\eeqts}{\vspace{0.3cm}\end{equation*}}
+\setlength{\belowcaptionskip}{-14pt}
+
+\parindent=1.25cm
+
+\linespread{1.5}
+
+\geometry{left = 3cm, right = 1.5cm, top = 2cm, bottom = 3cm}
+
+\setlist{nosep, wide = \parindent}
+
+\titleformat{\chapter}{\filcenter}{\thechapter}{6pt}{\MakeUppercase}
+\titleformat{\section}{}{\thesection}{6pt}{}
+\titleformat{\subsection}{}{\thesubsection}{6pt}{}
+
+\titlespacing{\chapter}{0pt}{-24pt}{14pt}
+\titlespacing{\section}{1.25cm}{14pt}{0pt}
+\titlespacing*{\subsection}{2.5cm}{14pt}{14pt}
+
+\renewcommand\contentsname{ОГЛАВЛЕНИЕ} 
+
+\dottedcontents{chapter}[0em]{}{0.75em}{6pt}
+\dottedcontents{section}[2em]{}{1.5em}{6pt}
+\dottedcontents{subsection}[4em]{}{2.25em}{6pt}
+
+\captionsetup{figurename = Рисунок, labelsep = endash, justification = centering, aboveskip=18pt, belowskip=-12pt}
+\DeclareCaptionFormat{table}{#1 #2 #3}
+\captionsetup[table]{singlelinecheck = false, justification = justified}
+
+\AtBeginDocument{
+	\addtolength{\abovedisplayshortskip}{0.2 cm}
+	 \addtolength{\abovedisplayskip}{-0.4 cm}
+	 \addtolength{\belowdisplayskip}{-0.4 cm}
+	\addtolength{\belowdisplayshortskip}{0.2 cm}
+}
+
+\newcommand{\firstpage}{{
+	\newgeometry{left = 3cm, right = 1.5cm, top = 2cm, bottom = 2cm}
+	\setstretch{1.0}
+	\newpage
+	\thispagestyle{empty}
+	\vspace*{-1.0cm}
+	\begin{center} { 
+		\small
+		Министерство науки и высшего образования Российской Федерации \\
+		Федеральное государственное автономное образовательное\\
+		учреждение высшего образования\\
+		<<Южно-Уральский государственный университет\\
+		(национальный исследовательский университет)>>\\
+		Институт естественных и точных наук\\
+		Кафедра прикладной математики и программирования\\
+		Направление подготовки: 01.03.02 Прикладная математика и информатика\\
+	}
+	\end{center}
+	\hspace{2.5cm}
+	\vspace{3.0cm}
+	\begin{tabular}[t]{c}
+		\vspace{3.0cm}
+		\\
+		\\
+		ОТЧЕТ\\
+		о прохождении производственной практики\\
+	\end{tabular}
+
+	\hspace*{7.9cm}
+	\begin{tabular}[t]{l}
+		\\
+		Автор работы,\\
+		студент группы ЕТ-412\\
+		\underline{\hspace{2.6cm}}/ Д.Д. Кормилин /\\
+		<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
+	\end{tabular}
+	
+	\hspace*{7.9cm}
+	\begin{tabular}[t]{l}
+			\\
+			Руководитель работы,\\
+			старший преподаватель\\
+			\underline{\hspace{3.0cm}}/ В.А. Сурин /\\
+			<<\underline{\hspace{1cm}}>> \underline{\hspace{3.5cm}} 2023 г.\\
+	\end{tabular}
+	
+	\hspace*{8.6cm}
+	\vspace{6.1cm}
+	\begin{center}
+		Челябинск 2023 г.
+	\end{center}
+}}
+
+\newcommand{\taskpage}{{
+		\setstretch{1.0}
+		\newpage
+		\thispagestyle{empty}
+		\vspace*{-1.3cm}
+		\begin{center} { 
+				\small
+				Министерство науки и высшего образования Российской Федерации \\
+				Федеральное государственное автономное образовательное\\
+				учреждение высшего образования\\
+				<<Южно-Уральский государственный университет\\
+				(национальный исследовательский университет)>>\\
+				Институт естественных и точных наук\\
+				Кафедра прикладной математики и программирования\\
+				Направление подготовки: 01.03.02 Прикладная математика и информатика\\
+			}
+		\end{center}
+		
+		\hspace*{8.1cm}
+		\begin{tabular}[t]{l}
+			УТВЕРЖДАЮ\\
+			Заведующий кафедрой,\\
+			д-р физ.-мат. наук, проф.\\
+			\underline{\hspace{2.5cm}}/ А.А. Замышляева /\\
+			<<\underline{\hspace{1cm}}>> \underline{\hspace{4.0cm}} 2023 г.\\
+		\end{tabular}
+		
+		\begin{center}
+			\textbf{З А Д А Н И Е}\\
+			на выпускную квалификационную работу студента\\
+			Куликовой Дарьи Константиновны\\
+			Группа ЕТ-412\\
+		\end{center}	
+		
+		\begin{enumerate}
+			\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+			\bfseries \item Тема работы \normalfont <<Решение задачи сегментации шлейфа дыма с помощью сверточных нейронных сетей>> у утверждена приказом по университету от <<25>> апреля 2023 г. \textnumero 755-13/12
+			
+			\vspace*{0.2cm}
+			\bfseries \item Срок сдачи студентом законченной работы
+			<<\underline{\hspace{1cm}}>> \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}}г.
+			
+			\vspace*{0.2cm}
+			\item Исходные данные к работе \normalfont
+			\hspace*{1.25cm}
+			\begin{enumerate}
+				\itemindent=2.2cm
+				\item Документация по инструментам глубокого обучения.
+				\item Язык программирования -- Python 3.11.
+				\item Среда программирования -- Visual Studio Code.
+				\item Набор исходных изображений.
+			\end{enumerate}
+		
+			\vspace*{0.2cm}
+			\bfseries \item Перечень вопросов, подлежащих разработке \normalfont
+			\begin{enumerate}
+				\itemindent=2.2cm
+				\item Анализ предметной области.
+				\item Обзор существующих методов сегментации изображений.
+				\item Разработка математической модели искусственных нейронных сетей для решения поставленной задачи.
+				\item Проверка моделей на экспериментальных данных.
+			\end{enumerate}
+		
+			\vspace*{0.2cm}
+			\bfseries \item Иллюстративный материал \normalfont (плакаты, альбомы, раздаточный материал, макеты, электронные носители и др.)
+			\begin{enumerate}
+				\itemindent=2.2cm
+				\item Мультимедийная презентация -- 22 слайдов.
+			\end{enumerate}
+		
+			Общее количество иллюстраций – 13.
+			
+			\setstretch{1.0}
+			\newpage
+			\thispagestyle{empty}
+			\vspace*{0.2cm}
+			\bfseries \item Календарный план \normalfont
+			
+			\vspace*{0.2cm}
+			\hspace*{-1.4cm}
+			\small
+			\begin{tabular}{|l|c|c|}
+				\hline
+				\begin{tabular}[c]{c} \\
+					Наименование этапов \\ 
+					выпускной квалификационной работы \\\\
+				\end{tabular} 
+				& 
+				\begin{tabular}[c]{c} \\
+					Срок выполнения \\ этапов работы \\\\
+				\end{tabular} 
+				& 
+				\begin{tabular}[c]{c} \\
+					Отметка \\ 
+					о выполнении \\\\ 
+				\end{tabular} 
+				\\ \hline
+				
+				\begin{tabular}[l]{l} 
+					1. Изучение инструментов глубокого \\ 
+					обучения на Python 
+				\end{tabular} 
+				& 05.09.22 -- 09.10.22 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					2. Анализ предметной области \\ 
+					и исходных данных
+				\end{tabular} 
+				& 10.10.22 -- 12.11.22 & \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					3. Исследование существующих \\ 
+					методов решения задачи
+				\end{tabular} 
+				& 14.11.22 -- 27.12.22 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+				4. Программная реализация методов
+				\end{tabular} 
+				& 10.01.23 -- 22.03.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+				5. Проверка на тестовых данных
+				\end{tabular} 
+				& 23.03.23 -- 25.04.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					6. Подготовка пояснительной записки\\
+					 выпускной квалификационной работы
+				\end{tabular} 
+				& 26.04.23 -- 06.05.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					7. Проверка работы руководителем, \\ 
+					исправление замечаний
+				\end{tabular} 
+				& 06.05.23 -- 30.05.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					8. Нормоконтроль
+				\end{tabular} 
+				& 06.05.23 -- 30.05.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					9. Подготовка иллюстративного \\ 
+					материала и доклада
+				\end{tabular} 
+				& 10.06.23 -- 14.06.23 &  \\ \hline
+				
+				\begin{tabular}[l]{l} 
+					10. Рецензирование, представление\\
+					 заведующему кафедрой
+				\end{tabular} 
+				& 14.06.23 -- 17.06.23 &  \\ \hline
+			\end{tabular}
+			\normalsize
+			\vspace*{0.4cm}
+			\bfseries \item Дата выдачи задания  \normalfont <<\underline{\hspace{1cm}}>>  \underline{\hspace{2.0cm}}  20\underline{\hspace{1cm}} г. \\
+		\end{enumerate} 
+		Руководитель работы \underline{\hspace{5.0cm}}/ Т.В. Карпета / \\ \\
+		Студент \hspace{2.8cm} \underline{\hspace{5.0cm}}/ Д.К. Куликова /
+}}
+
+\newcommand{\annotationpage}{{
+		\setstretch{1.0}
+		\thispagestyle{empty}
+		\begin{center} { 
+				АННОТАЦИЯ
+			}
+		\end{center}
+		
+		\begin{adjustwidth}{8.4cm}{}
+			
+			\hspace{1.25cm}Куликова Д.К. Решение задачи сегментации шлейфа дыма с помощью сверточных нейронных сетей. -- \linebreak
+			Челябинск: ЮУрГУ, ЕТ-412, 78 c., \linebreak
+			49 ил., 2 табл., библиогр. список -- \linebreak
+			24 наим., 1 прил. 
+		\end{adjustwidth} 
+		\setstretch{1.5}
+		
+		Целью данной работы является разработка алгоритма сегментации шлейфа дыма на изображениях и видео. Для реализации используются сверточные нейронные сети.
+		
+		В первом разделе проведен анализ предметной области, рассмотрены современные методы для сегментации объектов на изображениях. \linebreak К ним относятся: методы классического компьютерного зрения, применение нейронных сетей и готовые приложения.
+		
+		Во втором разделе описана математическая модель алгоритма сегментации шлейфа дыма с помощью нейронной сети U-Net, подготовка данных для обучения нейронной сети.
+		Описана программная реализация данного алгоритма.
+		
+		Третий раздел посвящен анализу результатов работы алгоритма  сегментации дыма с помощью нейронной сети U-Net. Приведен подсчет точности модели и показаны результаты работы разработанного алгоритма.
+}}
