@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  1 JUN 2023 22:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  6 JUN 2023 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,7 +1126,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 [3] [4] (./РљРѕСЂРјРёР»РёРЅ Р”. Р”.- РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°.toc
-Overfull \hbox (9.30615pt too wide) in paragraph at lines 3--3
+Overfull \hbox (9.30615pt too wide) in paragraph at lines 4--4
 []|| [][][]\T2A/cmr/m/n/14.4 СОВРЕМЕННЫЕ МЕ-ТО-ДЫ ОПРЕ-ДЕ-ЛЕ-НИЯ ГЕО-МЕТ-РИ-ЧЕ-
 СКИХ 
  []
@@ -1139,9 +1139,8 @@ Overfull \hbox (9.30615pt too wide) in paragraph at lines 3--3
 
  [6] [7
 
-
 ]
-Overfull \hbox (0.14557pt too wide) in paragraph at lines 37--38
+Overfull \hbox (0.14557pt too wide) in paragraph at lines 32--33
 []\T2A/cmr/m/n/14.4 исследование со-вре-мен-ных спо-со-бов при-ме-не-ния оп-ти-
 че-ских и теп-
  []
@@ -1150,896 +1149,914 @@ Overfull \hbox (0.14557pt too wide) in paragraph at lines 37--38
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 42.
+(hyperref)                removing `\new@ifnextchar' on input line 37.
 
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
-42.
-[9
+37.
 
-] [10]
-Overfull \hbox (3.7744pt too wide) in paragraph at lines 74--75
-[]\T2A/cmr/m/n/14.4 Однокомпонентные га-зо-ана-ли-за-то-ры обыч-но пред-став-ля
--ют со-бой про-
+Overfull \hbox (7.40097pt too wide) in paragraph at lines 46--47
+[]\T2A/cmr/m/n/14.4 газоанализаторы опре-де-ля-ю-щие па-ра-мет-ры и кон-тро-ли-
+ру-ю-щие воз-
  []
 
-[11]
-Overfull \hbox (7.79039pt too wide) in paragraph at lines 90--91
+
+Overfull \hbox (3.38536pt too wide) in paragraph at lines 47--48
+[]\T2A/cmr/m/n/14.4 приборы по кон-тро-лю вы-хлоп-ных га-зов от раз-ных дви-га-
+те-лей внут-
+ []
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+\T2A/cmr/m/n/14.4 ли-за-то-ры яв-ля-ет-ся ко-ли-че-ство ком-по-нен-тов. По ко-л
+и-че-ству
+ []
+
+[10] [11]
+Overfull \hbox (7.79039pt too wide) in paragraph at lines 86--87
 []\T2A/cmr/m/n/14.4 химическая, неф-те-хи-ми-че-ская и неф-те-пе-ре-ра-ба-ты-ва
 -ю-щая про-мыш-
  []
 
-[12]
-Overfull \hbox (0.73108pt too wide) in paragraph at lines 97--98
-[]\T2A/cmr/m/n/14.4 предприятия для обез-вре-жи-ва-ния раз-лич-ных от-хо-дов (м
-у-со-ро-сжи-
- []
 
-
-Overfull \hbox (2.79826pt too wide) in paragraph at lines 106--107
+Overfull \hbox (2.79826pt too wide) in paragraph at lines 94--95
 []\T2A/cmr/m/n/14.4 автоматизированное ра-бо-чее ме-сто (АРМ) эко-ло-га (устрой
 -ства сбо-
  []
 
-<image/chapter_1/typestructure.png, id=292, 484.81125pt x 268.75406pt>
+<image/chapter_1/typestructure.png, id=283, 484.81125pt x 268.75406pt>
 File: image/chapter_1/typestructure.png Graphic file (type png)
 <use image/chapter_1/typestructure.png>
 Package pdftex.def Info: image/chapter_1/typestructure.png  used on input line 
-111.
+100.
 (pdftex.def)             Requested size: 469.47049pt x 260.26463pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14 <./image/chapter_1/typestructure.png>] [15] [16] [17] [18] [19]
+[12] [13 <./image/chapter_1/typestructure.png>] [14] [15] [16] [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 280.
+(hyperref)                removing `\new@ifnextchar' on input line 258.
 
-
-Overfull \hbox (6.44337pt too wide) in paragraph at lines 286--287
+[18]
+Overfull \hbox (6.44337pt too wide) in paragraph at lines 263--264
 []\T2A/cmr/m/n/14.4 тепловизоры с оптико-механическим ска-ни-ро-ва-ни-ем. Ос-но
 в-ные эле-
  []
 
-[20]
-Overfull \hbox (0.19064pt too wide) in paragraph at lines 292--293
-\T2A/cmr/m/n/14.4 ска-ни-ро-ва-ни-ем, опре-де-ля-ю-щим их тем-пе-ра-тур-ную чув
--стви-тель-ность и мак-
- []
-
-[21]
-<image/chapter_1/MatrixIRCameraScheme.png, id=375, 300.3722pt x 312.41719pt>
+<image/chapter_1/MatrixIRCameraScheme.png, id=353, 300.3722pt x 312.41719pt>
 File: image/chapter_1/MatrixIRCameraScheme.png Graphic file (type png)
 <use image/chapter_1/MatrixIRCameraScheme.png>
 Package pdftex.def Info: image/chapter_1/MatrixIRCameraScheme.png  used on inpu
-t line 298.
+t line 273.
 (pdftex.def)             Requested size: 469.47049pt x 488.34132pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[19]
 
-Overfull \hbox (3.77159pt too wide) in paragraph at lines 305--306
-[]\T2A/cmr/m/n/14.4 Помимо при-ме-не-ния в де-фек-то-ско-пии теп-ло-ви-зи-он-ны
-е устрой-ства ши-
- []
+LaTeX Warning: Text page 20 contains only floats.
 
-[22]
-
-LaTeX Warning: Text page 23 contains only floats.
-
-[23 <./image/chapter_1/MatrixIRCameraScheme.png>]
-<image/chapter_1/controlGasSystem.png, id=392, 529.98pt x 406.51875pt>
+[20 <./image/chapter_1/MatrixIRCameraScheme.png>] [21]
+<image/chapter_1/controlGasSystem.png, id=379, 529.98pt x 406.51875pt>
 File: image/chapter_1/controlGasSystem.png Graphic file (type png)
 <use image/chapter_1/controlGasSystem.png>
 Package pdftex.def Info: image/chapter_1/controlGasSystem.png  used on input li
-ne 315.
+ne 288.
 (pdftex.def)             Requested size: 369.88582pt x 283.72377pt.
- [24] [25 <./image/chapter_1/controlGasSystem.png>] [26]
+ [22 <./image/chapter_1/controlGasSystem.png>] [23] [24]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 331.
+(hyperref)                removing `\new@ifnextchar' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 331.
+(hyperref)                removing `\\' on input line 304.
 
-[27
+[25
 
 ]
-<image/chapter_2/teploviser.png, id=423, 308.65312pt x 294.34969pt>
+<image/chapter_2/teploviser.png, id=408, 308.65312pt x 294.34969pt>
 File: image/chapter_2/teploviser.png Graphic file (type png)
 <use image/chapter_2/teploviser.png>
-Package pdftex.def Info: image/chapter_2/teploviser.png  used on input line 368
+Package pdftex.def Info: image/chapter_2/teploviser.png  used on input line 341
 .
 (pdftex.def)             Requested size: 369.88582pt x 352.7732pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28] [29 <./image/chapter_2/teploviser.png>]
-<image/chapter_2/jet.png, id=446, 903.375pt x 677.53125pt>
+[26] [27 <./image/chapter_2/teploviser.png>]
+<image/chapter_2/jet.png, id=431, 903.375pt x 677.53125pt>
 File: image/chapter_2/jet.png Graphic file (type png)
 <use image/chapter_2/jet.png>
-Package pdftex.def Info: image/chapter_2/jet.png  used on input line 424.
+Package pdftex.def Info: image/chapter_2/jet.png  used on input line 397.
 (pdftex.def)             Requested size: 369.88582pt x 277.41742pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--431
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 \T2A/cmr/m/n/14.4 алгоритм для пре-об-ра-зо-ва-ния изоб-ра-же-ние к от-тен-кам 
 се-ро-го
  []
 
-[30]
-<image/chapter_2/abstrtact_JET_example.jpg, id=457, 276.03125pt x 183.68625pt>
+[28]
+<image/chapter_2/abstrtact_JET_example.jpg, id=441, 276.03125pt x 183.68625pt>
 File: image/chapter_2/abstrtact_JET_example.jpg Graphic file (type jpg)
 <use image/chapter_2/abstrtact_JET_example.jpg>
 Package pdftex.def Info: image/chapter_2/abstrtact_JET_example.jpg  used on inp
-ut line 440.
+ut line 413.
 (pdftex.def)             Requested size: 211.26028pt x 140.58957pt.
-<image/chapter_2/abstrtact_gray_example.jpg, id=458, 276.03125pt x 183.68625pt>
+<image/chapter_2/abstrtact_gray_example.jpg, id=442, 276.03125pt x 183.68625pt>
 
 File: image/chapter_2/abstrtact_gray_example.jpg Graphic file (type jpg)
 <use image/chapter_2/abstrtact_gray_example.jpg>
 Package pdftex.def Info: image/chapter_2/abstrtact_gray_example.jpg  used on in
-put line 445.
+put line 418.
 (pdftex.def)             Requested size: 211.26028pt x 140.58957pt.
- [31 <./image/chapter_2/jet.png> <./image/chapter_2/abstrtact_JET_example.jpg> 
-<./image/chapter_2/abstrtact_gray_example.jpg>] [32] [33]
-<image/chapter_2/kdtreeexample.jpg, id=494, 676.02562pt x 321.45094pt>
+ [29 <./image/chapter_2/jet.png> <./image/chapter_2/abstrtact_JET_example.jpg> 
+<./image/chapter_2/abstrtact_gray_example.jpg>] [30] [31]
+<image/chapter_2/kdtreeexample.jpg, id=479, 676.02562pt x 321.45094pt>
 File: image/chapter_2/kdtreeexample.jpg Graphic file (type jpg)
 <use image/chapter_2/kdtreeexample.jpg>
 Package pdftex.def Info: image/chapter_2/kdtreeexample.jpg  used on input line 
-517.
+490.
 (pdftex.def)             Requested size: 369.88582pt x 175.88623pt.
-<image/chapter_2/kdtreealgo.jpg, id=496, 933.4875pt x 1114.1625pt>
+<image/chapter_2/kdtreealgo.jpg, id=481, 933.4875pt x 1114.1625pt>
 File: image/chapter_2/kdtreealgo.jpg Graphic file (type jpg)
 <use image/chapter_2/kdtreealgo.jpg>
-Package pdftex.def Info: image/chapter_2/kdtreealgo.jpg  used on input line 526
+Package pdftex.def Info: image/chapter_2/kdtreealgo.jpg  used on input line 499
 .
 (pdftex.def)             Requested size: 422.52057pt x 504.29262pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 <./image/chapter_2/kdtreeexample.jpg>] [35 <./image/chapter_2/kdtreealgo.jp
+[32 <./image/chapter_2/kdtreeexample.jpg>] [33 <./image/chapter_2/kdtreealgo.jp
 g>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 540.
+(hyperref)                removing `\new@ifnextchar' on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 540.
+(hyperref)                removing `\\' on input line 513.
 
-[36]
-<image/chapter_2/Bilinear_interpolation.png, id=522, 198.7425pt x 189.70876pt>
+[34]
+<image/chapter_2/Bilinear_interpolation.png, id=507, 198.7425pt x 189.70876pt>
 File: image/chapter_2/Bilinear_interpolation.png Graphic file (type png)
 <use image/chapter_2/Bilinear_interpolation.png>
 Package pdftex.def Info: image/chapter_2/Bilinear_interpolation.png  used on in
-put line 563.
+put line 536.
 (pdftex.def)             Requested size: 281.68515pt x 268.91068pt.
- [37 <./image/chapter_2/Bilinear_interpolation.png>]
-<image/chapter_2/nalozhenie_examp.jpg, id=531, 970.62625pt x 546.04pt>
+ [35 <./image/chapter_2/Bilinear_interpolation.png>]
+<image/chapter_2/nalozhenie_examp.jpg, id=515, 970.62625pt x 546.04pt>
 File: image/chapter_2/nalozhenie_examp.jpg Graphic file (type jpg)
 <use image/chapter_2/nalozhenie_examp.jpg>
 Package pdftex.def Info: image/chapter_2/nalozhenie_examp.jpg  used on input li
-ne 585.
+ne 558.
 (pdftex.def)             Requested size: 422.52057pt x 237.70045pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 589.
+(hyperref)                removing `\new@ifnextchar' on input line 562.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 589.
+(hyperref)                removing `\\' on input line 562.
 
-[38 <./image/chapter_2/nalozhenie_examp.jpg>] [39] [40]
-Overfull \hbox (5.29962pt too wide) in paragraph at lines 629--631
+[36 <./image/chapter_2/nalozhenie_examp.jpg>] [37] [38]
+Overfull \hbox (5.29962pt too wide) in paragraph at lines 602--604
 []\T2A/cmr/m/n/14.4 построение пи-ра-ми-ды изоб-ра-же-ний: Из-на-чаль-ное изоб-
 ра-же-ние раз-
  []
 
 
-Overfull \hbox (2.23091pt too wide) in paragraph at lines 629--631
+Overfull \hbox (2.23091pt too wide) in paragraph at lines 602--604
 \T2A/cmr/m/n/14.4 мы-ва-ет-ся с по-мо-щью гаус-со-во-го филь-тра с раз-ны-ми ма
 с-шта-ба-ми $\OML/cmm/m/it/14.4 G []$
  []
 
-<image/chapter_2/conv-example.png, id=560, 564.60938pt x 265.74281pt>
+<image/chapter_2/conv-example.png, id=545, 564.60938pt x 265.74281pt>
 File: image/chapter_2/conv-example.png Graphic file (type png)
 <use image/chapter_2/conv-example.png>
 Package pdftex.def Info: image/chapter_2/conv-example.png  used on input line 6
-45.
+18.
 (pdftex.def)             Requested size: 469.47049pt x 220.96791pt.
-[41] [42 <./image/chapter_2/conv-example.png>] [43] [44] [45] [46]
-<image/chapter_2/gerodesic_distance.png, id=613, 395.22656pt x 252.19218pt>
+[39] [40 <./image/chapter_2/conv-example.png>] [41] [42] [43] [44]
+<image/chapter_2/gerodesic_distance.png, id=598, 395.22656pt x 252.19218pt>
 File: image/chapter_2/gerodesic_distance.png Graphic file (type png)
 <use image/chapter_2/gerodesic_distance.png>
 Package pdftex.def Info: image/chapter_2/gerodesic_distance.png  used on input 
-line 782.
+line 755.
 (pdftex.def)             Requested size: 234.73524pt x 149.78491pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47]
-<image/chapter_3/loc_min_watershed.png, id=622, 295.85532pt x 201.75375pt>
+[45]
+<image/chapter_3/loc_min_watershed.png, id=607, 295.85532pt x 201.75375pt>
 File: image/chapter_3/loc_min_watershed.png Graphic file (type png)
 <use image/chapter_3/loc_min_watershed.png>
 Package pdftex.def Info: image/chapter_3/loc_min_watershed.png  used on input l
-ine 802.
+ine 775.
 (pdftex.def)             Requested size: 211.26028pt x 144.06812pt.
-<image/chapter_3/loc_max_watershed.png, id=623, 371.88937pt x 160.34906pt>
+<image/chapter_3/loc_max_watershed.png, id=608, 371.88937pt x 160.34906pt>
 File: image/chapter_3/loc_max_watershed.png Graphic file (type png)
 <use image/chapter_3/loc_max_watershed.png>
 Package pdftex.def Info: image/chapter_3/loc_max_watershed.png  used on input l
-ine 807.
+ine 780.
 (pdftex.def)             Requested size: 211.26028pt x 91.09161pt.
 
-Overfull \hbox (10.24327pt too wide) in paragraph at lines 815--816
+Overfull \hbox (10.24327pt too wide) in paragraph at lines 788--789
 []\T2A/cmr/m/n/14.4 Другим важ-ным по-ня-ти-ем яв-ля-ет-ся гео-де-зи-че-ская зо
 -на вли-я-ния. Пусть
  []
 
-[48 <./image/chapter_2/gerodesic_distance.png> <./image/chapter_3/loc_min_water
+[46 <./image/chapter_2/gerodesic_distance.png> <./image/chapter_3/loc_min_water
 shed.png> <./image/chapter_3/loc_max_watershed.png>]
-<image/chapter_2/SKIZ.png, id=630, 440.39531pt x 264.99pt>
+<image/chapter_2/SKIZ.png, id=615, 440.39531pt x 264.99pt>
 File: image/chapter_2/SKIZ.png Graphic file (type png)
 <use image/chapter_2/SKIZ.png>
-Package pdftex.def Info: image/chapter_2/SKIZ.png  used on input line 837.
+Package pdftex.def Info: image/chapter_2/SKIZ.png  used on input line 810.
 (pdftex.def)             Requested size: 281.68515pt x 169.49597pt.
-<image/chapter_3/potop1_watershed.png, id=632, 333.49594pt x 146.79843pt>
+<image/chapter_3/potop1_watershed.png, id=617, 333.49594pt x 146.79843pt>
 File: image/chapter_3/potop1_watershed.png Graphic file (type png)
 <use image/chapter_3/potop1_watershed.png>
 Package pdftex.def Info: image/chapter_3/potop1_watershed.png  used on input li
-ne 847.
+ne 820.
 (pdftex.def)             Requested size: 230.0431pt x 101.2619pt.
-<image/chapter_3/potop2_watershed.png, id=633, 338.76563pt x 244.66406pt>
+<image/chapter_3/potop2_watershed.png, id=618, 338.76563pt x 244.66406pt>
 File: image/chapter_3/potop2_watershed.png Graphic file (type png)
 <use image/chapter_3/potop2_watershed.png>
 Package pdftex.def Info: image/chapter_3/potop2_watershed.png  used on input li
-ne 852.
+ne 825.
 (pdftex.def)             Requested size: 230.0431pt x 166.14908pt.
- [49 <./image/chapter_2/SKIZ.png>] [50 <./image/chapter_3/potop1_watershed.png>
+ [47 <./image/chapter_2/SKIZ.png>] [48 <./image/chapter_3/potop1_watershed.png>
  <./image/chapter_3/potop2_watershed.png>]
-<image/chapter_2/SKIZ_Watershed_build1.png, id=647, 202.50656pt x 110.66344pt>
+<image/chapter_2/SKIZ_Watershed_build1.png, id=631, 202.50656pt x 110.66344pt>
 File: image/chapter_2/SKIZ_Watershed_build1.png Graphic file (type png)
 <use image/chapter_2/SKIZ_Watershed_build1.png>
 Package pdftex.def Info: image/chapter_2/SKIZ_Watershed_build1.png  used on inp
-ut line 877.
+ut line 850.
 (pdftex.def)             Requested size: 131.45116pt x 71.8358pt.
-<image/chapter_2/SKIZ_Watershed_build2.png, id=648, 161.85469pt x 113.67468pt>
+<image/chapter_2/SKIZ_Watershed_build2.png, id=632, 161.85469pt x 113.67468pt>
 File: image/chapter_2/SKIZ_Watershed_build2.png Graphic file (type png)
 <use image/chapter_2/SKIZ_Watershed_build2.png>
 Package pdftex.def Info: image/chapter_2/SKIZ_Watershed_build2.png  used on inp
-ut line 882.
+ut line 855.
 (pdftex.def)             Requested size: 93.89265pt x 65.9435pt.
-<image/chapter_2/SKIZ_Watershed_build3.png, id=649, 337.26pt x 93.34875pt>
+<image/chapter_2/SKIZ_Watershed_build3.png, id=633, 337.26pt x 93.34875pt>
 File: image/chapter_2/SKIZ_Watershed_build3.png Graphic file (type png)
 <use image/chapter_2/SKIZ_Watershed_build3.png>
 Package pdftex.def Info: image/chapter_2/SKIZ_Watershed_build3.png  used on inp
-ut line 887.
+ut line 860.
 (pdftex.def)             Requested size: 215.95956pt x 59.77574pt.
-<image/chapter_2/Watershed_markers_modification.png, id=651, 402.75468pt x 268.
+<image/chapter_2/Watershed_markers_modification.png, id=635, 402.75468pt x 268.
 75406pt>
 File: image/chapter_2/Watershed_markers_modification.png Graphic file (type png
 )
 <use image/chapter_2/Watershed_markers_modification.png>
 Package pdftex.def Info: image/chapter_2/Watershed_markers_modification.png  us
-ed on input line 908.
+ed on input line 881.
 (pdftex.def)             Requested size: 281.68515pt x 187.96661pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51 <./image/chapter_2/SKIZ_Watershed_build1.png> <./image/chapter_2/SKIZ_Water
-shed_build2.png> <./image/chapter_2/SKIZ_Watershed_build3.png>] [52 <./image/ch
-apter_2/Watershed_markers_modification.png>] [53]
+[49 <./image/chapter_2/SKIZ_Watershed_build1.png> <./image/chapter_2/SKIZ_Water
+shed_build2.png> <./image/chapter_2/SKIZ_Watershed_build3.png>] [50 <./image/ch
+apter_2/Watershed_markers_modification.png>] [51]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 928.
+(hyperref)                removing `\new@ifnextchar' on input line 901.
 
-<image/chapter_2/opt_example.jpg, id=667, 1927.2pt x 1084.05pt>
+<image/chapter_2/opt_example.jpg, id=652, 1927.2pt x 1084.05pt>
 File: image/chapter_2/opt_example.jpg Graphic file (type jpg)
 <use image/chapter_2/opt_example.jpg>
-Package pdftex.def Info: image/chapter_2/opt_example.jpg  used on input line 93
-5.
+Package pdftex.def Info: image/chapter_2/opt_example.jpg  used on input line 90
+8.
 (pdftex.def)             Requested size: 369.88582pt x 208.05583pt.
-<image/chapter_2/tep_example.jpg, id=668, 1284.8pt x 1027.84pt>
+<image/chapter_2/tep_example.jpg, id=653, 1284.8pt x 1027.84pt>
 File: image/chapter_2/tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/tep_example.jpg>
-Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 94
-2.
+Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 91
+5.
 (pdftex.def)             Requested size: 281.68515pt x 225.34132pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54
+[52
 
  <./image/chapter_2/opt_example.jpg>]
-<image/chapter_2/loaddata.jpg, id=675, 662.475pt x 1094.0875pt>
+<image/chapter_2/loaddata.jpg, id=660, 662.475pt x 1094.0875pt>
 File: image/chapter_2/loaddata.jpg Graphic file (type jpg)
 <use image/chapter_2/loaddata.jpg>
-Package pdftex.def Info: image/chapter_2/loaddata.jpg  used on input line 952.
+Package pdftex.def Info: image/chapter_2/loaddata.jpg  used on input line 925.
 (pdftex.def)             Requested size: 328.6279pt x 542.73524pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<image/chapter_2/colorclassification.jpg, id=678, 582.175pt x 883.3pt>
+<image/chapter_2/colorclassification.jpg, id=663, 582.175pt x 883.3pt>
 File: image/chapter_2/colorclassification.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification.jpg  used on input
- line 966.
+ line 939.
 (pdftex.def)             Requested size: 281.68515pt x 427.38913pt.
-<image/chapter_2/colorclassification2.jpg, id=679, 301.125pt x 461.725pt>
+<image/chapter_2/colorclassification2.jpg, id=664, 301.125pt x 461.725pt>
 File: image/chapter_2/colorclassification2.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification2.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification2.jpg  used on inpu
-t line 971.
+t line 944.
 (pdftex.def)             Requested size: 145.5347pt x 223.16136pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<image/chapter_2/gray_tep_example.jpg, id=681, 1284.8pt x 1027.84pt>
+<image/chapter_2/gray_tep_example.jpg, id=666, 1284.8pt x 1027.84pt>
 File: image/chapter_2/gray_tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/gray_tep_example.jpg>
 Package pdftex.def Info: image/chapter_2/gray_tep_example.jpg  used on input li
-ne 981.
+ne 954.
 (pdftex.def)             Requested size: 422.51498pt x 222.98878pt.
 
-Overfull \hbox (6.85162pt too wide) in paragraph at lines 978--988
+Overfull \hbox (6.85162pt too wide) in paragraph at lines 951--961
 \T2A/cmr/m/n/14.4 рим точ-ность ра-бо-ты по-лу-чив-ше-го-ся ал-го-рит-ма. Для о
 цен-ки точ-но-сти функ-
  []
 
-[55 <./image/chapter_2/tep_example.jpg>]
+[53 <./image/chapter_2/tep_example.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[56 <./image/chapter_2/loaddata.jpg>]
-<image/chapter_2/grey2.jpg, id=696, 1284.8pt x 1027.84pt>
+[54 <./image/chapter_2/loaddata.jpg>]
+<image/chapter_2/grey2.jpg, id=680, 1284.8pt x 1027.84pt>
 File: image/chapter_2/grey2.jpg Graphic file (type jpg)
 <use image/chapter_2/grey2.jpg>
-Package pdftex.def Info: image/chapter_2/grey2.jpg  used on input line 994.
+Package pdftex.def Info: image/chapter_2/grey2.jpg  used on input line 967.
 (pdftex.def)             Requested size: 422.51498pt x 222.98878pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57 <./image/chapter_2/colorclassification.jpg> <./image/chapter_2/colorclassif
+[55 <./image/chapter_2/colorclassification.jpg> <./image/chapter_2/colorclassif
 ication2.jpg>]
-<image/chapter_3/accuracy_plot.png, id=705, 550.30594pt x 405.76593pt>
+<image/chapter_3/accuracy_plot.png, id=690, 550.30594pt x 405.76593pt>
 File: image/chapter_3/accuracy_plot.png Graphic file (type png)
 <use image/chapter_3/accuracy_plot.png>
 Package pdftex.def Info: image/chapter_3/accuracy_plot.png  used on input line 
-1003.
+976.
 (pdftex.def)             Requested size: 369.88582pt x 272.74095pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<image/chapter_2/nalozhenie.jpg, id=708, 1926.19624pt x 1084.05pt>
+<image/chapter_2/nalozhenie.jpg, id=693, 1926.19624pt x 1084.05pt>
 File: image/chapter_2/nalozhenie.jpg Graphic file (type jpg)
 <use image/chapter_2/nalozhenie.jpg>
-Package pdftex.def Info: image/chapter_2/nalozhenie.jpg  used on input line 101
-3.
+Package pdftex.def Info: image/chapter_2/nalozhenie.jpg  used on input line 986
+.
 (pdftex.def)             Requested size: 369.88582pt x 208.15509pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<image/chapter_2/fullprepare.jpg, id=710, 301.125pt x 592.2125pt>
+<image/chapter_2/fullprepare.jpg, id=695, 301.125pt x 592.2125pt>
 File: image/chapter_2/fullprepare.jpg Graphic file (type jpg)
 <use image/chapter_2/fullprepare.jpg>
-Package pdftex.def Info: image/chapter_2/fullprepare.jpg  used on input line 10
-22.
+Package pdftex.def Info: image/chapter_2/fullprepare.jpg  used on input line 99
+5.
 (pdftex.def)             Requested size: 140.84258pt x 277.00252pt.
-[58 <./image/chapter_2/gray_tep_example.jpg> <./image/chapter_2/grey2.jpg>]
-[59 <./image/chapter_3/accuracy_plot.png> <./image/chapter_2/nalozhenie.jpg>]
+[56 <./image/chapter_2/gray_tep_example.jpg> <./image/chapter_2/grey2.jpg>]
+[57 <./image/chapter_3/accuracy_plot.png> <./image/chapter_2/nalozhenie.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1027.
+(hyperref)                removing `\new@ifnextchar' on input line 1000.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 1027.
+(hyperref)                removing `\\' on input line 1000.
 
-<image/chapter_3/trubadetection.jpg, id=722, 381.425pt x 782.925pt>
+<image/chapter_3/trubadetection.jpg, id=707, 381.425pt x 782.925pt>
 File: image/chapter_3/trubadetection.jpg Graphic file (type jpg)
 <use image/chapter_3/trubadetection.jpg>
 Package pdftex.def Info: image/chapter_3/trubadetection.jpg  used on input line
- 1035.
+ 1008.
 (pdftex.def)             Requested size: 164.31754pt x 337.28435pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<image/chapter_2/keypoints.png, id=724, 947.79094pt x 537.50812pt>
+<image/chapter_2/keypoints.png, id=709, 947.79094pt x 537.50812pt>
 File: image/chapter_2/keypoints.png Graphic file (type png)
 <use image/chapter_2/keypoints.png>
-Package pdftex.def Info: image/chapter_2/keypoints.png  used on input line 1044
+Package pdftex.def Info: image/chapter_2/keypoints.png  used on input line 1017
 .
 (pdftex.def)             Requested size: 422.52057pt x 239.61275pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60 <./image/chapter_2/fullprepare.jpg>]
+[58 <./image/chapter_2/fullprepare.jpg>]
 
-LaTeX Warning: Text page 61 contains only floats.
+LaTeX Warning: Text page 59 contains only floats.
 
-[61 <./image/chapter_3/trubadetection.jpg> <./image/chapter_2/keypoints.png>]
-<image/chapter_2/match1.png, id=739, 1172.12906pt x 542.025pt>
+[59 <./image/chapter_3/trubadetection.jpg> <./image/chapter_2/keypoints.png>]
+<image/chapter_2/match1.png, id=722, 1172.12906pt x 542.025pt>
 File: image/chapter_2/match1.png Graphic file (type png)
 <use image/chapter_2/match1.png>
-Package pdftex.def Info: image/chapter_2/match1.png  used on input line 1053.
+Package pdftex.def Info: image/chapter_2/match1.png  used on input line 1026.
 (pdftex.def)             Requested size: 469.47049pt x 217.09563pt.
-<image/chapter_3/RanSaC.png, id=741, 281.05pt x 742.775pt>
+<image/chapter_3/RanSaC.png, id=724, 281.05pt x 742.775pt>
 File: image/chapter_3/RanSaC.png Graphic file (type png)
 <use image/chapter_3/RanSaC.png>
-Package pdftex.def Info: image/chapter_3/RanSaC.png  used on input line 1062.
+Package pdftex.def Info: image/chapter_3/RanSaC.png  used on input line 1035.
 (pdftex.def)             Requested size: 169.00966pt x 446.6658pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62 <./image/chapter_2/match1.png>] [63 <./image/chapter_3/RanSaC.png (PNG copy
+[60 <./image/chapter_2/match1.png>] [61 <./image/chapter_3/RanSaC.png (PNG copy
 )>]
-<image/chapter_3/waterShedSegmentation.png, id=753, 264.99pt x 615.29875pt>
+<image/chapter_3/waterShedSegmentation.png, id=738, 264.99pt x 615.29875pt>
 File: image/chapter_3/waterShedSegmentation.png Graphic file (type png)
 <use image/chapter_3/waterShedSegmentation.png>
 Package pdftex.def Info: image/chapter_3/waterShedSegmentation.png  used on inp
-ut line 1076.
+ut line 1049.
 (pdftex.def)             Requested size: 150.234pt x 348.83679pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<image/chapter_3/tep_examp.jpg, id=755, 739.76375pt x 590.205pt>
+<image/chapter_3/tep_examp.jpg, id=740, 739.76375pt x 590.205pt>
 File: image/chapter_3/tep_examp.jpg Graphic file (type jpg)
 <use image/chapter_3/tep_examp.jpg>
-Package pdftex.def Info: image/chapter_3/tep_examp.jpg  used on input line 1093
+Package pdftex.def Info: image/chapter_3/tep_examp.jpg  used on input line 1066
 .
 (pdftex.def)             Requested size: 230.0431pt x 183.53802pt.
-<image/chapter_3/mask.jpg, id=756, 739.76375pt x 590.205pt>
+<image/chapter_3/mask.jpg, id=741, 739.76375pt x 590.205pt>
 File: image/chapter_3/mask.jpg Graphic file (type jpg)
 <use image/chapter_3/mask.jpg>
-Package pdftex.def Info: image/chapter_3/mask.jpg  used on input line 1098.
+Package pdftex.def Info: image/chapter_3/mask.jpg  used on input line 1071.
 (pdftex.def)             Requested size: 230.0431pt x 183.53802pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1108.
+(hyperref)                removing `\new@ifnextchar' on input line 1081.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 1108.
+(hyperref)                removing `\\' on input line 1081.
 
-[64]
+[62]
 
-LaTeX Warning: Text page 65 contains only floats.
+LaTeX Warning: Text page 63 contains only floats.
 
-[65 <./image/chapter_3/waterShedSegmentation.png> <./image/chapter_3/tep_examp.
+[63 <./image/chapter_3/waterShedSegmentation.png> <./image/chapter_3/tep_examp.
 jpg> <./image/chapter_3/mask.jpg>]
-<image/chapter_3/examples/img/151.jpg, id=769, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/img/151.jpg, id=754, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/img/151.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/151.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/151.jpg  used on input li
-ne 1116.
+ne 1089.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/tep/151.jpg, id=770, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/tep/151.jpg, id=755, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/tep/151.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/151.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/151.jpg  used on input li
-ne 1121.
+ne 1094.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/151.jpg, id=771, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/151.jpg, id=756, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/151.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/151.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/151.jpg  used on 
-input line 1126.
+input line 1099.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/img/185.jpg, id=772, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/img/185.jpg, id=757, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/img/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/185.jpg  used on input li
-ne 1131.
+ne 1104.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/tep/185.jpg, id=773, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/tep/185.jpg, id=758, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/tep/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/185.jpg  used on input li
-ne 1136.
+ne 1109.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/185.jpg, id=774, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/185.jpg, id=759, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/185.jpg  used on 
-input line 1141.
+input line 1114.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/img/159.jpg, id=775, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/img/159.jpg, id=760, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/img/159.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/159.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/159.jpg  used on input li
-ne 1146.
+ne 1119.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/tep/159.jpg, id=776, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/tep/159.jpg, id=761, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/tep/159.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/159.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/159.jpg  used on input li
-ne 1152.
+ne 1125.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/159.jpg, id=777, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/159.jpg, id=762, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/159.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/159.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/159.jpg  used on 
-input line 1158.
+input line 1131.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
- [66 <./image/chapter_3/examples/img/151.jpg> <./image/chapter_3/examples/tep/1
+ [64 <./image/chapter_3/examples/img/151.jpg> <./image/chapter_3/examples/tep/1
 51.jpg> <./image/chapter_3/examples/mask_razmet/151.jpg> <./image/chapter_3/exa
 mples/img/185.jpg> <./image/chapter_3/examples/tep/185.jpg> <./image/chapter_3/
 examples/mask_razmet/185.jpg> <./image/chapter_3/examples/img/159.jpg> <./image
 /chapter_3/examples/tep/159.jpg> <./image/chapter_3/examples/mask_razmet/159.jp
 g>]
-<image/chapter_3/examples/img/206.jpg, id=787, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/img/206.jpg, id=772, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/img/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/206.jpg  used on input li
-ne 1172.
+ne 1145.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/tep/206.jpg, id=788, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/tep/206.jpg, id=773, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/tep/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/206.jpg  used on input li
-ne 1177.
+ne 1150.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask/206.jpg, id=789, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask/206.jpg, id=774, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/206.jpg  used on input l
-ine 1182.
+ine 1155.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/img/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/185.jpg  used on input li
-ne 1187.
+ne 1160.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/tep/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/185.jpg  used on input li
-ne 1192.
+ne 1165.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask/185.jpg, id=790, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask/185.jpg, id=775, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/185.jpg  used on input l
-ine 1197.
+ine 1170.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/img/214.jpg, id=791, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/img/214.jpg, id=776, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/img/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/214.jpg  used on input li
-ne 1202.
+ne 1175.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/tep/214.jpg, id=792, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/tep/214.jpg, id=777, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/tep/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/214.jpg  used on input li
-ne 1207.
+ne 1180.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask/214.jpg, id=793, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask/214.jpg, id=778, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/214.jpg  used on input l
-ine 1212.
+ine 1185.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/img/240.jpg, id=794, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/img/240.jpg, id=779, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/img/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/img/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/img/240.jpg  used on input li
-ne 1217.
+ne 1190.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/tep/240.jpg, id=795, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/tep/240.jpg, id=780, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/tep/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/tep/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/tep/240.jpg  used on input li
-ne 1223.
+ne 1196.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask/240.jpg, id=796, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask/240.jpg, id=781, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/240.jpg  used on input l
-ine 1229.
+ine 1202.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
- [67 <./image/chapter_3/examples/img/206.jpg> <./image/chapter_3/examples/tep/2
+ [65 <./image/chapter_3/examples/img/206.jpg> <./image/chapter_3/examples/tep/2
 06.jpg> <./image/chapter_3/examples/mask/206.jpg> <./image/chapter_3/examples/m
 ask/185.jpg> <./image/chapter_3/examples/img/214.jpg> <./image/chapter_3/exampl
 es/tep/214.jpg> <./image/chapter_3/examples/mask/214.jpg> <./image/chapter_3/ex
 amples/img/240.jpg> <./image/chapter_3/examples/tep/240.jpg> <./image/chapter_3
-/examples/mask/240.jpg>] [68]
-<image/chapter_3/examples/mask_razmet/206.jpg, id=813, 739.76375pt x 590.205pt>
+/examples/mask/240.jpg>] [66]
+<image/chapter_3/examples/mask_razmet/206.jpg, id=797, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/206.jpg  used on 
-input line 1254.
+input line 1227.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/mask/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/206.jpg  used on input l
-ine 1259.
+ine 1232.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/206.jpg, id=814, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/206.jpg, id=798, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/206.jpg  used on inp
-ut line 1264.
+ut line 1237.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/mask_razmet/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/185.jpg  used on 
-input line 1269.
+input line 1242.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/mask/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/185.jpg  used on input l
-ine 1274.
+ine 1247.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/185.jpg, id=815, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/185.jpg, id=799, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/185.jpg  used on inp
-ut line 1279.
+ut line 1252.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/214.jpg, id=816, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/214.jpg, id=800, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/214.jpg  used on 
-input line 1284.
+input line 1257.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/mask/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/214.jpg  used on input l
-ine 1289.
+ine 1262.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/214.jpg, id=817, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/214.jpg, id=801, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/214.jpg  used on inp
-ut line 1294.
+ut line 1267.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/240.jpg, id=818, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/240.jpg, id=802, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_razmet/240.jpg  used on 
-input line 1299.
+input line 1272.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
 File: image/chapter_3/examples/mask/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask/240.jpg  used on input l
-ine 1305.
+ine 1278.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/240.jpg, id=819, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/240.jpg, id=803, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/240.jpg  used on inp
-ut line 1311.
+ut line 1284.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/accuracy_itog_plot.png, id=821, 426.09187pt x 323.70938pt>
+<image/chapter_3/accuracy_itog_plot.png, id=805, 426.09187pt x 323.70938pt>
 File: image/chapter_3/accuracy_itog_plot.png Graphic file (type png)
 <use image/chapter_3/accuracy_itog_plot.png>
 Package pdftex.def Info: image/chapter_3/accuracy_itog_plot.png  used on input 
-line 1321.
+line 1294.
 (pdftex.def)             Requested size: 422.52057pt x 321.0166pt.
- [69 <./image/chapter_3/examples/mask_razmet/206.jpg> <./image/chapter_3/exampl
+ [67 <./image/chapter_3/examples/mask_razmet/206.jpg> <./image/chapter_3/exampl
 es/mask_dif/206.jpg> <./image/chapter_3/examples/mask_dif/185.jpg> <./image/cha
 pter_3/examples/mask_razmet/214.jpg> <./image/chapter_3/examples/mask_dif/214.j
 pg> <./image/chapter_3/examples/mask_razmet/240.jpg> <./image/chapter_3/example
-s/mask_dif/240.jpg>] [70 <./image/chapter_3/accuracy_itog_plot.png>] [71] [72
+s/mask_dif/240.jpg>] [68 <./image/chapter_3/accuracy_itog_plot.png>] [69] [70
 
 ]
-Underfull \hbox (badness 1389) in paragraph at lines 1346--1347
+Underfull \hbox (badness 1389) in paragraph at lines 1319--1320
 []\T2A/cmr/m/n/14.4 Таким об-ра-зом це-ли ра-бо-ты бы-ли до-стиг-ну-ты, а по-ст
 ав-лен-ная
  []
 
-[73]
+[71]
 \dtldb@list=\toks55
 \dtlkeys@list=\toks56
 \dtlrows@list=\count361
 \dtlcols@list=\count362
 
-Underfull \hbox (badness 1009) in paragraph at lines 1364--1364
+Underfull \hbox (badness 1009) in paragraph at lines 1337--1337
 \T2A/cmr/m/n/14.4 эко-ло-ги-че-ско-го мо-ни-то-рин-га про-мыш-лен-ных вы-бро-со
 в: [сайт]. -- 2017.
  []
 
 
-Overfull \hbox (3.05614pt too wide) in paragraph at lines 1364--1364
+Overfull \hbox (3.05614pt too wide) in paragraph at lines 1337--1337
 \T2A/cmr/m/n/14.4 URL: https://gazoanalizators.ru/articles/sistemy-ekologichesk
 ogo-monitoringa-
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 1364--1364
+Underfull \hbox (badness 1184) in paragraph at lines 1337--1337
 []\T2A/cmr/bx/n/14.4 Основы теп-ло-ви-де-ния\T2A/cmr/m/n/14.4 : учеб-ное по-со-
 бие / В. В. Ко-ро-та-ев,
  []
 
-[74
+
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1337
+\T2A/cmr/m/n/14.4 уни-вер-си-тет ин-фор-ма-ци-он-ных тех-но-ло-гий, ме-хан-ни-к
+и и
+ []
+
+[72
 
 ]
-Underfull \hbox (badness 2538) in paragraph at lines 1378--1378
+Underfull \hbox (badness 2538) in paragraph at lines 1351--1351
 []\T2A/cmr/bx/n/14.4 Beucher, S \T2A/cmr/m/n/14.4 The watershed transformation 
 applied to image
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 1378--1378
+Underfull \hbox (badness 1231) in paragraph at lines 1351--1351
 \T2A/cmr/m/n/14.4 segmentation / K. V. Lalitha, R. Amrutha, S. Michahial // Sca
 nning
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 1378--1378
+Underfull \hbox (badness 1297) in paragraph at lines 1351--1351
 []\T2A/cmr/bx/n/14.4 Cunningham, P. \T2A/cmr/m/n/14.4 k-Nearest neighbour class
 ifiers: a tutorial /
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1378--1378
+Underfull \hbox (badness 1092) in paragraph at lines 1351--1351
 \T2A/cmr/m/n/14.4 R. A. Rose, N. J. Farren // Atmospheric Environment: X. -- 20
 22. --
  []
 
 
-Overfull \hbox (4.6713pt too wide) in paragraph at lines 1378--1378
+Overfull \hbox (4.6713pt too wide) in paragraph at lines 1351--1351
 []\T2A/cmr/m/n/14.4 Automation Technology: Early fire detection and condition m
 onitoring:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1378--1378
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1351
 \T2A/cmr/m/n/14.4 uploads/2015/12/Monitoring-application-overview.pdf (да-та об
 -ра-ще-ния:
  []
 
-[75]
-Underfull \hbox (badness 4634) in paragraph at lines 1378--1378
+[73]
+Underfull \hbox (badness 4634) in paragraph at lines 1351--1351
 \T2A/cmr/m/n/14.4 (Expanded) / K. D. Moreland // Sandia National Laboratories. 
 --
  []
 
 
-Overfull \hbox (3.16548pt too wide) in paragraph at lines 1378--1378
+Overfull \hbox (3.16548pt too wide) in paragraph at lines 1351--1351
 \T2A/cmr/m/n/14.4 https://docs.opencv.org/4.x/dc/dc3/tutorial_py_matcher.html (
 да-та об-ра-ще-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1378--1378
-\T2A/cmr/m/n/14.4 http://www.scholarpedia.org/article/Scale_Invariant_Feature_T
-ransform
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1351
+\T2A/cmr/m/n/14.4 http://www.scholarpedia.org/article/Scale_Invariant_Transform
+ (да-та
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 1378--1378
+Underfull \hbox (badness 2809) in paragraph at lines 1351--1351
 []\T2A/cmr/bx/n/14.4 Ibraheem, N. A. \T2A/cmr/m/n/14.4 Understanding color mode
 ls: a review /
  []
 
-[76] [77]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1351
+[]\T2A/cmr/bx/n/14.4 Zhao, R. \T2A/cmr/m/n/14.4 Rethinking dice loss for medica
+l
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 1351--1351
+\T2A/cmr/m/n/14.4 image segmentation / R. Zhao, B. Qian, X. Zhang // 2020 IEEE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1351
+\T2A/cmr/m/n/14.4 International Conference on Data Mining (ICDM). -- 2020. --
+ []
+
+[74] [75]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1358.
+
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-1385.
- (d:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+1360.
+(d:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1385.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1360.
 
-[78
+[76
 
 ]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1440.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1415.
+
+[77]
+
+LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
+(Font)              using `T2A/cmtt/m/n' instead on input line 1474.
+
+[78]
+
+LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
+(Font)              using `T2A/cmtt/m/n' instead on input line 1533.
 
 [79]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1499.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1592.
 
 [80]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1558.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1654.
 
 [81]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1617.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1711.
 
 [82]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1678.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1770.
 
 [83]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1736.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1829.
 
 [84]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1795.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1888.
 
 [85]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1854.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1946.
 
 [86]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1914.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2005.
 
 [87]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1972.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2064.
 
 [88]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2031.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2123.
 
 [89]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2090.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2182.
 
 [90]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2149.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2241.
 
 [91]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2208.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2300.
 
-[92]
-
-LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2267.
-
-[93]
-
-LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2326.
-
-[94] (./РљРѕСЂРјРёР»РёРЅ Р”. Р”.- РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°.aux)
+[92] (./РљРѕСЂРјРёР»РёРЅ Р”. Р”.- РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"РљРѕСЂРјРёР»РёРЅ Р”. Р”.- РС‚РѕРіРѕРІР°СЏ 
 СЂР°Р±РѕС‚Р°".out' has not changed.
-(rerunfilecheck)             Checksum: CAB34A113E7C93FC73FE0D2C6C85F921;11195.
+(rerunfilecheck)             Checksum: 5B99A9B20E1DB6302CFBF828DFC8B2FB;11879.
  ) 
 Here is how much of TeX's memory you used:
- 21869 strings out of 476093
- 365391 string characters out of 5795584
+ 21859 strings out of 476093
+ 365285 string characters out of 5795584
  1863787 words of memory out of 5000000
- 41483 multiletter control sequences out of 15000+600000
+ 41482 multiletter control sequences out of 15000+600000
  524211 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 224i,12n,210p,2376b,967s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 224i,12n,210p,1961b,967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{d:/tex
 live/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2022/texmf-di
@@ -2057,10 +2074,10 @@ m-super/sfrm1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
 rm1440.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb
 >
 Output written on "РљРѕСЂРјРёР»РёРЅ Р”. Р”.- РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°.pdf"
- (94 pages, 5707114 bytes).
+ (92 pages, 5702462 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 853 compressed objects within 9 object streams
- 323 named destinations out of 1000 (max. 500000)
+ 1073 PDF objects out of 1200 (max. 8388607)
+ 839 compressed objects within 9 object streams
+ 314 named destinations out of 1000 (max. 500000)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
