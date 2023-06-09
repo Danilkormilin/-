@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.4}Выводы по главе 3}{68}{section.3.4}%
 \contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{70}{chapter*.39}%
 \contentsline {chapter}{БИБЛИОГРАФИЧЕСКИЙ СПИСОК}{72}{chapter*.40}%
-\contentsline {chapter}{ПРИЛОЖЕНИЕ 1 Исходный код}{76}{chapter*.41}%
-\contentsline {section}{П1.1~Модуль подключения к тепловизору}{76}{section*.42}%
-\contentsline {section}{П1.2~Модуль сегментации факела выбросов}{81}{section*.42}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ 1 Исходный код}{76}{Item.114}%
+\contentsline {section}{П1.1~Модуль подключения к тепловизору}{76}{section*.41}%
+\contentsline {section}{П1.2~Модуль сегментации факела выбросов}{81}{section*.41}%
 \contentsfinish 

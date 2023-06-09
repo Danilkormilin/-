@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  6 JUN 2023 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  9 JUN 2023 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,9 +1174,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 [10] [11]
-Overfull \hbox (7.79039pt too wide) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 []\T2A/cmr/m/n/14.4 ıËÏË˜ÂÒÍ‡ˇ, ÌÂÙ-ÚÂ-ıË-ÏË-˜Â-ÒÍ‡ˇ Ë ÌÂÙ-ÚÂ-ÔÂ-Â-‡-·‡-Ú˚-‚‡
--˛-˘‡ˇ ÔÓ-Ï˚¯-
+-˛-˘‡ˇ
  []
 
 
@@ -1750,7 +1750,7 @@ ask/185.jpg> <./image/chapter_3/examples/img/214.jpg> <./image/chapter_3/exampl
 es/tep/214.jpg> <./image/chapter_3/examples/mask/214.jpg> <./image/chapter_3/ex
 amples/img/240.jpg> <./image/chapter_3/examples/tep/240.jpg> <./image/chapter_3
 /examples/mask/240.jpg>] [66]
-<image/chapter_3/examples/mask_razmet/206.jpg, id=797, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/206.jpg, id=796, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/206.jpg>
@@ -1762,7 +1762,7 @@ File: image/chapter_3/examples/mask/206.jpg Graphic file (type jpg)
 Package pdftex.def Info: image/chapter_3/examples/mask/206.jpg  used on input l
 ine 1232.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/206.jpg, id=798, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/206.jpg, id=797, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/206.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/206.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/206.jpg  used on inp
@@ -1778,13 +1778,13 @@ File: image/chapter_3/examples/mask/185.jpg Graphic file (type jpg)
 Package pdftex.def Info: image/chapter_3/examples/mask/185.jpg  used on input l
 ine 1247.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/185.jpg, id=799, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/185.jpg, id=798, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/185.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/185.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/185.jpg  used on inp
 ut line 1252.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/214.jpg, id=800, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/214.jpg, id=799, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/214.jpg>
@@ -1796,13 +1796,13 @@ File: image/chapter_3/examples/mask/214.jpg Graphic file (type jpg)
 Package pdftex.def Info: image/chapter_3/examples/mask/214.jpg  used on input l
 ine 1262.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/214.jpg, id=801, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/214.jpg, id=800, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/214.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/214.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/214.jpg  used on inp
 ut line 1267.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_razmet/240.jpg, id=802, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_razmet/240.jpg, id=801, 739.76375pt x 590.205pt>
 
 File: image/chapter_3/examples/mask_razmet/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_razmet/240.jpg>
@@ -1814,13 +1814,13 @@ File: image/chapter_3/examples/mask/240.jpg Graphic file (type jpg)
 Package pdftex.def Info: image/chapter_3/examples/mask/240.jpg  used on input l
 ine 1278.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/examples/mask_dif/240.jpg, id=803, 739.76375pt x 590.205pt>
+<image/chapter_3/examples/mask_dif/240.jpg, id=802, 739.76375pt x 590.205pt>
 File: image/chapter_3/examples/mask_dif/240.jpg Graphic file (type jpg)
 <use image/chapter_3/examples/mask_dif/240.jpg>
 Package pdftex.def Info: image/chapter_3/examples/mask_dif/240.jpg  used on inp
 ut line 1284.
 (pdftex.def)             Requested size: 150.234pt x 119.85808pt.
-<image/chapter_3/accuracy_itog_plot.png, id=805, 426.09187pt x 323.70938pt>
+<image/chapter_3/accuracy_itog_plot.png, id=804, 426.09187pt x 323.70938pt>
 File: image/chapter_3/accuracy_itog_plot.png Graphic file (type png)
 <use image/chapter_3/accuracy_itog_plot.png>
 Package pdftex.def Info: image/chapter_3/accuracy_itog_plot.png  used on input 
@@ -1948,98 +1948,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 1351--1351
 [74] [75]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1358.
+(hyperref)                be the same. Added a new anchor on input line 1356.
 
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-1360.
+1358.
 (d:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1360.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1358.
 
-[76
-
-]
+[76]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1415.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1414.
 
 [77]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1474.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1473.
 
 [78]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1533.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1532.
 
 [79]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1592.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1591.
 
 [80]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1654.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1653.
 
 [81]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1711.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1710.
 
 [82]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1770.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1769.
 
 [83]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1829.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1828.
 
 [84]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1888.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1887.
 
 [85]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 1946.
+(Font)              using `T2A/cmtt/m/n' instead on input line 1945.
 
 [86]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2005.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2004.
 
 [87]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2064.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2063.
 
 [88]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2123.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2122.
 
 [89]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2182.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2181.
 
 [90]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2241.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2240.
 
 [91]
 
 LaTeX Font Warning: Font shape `T2A/cmtt/c/n' undefined
-(Font)              using `T2A/cmtt/m/n' instead on input line 2300.
+(Font)              using `T2A/cmtt/m/n' instead on input line 2299.
 
 [92] (./–ö–æ—Ä–º–∏–ª–∏–Ω –î. –î.- –ò—Ç–æ–≥–æ–≤–∞—è —Ä–∞–±–æ—Ç–∞.aux)
 
@@ -2047,11 +2045,11 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"–ö–æ—Ä–º–∏–ª–∏–Ω –î. –î.- –ò—Ç–æ–≥–æ–≤–∞—è 
 —Ä–∞–±–æ—Ç–∞".out' has not changed.
-(rerunfilecheck)             Checksum: 5B99A9B20E1DB6302CFBF828DFC8B2FB;11879.
+(rerunfilecheck)             Checksum: 3BC570EF9F664711009A9E210EB2A4B8;11870.
  ) 
 Here is how much of TeX's memory you used:
- 21859 strings out of 476093
- 365285 string characters out of 5795584
+ 21858 strings out of 476093
+ 365271 string characters out of 5795584
  1863787 words of memory out of 5000000
  41482 multiletter control sequences out of 15000+600000
  524211 words of font info for 68 fonts, out of 8000000 for 9000
@@ -2074,10 +2072,10 @@ m-super/sfrm1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
 rm1440.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb
 >
 Output written on "–ö–æ—Ä–º–∏–ª–∏–Ω –î. –î.- –ò—Ç–æ–≥–æ–≤–∞—è —Ä–∞–±–æ—Ç–∞.pdf"
- (92 pages, 5702462 bytes).
+ (92 pages, 5702464 bytes).
 PDF statistics:
- 1073 PDF objects out of 1200 (max. 8388607)
- 839 compressed objects within 9 object streams
- 314 named destinations out of 1000 (max. 500000)
+ 1072 PDF objects out of 1200 (max. 8388607)
+ 838 compressed objects within 9 object streams
+ 313 named destinations out of 1000 (max. 500000)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
