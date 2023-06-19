@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  1 JUN 2023 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.9)  19 JUN 2023 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,6 +1385,9 @@ LaTeX Warning: Label `fig:fullprepare' multiply defined.
 
 LaTeX Warning: Label `fig:test_segm' multiply defined.
 
+
+LaTeX Warning: Label `fig:test_segm' multiply defined.
+
 )
 \openout1 = `процентовка1.aux'.
 
@@ -1531,114 +1534,118 @@ LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
 {d:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-<image/scheme1.png, id=130, 1390.44469pt x 754.31813pt>
-File: image/scheme1.png Graphic file (type png)
-<use image/scheme1.png>
-Package pdftex.def Info: image/scheme1.png  used on input line 34.
-(pdftex.def)             Requested size: 307.28987pt x 166.69864pt.
- [3
+<image/scheme1_upd.png, id=134, 1446.90562pt x 726.46407pt>
+File: image/scheme1_upd.png Graphic file (type png)
+<use image/scheme1_upd.png>
+Package pdftex.def Info: image/scheme1_upd.png  used on input line 36.
+(pdftex.def)             Requested size: 307.28987pt x 154.28012pt.
 
- <./image/scheme1.png>]
-<image/optic_invis.png, id=162, 727.96968pt x 484.05844pt>
+Overfull \vbox (4.10345pt too high) detected at line 36
+ []
+
+[3
+
+ <./image/scheme1_upd.png>]
+<image/optic_invis.png, id=170, 727.96968pt x 484.05844pt>
 File: image/optic_invis.png Graphic file (type png)
 <use image/optic_invis.png>
-Package pdftex.def Info: image/optic_invis.png  used on input line 58.
+Package pdftex.def Info: image/optic_invis.png  used on input line 60.
 (pdftex.def)             Requested size: 138.2795pt x 91.9425pt.
-<image/tep_vis.png, id=163, 715.17188pt x 484.05844pt>
+<image/tep_vis.png, id=171, 715.17188pt x 484.05844pt>
 File: image/tep_vis.png Graphic file (type png)
 <use image/tep_vis.png>
-Package pdftex.def Info: image/tep_vis.png  used on input line 58.
+Package pdftex.def Info: image/tep_vis.png  used on input line 60.
 (pdftex.def)             Requested size: 138.2795pt x 93.58961pt.
 
-Overfull \vbox (9.99037pt too high) detected at line 58
+Overfull \vbox (9.99037pt too high) detected at line 60
  []
 
 [4
 
  <./image/optic_invis.png> <./image/tep_vis.png>]
-<image/opt_examp.jpg, id=197, 739.76375pt x 590.205pt>
+<image/opt_examp.jpg, id=204, 739.76375pt x 590.205pt>
 File: image/opt_examp.jpg Graphic file (type jpg)
 <use image/opt_examp.jpg>
-Package pdftex.def Info: image/opt_examp.jpg  used on input line 93.
+Package pdftex.def Info: image/opt_examp.jpg  used on input line 95.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
-<image/tep_examp.jpg, id=198, 739.76375pt x 590.205pt>
+<image/tep_examp.jpg, id=205, 739.76375pt x 590.205pt>
 File: image/tep_examp.jpg Graphic file (type jpg)
 <use image/tep_examp.jpg>
-Package pdftex.def Info: image/tep_examp.jpg  used on input line 93.
+Package pdftex.def Info: image/tep_examp.jpg  used on input line 95.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
-<image/mask.jpg, id=199, 739.76375pt x 590.205pt>
+<image/mask.jpg, id=206, 739.76375pt x 590.205pt>
 File: image/mask.jpg Graphic file (type jpg)
 <use image/mask.jpg>
-Package pdftex.def Info: image/mask.jpg  used on input line 93.
+Package pdftex.def Info: image/mask.jpg  used on input line 95.
 (pdftex.def)             Requested size: 76.82246pt x 61.28441pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 	\end{frame}
+l.95 	\end{frame}
                  
-Overfull \vbox (21.91959pt too high) detected at line 93
+Overfull \vbox (21.91959pt too high) detected at line 95
  []
 
 [5
 
  <./image/opt_examp.jpg> <./image/tep_examp.jpg> <./image/mask.jpg>]
-<image/scheme2_upd.png, id=234, 1363.34344pt x 234.8775pt>
+<image/scheme2_upd.png, id=241, 1363.34344pt x 234.8775pt>
 File: image/scheme2_upd.png Graphic file (type png)
 <use image/scheme2_upd.png>
-Package pdftex.def Info: image/scheme2_upd.png  used on input line 102.
+Package pdftex.def Info: image/scheme2_upd.png  used on input line 106.
 (pdftex.def)             Requested size: 307.28987pt x 52.93834pt.
  [6
 
  <./image/scheme2_upd.png>]
-<image/chapter_2/tep_example.jpg, id=265, 1284.8pt x 1027.84pt>
+<image/chapter_2/tep_example.jpg, id=273, 1284.8pt x 1027.84pt>
 File: image/chapter_2/tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/tep_example.jpg>
 Package pdftex.def Info: image/chapter_2/tep_example.jpg  used on input line 15
-4.
+8.
 (pdftex.def)             Requested size: 113.81102pt x 91.04303pt.
-<image/chapter_2/gray_tep_example.jpg, id=266, 1284.8pt x 1027.84pt>
+<image/chapter_2/gray_tep_example.jpg, id=274, 1284.8pt x 1027.84pt>
 File: image/chapter_2/gray_tep_example.jpg Graphic file (type jpg)
 <use image/chapter_2/gray_tep_example.jpg>
 Package pdftex.def Info: image/chapter_2/gray_tep_example.jpg  used on input li
-ne 154.
+ne 158.
 (pdftex.def)             Requested size: 113.81102pt x 91.04303pt.
  [7
 
  <./image/chapter_2/tep_example.jpg> <./image/chapter_2/gray_tep_example.jpg>]
-<image/cool_scheme.png, id=300, 825.83531pt x 442.65375pt>
+<image/cool_scheme.png, id=308, 825.83531pt x 442.65375pt>
 File: image/cool_scheme.png Graphic file (type png)
 <use image/cool_scheme.png>
-Package pdftex.def Info: image/cool_scheme.png  used on input line 166.
+Package pdftex.def Info: image/cool_scheme.png  used on input line 170.
 (pdftex.def)             Requested size: 245.83282pt x 131.76372pt.
 
-Overfull \vbox (5.77206pt too high) detected at line 166
+Overfull \vbox (5.77206pt too high) detected at line 170
  []
 
 [8
 
  <./image/cool_scheme.png>]
-<image/chapter_2/colorclassification.jpg, id=332, 588.69937pt x 496.85625pt>
+<image/chapter_2/colorclassification.jpg, id=340, 588.69937pt x 496.85625pt>
 File: image/chapter_2/colorclassification.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification.jpg  used on input
- line 190.
+ line 194.
 (pdftex.def)             Requested size: 190.51822pt x 160.79404pt.
-<image/chapter_2/colorclassification2.jpg, id=333, 201.75375pt x 323.70938pt>
+<image/chapter_2/colorclassification2.jpg, id=341, 201.75375pt x 323.70938pt>
 File: image/chapter_2/colorclassification2.jpg Graphic file (type jpg)
 <use image/chapter_2/colorclassification2.jpg>
 Package pdftex.def Info: image/chapter_2/colorclassification2.jpg  used on inpu
-t line 190.
+t line 194.
 (pdftex.def)             Requested size: 61.45703pt x 98.60526pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 	\end{frame}
+l.194 	\end{frame}
                   
-Overfull \vbox (10.806pt too high) detected at line 190
+Overfull \vbox (10.806pt too high) detected at line 194
  []
 
 [9
@@ -1647,151 +1654,151 @@ Overfull \vbox (10.806pt too high) detected at line 190
 tion2.jpg>] [10
 
 ]
-<image/accuracy_plot.png, id=398, 550.30594pt x 405.76593pt>
+<image/accuracy_plot.png, id=407, 550.30594pt x 405.76593pt>
 File: image/accuracy_plot.png Graphic file (type png)
 <use image/accuracy_plot.png>
-Package pdftex.def Info: image/accuracy_plot.png  used on input line 216.
+Package pdftex.def Info: image/accuracy_plot.png  used on input line 220.
 (pdftex.def)             Requested size: 245.83282pt x 181.26181pt.
 
-Overfull \vbox (9.12651pt too high) detected at line 216
+Overfull \vbox (9.12651pt too high) detected at line 220
  []
 
 [11
 
  <./image/accuracy_plot.png>]
-<image/examp111.png, id=431, 775.39688pt x 489.32813pt>
+<image/examp111.png, id=439, 775.39688pt x 489.32813pt>
 File: image/examp111.png Graphic file (type png)
 <use image/examp111.png>
-Package pdftex.def Info: image/examp111.png  used on input line 249.
+Package pdftex.def Info: image/examp111.png  used on input line 253.
 (pdftex.def)             Requested size: 122.91406pt x 77.56238pt.
-<image/1.jpg, id=432, 739.76375pt x 590.205pt>
+<image/1.jpg, id=440, 739.76375pt x 590.205pt>
 File: image/1.jpg Graphic file (type jpg)
 <use image/1.jpg>
-Package pdftex.def Info: image/1.jpg  used on input line 249.
+Package pdftex.def Info: image/1.jpg  used on input line 253.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examp222.jpg, id=433, 1284.8pt x 1027.84pt>
+<image/examp222.jpg, id=441, 1284.8pt x 1027.84pt>
 File: image/examp222.jpg Graphic file (type jpg)
 <use image/examp222.jpg>
-Package pdftex.def Info: image/examp222.jpg  used on input line 249.
+Package pdftex.def Info: image/examp222.jpg  used on input line 253.
 (pdftex.def)             Requested size: 92.1879pt x 73.74406pt.
-<image/1tep.jpg, id=434, 739.76375pt x 590.205pt>
+<image/1tep.jpg, id=442, 739.76375pt x 590.205pt>
 File: image/1tep.jpg Graphic file (type jpg)
 <use image/1tep.jpg>
-Package pdftex.def Info: image/1tep.jpg  used on input line 249.
+Package pdftex.def Info: image/1tep.jpg  used on input line 253.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.249 	\end{frame}
+l.253 	\end{frame}
                   
-Overfull \vbox (26.32614pt too high) detected at line 249
+Overfull \vbox (26.32614pt too high) detected at line 253
  []
 
 [12
 
  <./image/examp111.png> <./image/1.jpg> <./image/examp222.jpg> <./image/1tep.jp
 g>]
-<image/match1.png, id=465, 1172.12906pt x 542.025pt>
+<image/match1.png, id=473, 1172.12906pt x 542.025pt>
 File: image/match1.png Graphic file (type png)
 <use image/match1.png>
-Package pdftex.def Info: image/match1.png  used on input line 262.
+Package pdftex.def Info: image/match1.png  used on input line 266.
 (pdftex.def)             Requested size: 307.28987pt x 142.0976pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fullprepa
 re}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.262 	\end{frame}
+l.266 	\end{frame}
                   	 [13
 
  <./image/match1.png>]
-<image/trubadetection.jpg, id=499, 692.5875pt x 531.9875pt>
+<image/trubadetection.jpg, id=506, 692.5875pt x 531.9875pt>
 File: image/trubadetection.jpg Graphic file (type jpg)
 <use image/trubadetection.jpg>
-Package pdftex.def Info: image/trubadetection.jpg  used on input line 286.
+Package pdftex.def Info: image/trubadetection.jpg  used on input line 290.
 (pdftex.def)             Requested size: 156.71614pt x 120.37389pt.
-<image/RanSaC.jpg, id=500, 572.1375pt x 501.875pt>
+<image/RanSaC.jpg, id=507, 572.1375pt x 501.875pt>
 File: image/RanSaC.jpg Graphic file (type jpg)
 <use image/RanSaC.jpg>
-Package pdftex.def Info: image/RanSaC.jpg  used on input line 286.
+Package pdftex.def Info: image/RanSaC.jpg  used on input line 290.
 (pdftex.def)             Requested size: 141.3554pt x 123.9981pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Examples}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.286 	\end{frame}
+l.290 	\end{frame}
                    [14
 
  <./image/trubadetection.jpg> <./image/RanSaC.jpg>]
-<image/WaterShed1.png, id=532, 216.30812pt x 173.64874pt>
+<image/WaterShed1.png, id=539, 216.30812pt x 173.64874pt>
 File: image/WaterShed1.png Graphic file (type png)
 <use image/WaterShed1.png>
-Package pdftex.def Info: image/WaterShed1.png  used on input line 311.
+Package pdftex.def Info: image/WaterShed1.png  used on input line 315.
 (pdftex.def)             Requested size: 98.335pt x 78.9414pt.
-<image/WaterShed2.png, id=533, 216.30812pt x 173.64874pt>
+<image/WaterShed2.png, id=540, 216.30812pt x 173.64874pt>
 File: image/WaterShed2.png Graphic file (type png)
 <use image/WaterShed2.png>
-Package pdftex.def Info: image/WaterShed2.png  used on input line 311.
+Package pdftex.def Info: image/WaterShed2.png  used on input line 315.
 (pdftex.def)             Requested size: 98.335pt x 78.9414pt.
-<image/WaterShed3.png, id=534, 216.30812pt x 173.64874pt>
+<image/WaterShed3.png, id=541, 216.30812pt x 173.64874pt>
 File: image/WaterShed3.png Graphic file (type png)
 <use image/WaterShed3.png>
-Package pdftex.def Info: image/WaterShed3.png  used on input line 311.
+Package pdftex.def Info: image/WaterShed3.png  used on input line 315.
 (pdftex.def)             Requested size: 98.335pt x 78.9414pt.
 
 [15
 
  <./image/WaterShed1.png> <./image/WaterShed2.png> <./image/WaterShed3.png>]
-<image/waterShedSegmentation.jpg, id=569, 612.2875pt x 421.575pt>
+<image/waterShedSegmentation.jpg, id=576, 612.2875pt x 421.575pt>
 File: image/waterShedSegmentation.jpg Graphic file (type jpg)
 <use image/waterShedSegmentation.jpg>
 Package pdftex.def Info: image/waterShedSegmentation.jpg  used on input line 32
-2.
+6.
 (pdftex.def)             Requested size: 184.3758pt x 126.94305pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fullprepa
 re}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.322 	\end{frame}
+l.326 	\end{frame}
                    [16
 
  <./image/waterShedSegmentation.jpg>]
-<image/examples/img/206.jpg, id=600, 739.76375pt x 590.205pt>
+<image/examples/img/206.jpg, id=607, 739.76375pt x 590.205pt>
 File: image/examples/img/206.jpg Graphic file (type jpg)
 <use image/examples/img/206.jpg>
-Package pdftex.def Info: image/examples/img/206.jpg  used on input line 367.
+Package pdftex.def Info: image/examples/img/206.jpg  used on input line 371.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/tep/206.jpg, id=601, 739.76375pt x 590.205pt>
+<image/examples/tep/206.jpg, id=608, 739.76375pt x 590.205pt>
 File: image/examples/tep/206.jpg Graphic file (type jpg)
 <use image/examples/tep/206.jpg>
-Package pdftex.def Info: image/examples/tep/206.jpg  used on input line 367.
+Package pdftex.def Info: image/examples/tep/206.jpg  used on input line 371.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/mask/206.jpg, id=602, 739.76375pt x 590.205pt>
+<image/examples/mask/206.jpg, id=609, 739.76375pt x 590.205pt>
 File: image/examples/mask/206.jpg Graphic file (type jpg)
 <use image/examples/mask/206.jpg>
-Package pdftex.def Info: image/examples/mask/206.jpg  used on input line 367.
+Package pdftex.def Info: image/examples/mask/206.jpg  used on input line 371.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/img/240.jpg, id=603, 739.76375pt x 590.205pt>
+<image/examples/img/240.jpg, id=610, 739.76375pt x 590.205pt>
 File: image/examples/img/240.jpg Graphic file (type jpg)
 <use image/examples/img/240.jpg>
-Package pdftex.def Info: image/examples/img/240.jpg  used on input line 367.
+Package pdftex.def Info: image/examples/img/240.jpg  used on input line 371.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/tep/240.jpg, id=604, 739.76375pt x 590.205pt>
+<image/examples/tep/240.jpg, id=611, 739.76375pt x 590.205pt>
 File: image/examples/tep/240.jpg Graphic file (type jpg)
 <use image/examples/tep/240.jpg>
-Package pdftex.def Info: image/examples/tep/240.jpg  used on input line 367.
+Package pdftex.def Info: image/examples/tep/240.jpg  used on input line 371.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/mask/240.jpg, id=605, 739.76375pt x 590.205pt>
+<image/examples/mask/240.jpg, id=612, 739.76375pt x 590.205pt>
 File: image/examples/mask/240.jpg Graphic file (type jpg)
 <use image/examples/mask/240.jpg>
-Package pdftex.def Info: image/examples/mask/240.jpg  used on input line 367.
+Package pdftex.def Info: image/examples/mask/240.jpg  used on input line 371.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 
-Overfull \vbox (16.42938pt too high) detected at line 367
+Overfull \vbox (16.42938pt too high) detected at line 371
  []
 
 [17
@@ -1801,51 +1808,51 @@ s/mask/206.jpg> <./image/examples/img/240.jpg> <./image/examples/tep/240.jpg> <
 ./image/examples/mask/240.jpg>]
 File: image/examples/mask/206.jpg Graphic file (type jpg)
 <use image/examples/mask/206.jpg>
-Package pdftex.def Info: image/examples/mask/206.jpg  used on input line 410.
+Package pdftex.def Info: image/examples/mask/206.jpg  used on input line 414.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/mask_razmet/206.jpg, id=638, 739.76375pt x 590.205pt>
+<image/examples/mask_razmet/206.jpg, id=645, 739.76375pt x 590.205pt>
 File: image/examples/mask_razmet/206.jpg Graphic file (type jpg)
 <use image/examples/mask_razmet/206.jpg>
 Package pdftex.def Info: image/examples/mask_razmet/206.jpg  used on input line
- 410.
+ 414.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/mask_dif/206.jpg, id=639, 739.76375pt x 590.205pt>
+<image/examples/mask_dif/206.jpg, id=646, 739.76375pt x 590.205pt>
 File: image/examples/mask_dif/206.jpg Graphic file (type jpg)
 <use image/examples/mask_dif/206.jpg>
 Package pdftex.def Info: image/examples/mask_dif/206.jpg  used on input line 41
-0.
+4.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 File: image/examples/mask/240.jpg Graphic file (type jpg)
 <use image/examples/mask/240.jpg>
-Package pdftex.def Info: image/examples/mask/240.jpg  used on input line 410.
+Package pdftex.def Info: image/examples/mask/240.jpg  used on input line 414.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/mask_razmet/240.jpg, id=640, 739.76375pt x 590.205pt>
+<image/examples/mask_razmet/240.jpg, id=647, 739.76375pt x 590.205pt>
 File: image/examples/mask_razmet/240.jpg Graphic file (type jpg)
 <use image/examples/mask_razmet/240.jpg>
 Package pdftex.def Info: image/examples/mask_razmet/240.jpg  used on input line
- 410.
+ 414.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
-<image/examples/mask_dif/240.jpg, id=641, 739.76375pt x 590.205pt>
+<image/examples/mask_dif/240.jpg, id=648, 739.76375pt x 590.205pt>
 File: image/examples/mask_dif/240.jpg Graphic file (type jpg)
 <use image/examples/mask_dif/240.jpg>
 Package pdftex.def Info: image/examples/mask_dif/240.jpg  used on input line 41
-0.
+4.
 (pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:test_segm
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.410 	\end{frame}
+l.414 	\end{frame}
                   
-Overfull \vbox (4.42938pt too high) detected at line 410
+Overfull \vbox (4.42938pt too high) detected at line 414
  []
 
 [18
 
  <./image/examples/mask_razmet/206.jpg> <./image/examples/mask_dif/206.jpg> <./
 image/examples/mask_razmet/240.jpg> <./image/examples/mask_dif/240.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 
  []
 
@@ -1856,6 +1863,370 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--425
 ] [21
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\CYRP' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\CYRP' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\CYRP' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\CYRP' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrr' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrr' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrr' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrr' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrl' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrl' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrl' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrl' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyro' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyro' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyro' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyro' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrzh' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrzh' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrzh' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrzh' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrn' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrn' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyrn' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyrn' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyri' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\global' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\?\cyre' on input line 453.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\PU\cyre' on input line 453.
+
+<image/chapter_2/jet.png, id=776, 903.375pt x 677.53125pt>
+File: image/chapter_2/jet.png Graphic file (type png)
+<use image/chapter_2/jet.png>
+Package pdftex.def Info: image/chapter_2/jet.png  used on input line 464.
+(pdftex.def)             Requested size: 184.3758pt x 138.2745pt.
+[22
+
+ <./image/chapter_2/jet.png>]
+<image/accuracy_itog_plot.png, id=791, 426.09187pt x 323.70938pt>
+File: image/accuracy_itog_plot.png Graphic file (type png)
+<use image/accuracy_itog_plot.png>
+Package pdftex.def Info: image/accuracy_itog_plot.png  used on input line 477.
+(pdftex.def)             Requested size: 184.3758pt x 140.07646pt.
+ [23
+
+ <./image/accuracy_itog_plot.png>]
+<image/chapter_2/SKIZ_Watershed_build1.png, id=802, 202.50656pt x 110.66344pt>
+File: image/chapter_2/SKIZ_Watershed_build1.png Graphic file (type png)
+<use image/chapter_2/SKIZ_Watershed_build1.png>
+Package pdftex.def Info: image/chapter_2/SKIZ_Watershed_build1.png  used on inp
+ut line 499.
+(pdftex.def)             Requested size: 86.04079pt x 47.01866pt.
+<image/chapter_2/SKIZ_Watershed_build2.png, id=803, 161.85469pt x 113.67468pt>
+File: image/chapter_2/SKIZ_Watershed_build2.png Graphic file (type png)
+<use image/chapter_2/SKIZ_Watershed_build2.png>
+Package pdftex.def Info: image/chapter_2/SKIZ_Watershed_build2.png  used on inp
+ut line 499.
+(pdftex.def)             Requested size: 61.45703pt x 43.16212pt.
+ [24
+
+ <./image/chapter_2/SKIZ_Watershed_build1.png> <./image/chapter_2/SKIZ_Watershe
+d_build2.png>]
+<image/chapter_3/examples/img/159.jpg, id=815, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/159.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/159.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/159.jpg  used on input li
+ne 541.
+(pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
+<image/chapter_3/examples/tep/159.jpg, id=816, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/159.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/159.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/159.jpg  used on input li
+ne 541.
+(pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
+<image/chapter_3/examples/mask/159.jpg, id=817, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask/159.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/159.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/159.jpg  used on input l
+ine 541.
+(pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
+<image/chapter_3/examples/img/214.jpg, id=818, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/img/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/img/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/img/214.jpg  used on input li
+ne 541.
+(pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
+<image/chapter_3/examples/tep/214.jpg, id=819, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/tep/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/tep/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/tep/214.jpg  used on input li
+ne 541.
+(pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
+<image/chapter_3/examples/mask/214.jpg, id=820, 739.76375pt x 590.205pt>
+File: image/chapter_3/examples/mask/214.jpg Graphic file (type jpg)
+<use image/chapter_3/examples/mask/214.jpg>
+Package pdftex.def Info: image/chapter_3/examples/mask/214.jpg  used on input l
+ine 541.
+(pdftex.def)             Requested size: 92.1879pt x 73.5503pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:test_segm
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.541 \end{frame}
+                 
+Overfull \vbox (4.1255pt too high) detected at line 541
+ []
+
+[25
+
+ <./image/chapter_3/examples/img/159.jpg> <./image/chapter_3/examples/tep/159.j
+pg> <./image/chapter_3/examples/mask/159.jpg> <./image/chapter_3/examples/img/2
+14.jpg> <./image/chapter_3/examples/tep/214.jpg> <./image/chapter_3/examples/ma
+sk/214.jpg>]
 \tf@nav=\write6
 \openout6 = `процентовка1.nav'.
 
@@ -1876,35 +2247,36 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `процентовка1.out' has not changed
 .
-(rerunfilecheck)             Checksum: ADED792821D832C1BB20A6EDBE02B384;962.
+(rerunfilecheck)             Checksum: 667034E125F1CE67997A826032547F30;995.
  ) 
 Here is how much of TeX's memory you used:
- 41672 strings out of 476093
- 973108 string characters out of 5795584
- 1871787 words of memory out of 5000000
- 61152 multiletter control sequences out of 15000+600000
- 527963 words of font info for 67 fonts, out of 8000000 for 9000
+ 41861 strings out of 476093
+ 978584 string characters out of 5795584
+ 1872787 words of memory out of 5000000
+ 61307 multiletter control sequences out of 15000+600000
+ 529823 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,769b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<d:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2022/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2022/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.
-pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><d:/te
-xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><d:/texlive/2022
-/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2022/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1095.pfb><d:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public
-/cm-super/sfrm1440.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/
-sfrm2488.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.p
-fb>
-Output written on процентовка1.pdf (21 pages, 4531804 bytes).
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/tex
+live/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><d:/texlive/2022/
+texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><d:/texlive/2022/texmf-dist
+/fonts/type1/public/cm-super/sfrm0800.pfb><d:/texlive/2022/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1000.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/
+cm-super/sfrm1095.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
+frm1200.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pf
+b><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb><d:/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on процентовка1.pdf (25 pages, 4949699 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 711 compressed objects within 8 object streams
- 58 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 761 compressed objects within 8 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

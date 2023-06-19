@@ -4,8 +4,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>40</x>
-      <y>310</y>
+      <x>700</x>
+      <y>340</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -16,8 +16,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>350</x>
-      <y>620</y>
+      <x>1010</x>
+      <y>650</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -28,8 +28,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>40</x>
-      <y>380</y>
+      <x>700</x>
+      <y>410</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -40,8 +40,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>360</y>
+      <x>820</x>
+      <y>390</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -51,8 +51,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>430</y>
+      <x>820</x>
+      <y>460</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -62,14 +62,14 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>40</x>
-      <y>450</y>
+      <x>700</x>
+      <y>480</y>
       <w>260</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>type=[]
-Вычисление градиента 
-изображения и его
+Вычисление модуля 
+градиента изображения и его
 преобразование с 
 использованием маркеров</panel_attributes>
     <additional_attributes/>
@@ -77,8 +77,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>40</x>
-      <y>570</y>
+      <x>700</x>
+      <y>600</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -89,8 +89,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>350</x>
-      <y>470</y>
+      <x>1010</x>
+      <y>500</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -102,8 +102,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>540</y>
+      <x>820</x>
+      <y>570</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -113,8 +113,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>600</y>
+      <x>1130</x>
+      <y>630</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -124,8 +124,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>350</x>
-      <y>400</y>
+      <x>1010</x>
+      <y>430</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -137,8 +137,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>360</y>
+      <x>1130</x>
+      <y>390</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -148,8 +148,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>450</y>
+      <x>1130</x>
+      <y>480</y>
       <w>30</w>
       <h>40</h>
     </coordinates>
@@ -159,8 +159,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>350</x>
-      <y>550</y>
+      <x>1010</x>
+      <y>580</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -172,8 +172,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>520</y>
+      <x>1130</x>
+      <y>550</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -183,8 +183,8 @@
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>460</x>
-      <y>330</y>
+      <x>1120</x>
+      <y>360</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -195,8 +195,8 @@ A</panel_attributes>
   <element>
     <id>FCBlock</id>
     <coordinates>
-      <x>150</x>
-      <y>650</y>
+      <x>810</x>
+      <y>680</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -207,8 +207,8 @@ A</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>620</y>
+      <x>820</x>
+      <y>650</y>
       <w>30</w>
       <h>50</h>
     </coordinates>

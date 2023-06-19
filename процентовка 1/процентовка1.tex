@@ -29,7 +29,9 @@
 		\frametitle{\insertsection} 
 		\begin{figure}
 			\centering
-			\includegraphics[width = \textwidth]{image/scheme1}	
+			\includegraphics[width = \textwidth]{image/scheme1_upd}	
+			\caption{Классификация методов\\ контроля выбросов}
+			\label{fig:scheme1}
 		\end{figure}
 	\end{frame}
 
@@ -68,7 +70,7 @@
 			\label{eq:segment_func}
 		\end{equation}
 	где $X$ -- пространство пар из RGB изображений и матриц температур;
-	$Z$ -- пространство масок соответствующей размерности где каждый пиксель отражает вероятность принадлежности к факелу.
+	$Z$ -- пространство масок соответствующей размерности, где каждый пиксель отражает вероятность принадлежности к факелу.
 	\begin{figure}[ht!]
 		\begin{subfigure}{.25\textwidth}
 			\centering
@@ -97,7 +99,9 @@
 		\vspace{1.8cm}
 		\begin{figure}
 			\centering
-			\includegraphics[width = \textwidth]{image/scheme2_upd}	
+			\includegraphics[width = \textwidth]{image/scheme2_upd}
+			\caption{Основные этапы поставленной задачи}
+			\label{fig:scheme2_upd}
 		\end{figure}
 	\end{frame}
 
@@ -241,7 +245,7 @@
 							\end{subfigure}
 							\centering
 							\vspace*{-0.25cm}
-							\caption{Примеры подготовки данных: \\a) снимки, полученые с тепловизора; б) снимки\\ подготовленые к сегментации}
+							\caption{Примеры подготовки данных: \\a) снимки, полученые с тепловизора; б) снимки,\\ подготовленые к сегментации}
 							\label{fig:Examples}
 						\end{figure}
 
@@ -443,4 +447,96 @@
 		\begin{center}{\Huge{Спасибо за внимание!}}\end{center}
 	\end{frame}
 
+\appendix
+%
+%\addtocounter{page}{-1}
+
+
+	\begin{frame}[noframenumbering]
+			\vspace*{0.7cm}
+				\vspace*{0.7cm}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width = 0.6\textwidth]{image/chapter_2/jet}
+			\caption{Цветовая карта <<JET>>}
+			\label{fig:jet}	
+		\end{figure}
+	\end{frame}
+
+\appendix
+%\addtocounter{page}{-1}
+
+\begin{frame}[noframenumbering]
+		\vspace*{0.7cm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 0.6\textwidth]{image/accuracy_itog_plot}
+		\caption{График зависимости точности от номера кадра}
+		\label{fig:accuracy_itog_plot}	
+	\end{figure}
+\end{frame}
+
+\appendix
+%\addtocounter{page}{-1}
+
+\begin{frame}[noframenumbering]
+		\vspace*{0.7cm}	\vspace*{0.7cm}
+	\begin{figure}[h!]
+		\begin{subfigure}{.28\textwidth}
+			\centering
+			\includegraphics[width = 1\textwidth]{image/chapter_2/SKIZ_Watershed_build1}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.20\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_2/SKIZ_Watershed_build2}
+			\caption{}
+		\end{subfigure}
+		\centering
+		\caption{Пример построения водораздела:\\ a) секции уровня $Z_i$ и $Z_{i+1}$; б) построенный водораздел}
+		\label{fig:SKIZ_Watershed_build}
+	\end{figure}
+\end{frame}
+
+\appendix
+
+\begin{frame}[noframenumbering]
+		\begin{figure}[h!]
+		\begin{subfigure}{.30\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/159}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.30\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/159}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.30\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/159}
+			%			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.30\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/img/214}
+			\caption{}
+		\end{subfigure}
+%		\hspace{0.1cm}
+		\begin{subfigure}{.30\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/tep/214}
+			\caption{}
+		\end{subfigure}
+%		\hspace{0.1cm}
+		\begin{subfigure}{.30\textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{image/chapter_3/examples/mask/214}
+			\caption{}
+		\end{subfigure}
+%		\vspace*{-0.5cm}
+		\caption{Пример работы: а) оригинальные оптические изображения; б) оригинальные тепловые изображения; в) получившиеся маски}
+		\label{fig:test_segm}
+	\end{figure}
+\end{frame}
 \end{document}

@@ -1,6 +1,8 @@
+\beamer@slide {fig:scheme1}{3}
 \beamer@slide {fig:Examples}{4}
 \beamer@slide {eq:segment_func}{5}
 \beamer@slide {fig:Examples}{5}
+\beamer@slide {fig:scheme2_upd}{6}
 \beamer@slide {fig:ResKNN}{7}
 \beamer@slide {fig:kdtreeexample}{8}
 \beamer@slide {fig:Examples}{9}
@@ -14,3 +16,7 @@
 \beamer@slide {fig:test_segm}{17}
 \beamer@slide {fig:test_segm}{18}
 \beamer@slide {eq:DiceLoss}{19}
+\beamer@slide {fig:jet}{22}
+\beamer@slide {fig:accuracy_itog_plot}{23}
+\beamer@slide {fig:SKIZ_Watershed_build}{24}
+\beamer@slide {fig:test_segm}{25}
